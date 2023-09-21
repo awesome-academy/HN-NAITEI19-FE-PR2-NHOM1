@@ -16,7 +16,11 @@ function Login() {
     login({ email, password })
       .then((res) => {
         localStorage.setItem('user', JSON.stringify(res.data.user));
-        navigate('/');
+        if (res.data.user.role === 'admin') {
+          navigate('/admin');
+        } else {
+          navigate('/');
+        }
       })
       .catch((error) => {
         console.log('Call api login error >_<', error);
