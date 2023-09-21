@@ -1,1 +1,20 @@
-{}
+{
+  "users": [
+    {
+      "email": "admin@example.com",
+      "password": "$2a$10$zRXlYRyhbTqeyl5jaNa8vuPFSNDAUBWDf7EzMf09u4PnVaArzwggO",
+      "username": "admin",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "huy@example.com",
+      "password": "$2a$10$2xFVobS8ybyWkOcN6A7uBOStAmAm.wN7oK.AKLddzDtBql8I2thdC",
+      "username": "Trần Huy",
+      "dob": "05/08/2002",
+      "gender": 1,
+      "phoneNumber": "0981656202",
+      "id": 2
+    }
+  ]
+}
