@@ -29,7 +29,7 @@ function Login() {
   }, []);
 
   return (
-    <div className="p-4 bg-white">
+    <div className="p-4 md:min-w-[500px] bg-white">
       <Form
         form={form}
         layout="vertical"
