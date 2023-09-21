@@ -119,11 +119,7 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Sẵn sàng cho những màn cận chiến nghẹt thở từ “anh trọc” Jason Statham, “già gân” Sylvester Stallone cùng dàn sao mới toanh 50 Cent, Megan Fox và Tony Jaa",
       "director": "Scott Waugh",
-      "performer": [
-        "Jason Statham",
-        "50 Cent",
-        "Megan Fox"
-      ],
+      "performer": ["Jason Statham", "50 Cent", "Megan Fox"],
       "language": "Tiếng Anh"
     },
     {
@@ -137,11 +133,7 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "“Live - #PhátTrựcTiếp” lựa chọn hai câu chuyện: MUKBANG và REVIEW để lột tả một cách rõ nét được hiện thực của cuộc sống, sự trần trụi của xã hội hiện đại, công nghệ 4.0 đã khiến con người làm đủ mọi cách để nổi tiếng, kể cả hành hạ bản thân mình nhằm nhận được sự tung hô, hào nhoáng bằng những lời khen tặng với dòng text vô thưởng, vô phạt, kiếm tiền bằng “tặng hoa”.",
       "director": "Khương Ngọc",
-      "performer": [
-        "Quốc Khánh",
-        "Ngọc Phước",
-        "Ngân 98"
-      ],
+      "performer": ["Quốc Khánh", "Ngọc Phước", "Ngân 98"],
       "language": "Tiếng Việt"
     },
     {
@@ -255,10 +247,7 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Nhân duyên trời định giữa 2 con người xa lạ được khởi nguồn từ lời nguyền gia tộc buộc Quý nam Phra Ploeng (Zee Pruk Panich) phải ghép tử vi kịp thời với tri kỷ của mình là Saeng Rawee (NuNew Chawarin Perdpiriyawong) nếu không muốn kiếp nạn đại hung sẽ ứng nghiệm vào năm 25 tuổi.",
       "director": "Aod Bhandit Thongdee",
-      "performer": [
-        "Zee Pruk Panich",
-        "NuNew Chawarin Perdpiriyawong"
-      ],
+      "performer": ["Zee Pruk Panich", "NuNew Chawarin Perdpiriyawong"],
       "language": "Tiếng Thái"
     },
     {
@@ -272,10 +261,7 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Muôn Kiếp Nhân Duyên xoay quanh hai nhân vật chính - Nora (Greta Lee) và Hae Sung (Teo Yoo). Tình bạn thân thiết của họ bị chia cắt khi Nora theo gia đình di cư khỏi Hàn Quốc vào năm 12 tuổi. 20 năm sau, như một mối duyên tiền định, họ gặp lại nhau tại Mỹ, nhưng lúc này, Nora đã trở thành vợ của Arthur (John Magaro). Nhìn lại quá khứ, nói về hiện tại và hướng đến tương lai - những cuộc trò chuyện nhẹ nhàng giữa Nora và Hae Sung trong 1 tuần ngắn ngủi ở New York được đan xen bởi các khoảng lặng, khiến người xem chìm đắm vào suy ngẫm về cuộc sống, số phận và tình yêu.",
       "director": "Celine Song",
-      "performer": [
-        "Greta Lee",
-        "Teo Yoo"
-      ],
+      "performer": ["Greta Lee", "Teo Yoo"],
       "language": "Tiếng Anh"
     },
     {
@@ -289,11 +275,7 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-16.png",
       "description": "Matt Turner (Liam Neeson) là một doanh nhân người Mỹ thành đạt sống ở Berlin, đang phải cân bằng giữa sự nghiệp tài chính đang bùng nổ và trách nhiệm gia đình. Một buổi sáng đang lái xe đưa con đến trường, Matt nhận được một cuộc điện thoại từ một giọng nói bí ẩn: có một quả bom dưới ghế của anh ấy sẽ phát nổ trừ khi anh ấy hoàn thành một loạt nhiệm vụ cụ thể, và nhanh chóng.",
       "director": "Nimrod Antal",
-      "performer": [
-        "Liam Neeson",
-        "Jack Champion",
-        "Matthew Modine"
-      ],
+      "performer": ["Liam Neeson", "Jack Champion", "Matthew Modine"],
       "language": "Tiếng Anh"
     }
   ],
@@ -381,11 +363,7 @@
       "name": "special"
     }
   ],
-  "showtimes": [
-    {
-      
-    }
-  ],
+  "showtimes": [{}],
   "showtimeDetail": [
     {
       "id": 1,
@@ -540,6 +518,44 @@
       "id": 7,
       "name": "HƯỚNG PHÁT TRIỂN THỊ TRƯỜNG RẠP CHIẾU PHIM VIỆT",
       "img": "src/assets/imgs/news/anh-5-104110-090823-85.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hành động"
+    },
+    {
+      "id": 2,
+      "name": "Phiêu lưu"
+    },
+    {
+      "id": 3,
+      "name": "Tâm lý"
+    },
+    {
+      "id": 4,
+      "name": "Kinh dị"
+    },
+    {
+      "id": 5,
+      "name": "Hồi hộp"
+    },
+    {
+      "id": 6,
+      "name": "Hài hước"
+    },
+    {
+      "id": 7,
+      "name": "Tội phạm"
+    },
+    {
+      "id": 8,
+      "name": "Tình cảm"
+    },
+    {
+      "id": 9,
+      "name": "Lãng mạn"
     }
   ]
 }

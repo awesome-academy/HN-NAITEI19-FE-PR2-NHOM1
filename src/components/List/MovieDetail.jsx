@@ -73,7 +73,7 @@ const MovieDetail = ({ movieId }) => {
         title={
           movie && <div className="preview__title">TRAILER - {movie.name}</div>
         }
-        visible={modalVisible}
+        open={modalVisible}
         onCancel={handleCloseModal}
         footer={null}
         centered
