@@ -1,0 +1,5 @@
+.footer .footer-title {
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to right, #39adf0 0%, #075fa3 100%);
+  border-image-slice: 1;
+}
