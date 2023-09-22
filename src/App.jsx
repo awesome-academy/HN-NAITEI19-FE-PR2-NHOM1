@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div className="flex flex-row w-full justify-center items-center">
-      <h1 className="text-2xl text-red-400 font-bold">Hello</h1>
-    </div>
+    <Header></Header>
   );
 }
 
