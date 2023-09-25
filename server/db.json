@@ -15,6 +15,15 @@
       "gender": 1,
       "phoneNumber": "0981656202",
       "id": 2
+    },
+    {
+      "email": "phamhieu15082002@gmail.com",
+      "password": "$2a$10$WAL9pjskNRiutKyiwXjlB.9K/KkQWxJij3/gJuVAlbKBBvTafK23O",
+      "username": "Phạm Trung Hiếu",
+      "dob": "15/08/2002",
+      "gender": 1,
+      "phoneNumber": "0965504095",
+      "id": 3
     }
   ],
   "movies": [
