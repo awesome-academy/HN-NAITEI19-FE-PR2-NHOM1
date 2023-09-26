@@ -17,213 +17,482 @@
       "id": 2
     }
   ],
-  "film": [
+  "movies": [
     {
       "id": 1,
-      "title": "Biệt Đội Đánh Thuê 4",
-      "category": ["Hành động", "Phiêu lưu"],
-      "length": 103,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f06%2f500x750-1693304377603-copy-145733-060923-87.png",
-      "description": "Sẵn sàng cho những màn cận chiến nghẹt thở từ “anh trọc” Jason Statham, “già gân” Sylvester Stallone cùng dàn sao mới toanh 50 Cent, Megan Fox và Tony Jaa",
-      "director": "Scott Waugh",
-      "actors": "Jason Statham, 50 Cent, Megan Fox",
-      "openDate": "22/09/2023",
-      "ageLimit": "T18",
-      "language": "Tiếng Anh",
-      "trailer": "https://www.youtube.com/embed/TixcSyLkznw?si=GPp1-GnxpnnBEpAJ"
+      "name": "Người Dơi Bắt Đầu",
+      "categories": [
+        "Hành động"
+      ],
+      "duration": 140,
+      "openDate": "27/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/DB18OGB-ABM?si=qrmQ3Sg9qYeRHUQn",
+      "image":"https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2fbatman-begins-poster-release-date-114902-220923-31.png",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Người Dơi Bắt Đầu là phần đầu tiên trong trilogy thành công bậc nhất hai thập niên đầu thế kỷ 21, xoay quanh câu chuyện về nhân vật siêu anh hùng lẫy lừng vũ trụ DC - Bruce Wayne/ Batman. Phần phim đầu sẽ cùng khán giả lật mở những bí mật trong quá khứ của nhân vật đình đám này: Từ nỗi sợ của Bruce Wayne với loài dơi đến cái chết của cha mẹ anh, hành trình trở thành Batman chống lại những ác nhân hoành hành tại thành phố tội ác Gotham.",
+      "director": "Christopher Nolan",
+      "performer": [
+        "Christian Bale",
+        "Michael Caine",
+        "Liam Neeson",
+        "Katie Holmes",
+        "Cillian Murphy",
+        "Ken Wanatabe",
+        "Gary Oldman"
+      ],
+      "language": "Tiếng Anh"
     },
     {
       "id": 2,
-      "title": "Live - Phát Trực Tiếp",
-      "category": ["Tâm lý", "Kinh dị"],
-      "length": 91,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f13%2fposter-bddt4-4-2-115332-130923-33.png",
-      "description": "“Live - #PhátTrựcTiếp” lựa chọn hai câu chuyện: MUKBANG và REVIEW để lột tả một cách rõ nét được hiện thực của cuộc sống, sự trần trụi của xã hội hiện đại, công nghệ 4.0 đã khiến con người làm đủ mọi cách để nổi tiếng, kể cả hành hạ bản thân mình nhằm nhận được sự tung hô, hào nhoáng bằng những lời khen tặng với dòng text vô thưởng, vô phạt, kiếm tiền bằng “tặng hoa”.",
-      "director": "Khương Ngọc",
-      "actors": "Quốc Khánh, Ngọc Phước, Ngân 98",
-      "openDate": "22/09/2023",
-      "ageLimit": "T18",
-      "language": "Tiếng Việt",
-      "trailer": "https://www.youtube.com/embed/3r_MJiI9Hr8?si=bJP6EhUU6sOouuyB"
+      "name": "Kẻ Kiến Tạo",
+      "categories": [
+        "Hành động",
+        "Phiêu lưu"
+      ],
+      "duration": 140,
+      "openDate": "29/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/Aognln5uNwA?si=bVHjNtbdADJPUUmf",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f12%2f373522604-6522837141140057-825652335721987369-n-copy-161846-120923-31.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Trong tương lai, thế giới xảy ra một cuộc chiến tranh kéo dài giữa loài người và trí tuệ nhân tạo (AI). Joshua (John David Washington) - 1 cựu đặc vụ lì lợm, được thuê để giết “The Creator” - kẻ được xem là đầu não của AI và đã tạo ra 1 loại vũ khí bí ẩn đủ mạnh để kết thúc cuộc chiến và quét sạch nhân loại.",
+      "director": "Gareth Edwards",
+      "performer": [
+        "John David Washington",
+        "Gemma Chan",
+        "Ken Watanabe",
+        "Sturgill Simpson",
+        "Madeleine Yuna Voyles"
+      ],
+      "language": "Tiếng Anh" 
     },
     {
       "id": 3,
-      "title": "Ác Quỷ Ma Sơ II",
-      "category": ["Kinh dị", "Hồi hộp"],
-      "length": 110,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f08%2f16%2fz4580991380280-8e23993544a32a2184ea05e70d85db93-copy-133506-160823-92.jpg",
-      "description": "Valak trở lại với \"Ác Quỷ Ma Sơ 2\". Đây sẽ là phần hậu truyện của Ác Quỷ Ma Sơ và đồng thời là phần phim thứ chín thuộc Vũ trụ The Conjuring. Lấy bối cảnh nước Pháp năm 1956, cùng cái chết bí ẩn của một linh mục, một giai thoại đáng sợ và ám ảnh sẽ mở ra. Phần phim tiếp tục xoay quanh nhân vật chính - Sơ Irene - do Taissa Farmiga thủ vai.",
-      "director": "Michael Chaves",
-      "actors": "Taissa Farmiga, Bonnie Aarons, Storm Reid, Jonas Bloquet, Anna Popplewell",
-      "openDate": "08/09/2023",
-      "ageLimit": "T18",
-      "language": "Tiếng Anh",
-      "trailer": "https://www.youtube.com/embed/otM2V_g8Kqo?si=J56DsxAIVxJuBIt6"
+      "name": "Thảm họa mưa axit",
+      "categories": [
+        "Hành động",
+        "Hồi hộp"
+      ],
+      "duration": 100,
+      "openDate": "29/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/7pFH2HffdKA?si=Jc8zhyjJ3BCB_IML",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2f400x633-135241-220923-54.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Giữa một đợt nắng nóng bất thường, thì mây mưa giống như làn gió xua tan oi bức. Nhưng những đám mây kỳ lạ trên bầu trời nước Pháp lại đem tới cho con người sự huỷ diệt và chết chóc. Hàng loạt trận mưa axit đổ xuống, đốt cháy mạng sống của vạn vật dưới mặt đất. Trước sự huỷ diệt tàn bạo của thiên nhiên, một cô gái 15 tuổi phải cùng với cha mẹ mình tìm cách chạy trốn khỏi những cơn mưa axit.",
+      "director": "Just Philippot",
+      "performer": [
+        "Guillaume Canet",
+        "Laetitia Dosch",
+        "Patience Munchenbach"
+      ],
+      "language": "Tiếng Việt" 
     },
     {
       "id": 4,
-      "title": "Nhân Duyên Tiền Đình",
-      "category": ["Hài hước"],
-      "length": 118,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f05%2fhoneysweet-400x633-161013-050923-53.jpg",
-      "description": "Chuyện phim xoay quanh nhân vật Chi-ho (Yoo Hae-jin) - nhà nghiên cứu bánh snack với khả năng nếm vị xuất chúng, nhưng lại ngờ nghệch với mọi thứ xung quanh. Chi-ho là một người hướng nội điển hình, thích ở một mình và sống như một cái máy được lập trình sẵn mà không hề mắc lỗi dù chỉ một giây. Trong lúc phải đi trả nợ thay cho người anh trai nghiện cờ bạc (Cha In-pyo), Chi-ho tình cờ gặp gỡ “nhân viên đòi nợ” Il-young - người phụ nữ hướng ngoại, luôn suy nghĩ tích cực về cuộc sống dù đang ở trong hoàn cảnh khó khăn của một bà mẹ đơn thân.",
-      "director": "Lee Han",
-      "actors": "Woo Hyeon, Ko A-sung, Yim Si-wan, Yeom Hye-ran, Jung Woo-Sung",
-      "language": "Tiếng Hàn",
-      "openDate": "15/09/2023",
-      "ageLimit": "T13",
-      "trailer": "https://www.youtube.com/embed/jsGOuqU6SBQ?si=WKh-dMo8EW5fozwn"
+      "name": "Thanh Gương Trừ Tà",
+      "categories": [
+        "Hài hước",
+        "Kinh dị"
+      ],
+      "duration": 98,
+      "openDate": "06/10/2023",
+      "linkPreview": "https://www.youtube.com/embed/V6Km0awtvEY?si=pidVLPKcSKuPaZRb",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2f379473685-708249121349421-458324498374792187-n-160427-220923-61.png",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-16.png",
+      "description": "Chuyện phim xoay quanh nhân vật thầy trừ tà Cheon (Gang Dong Won thủ vai), cùng với chiến hữu của mình In Bae (Lee Dong Hwi thủ vai), chuyên đi lừa đảo với những màn trừ tà “pha ke\" sử dụng công nghệ cao cùng khả năng hùng biện và tài “thao túng tâm lý\" đỉnh cao. Tuy chuyên đi trừ tà nhưng cả hai đều không thể nhìn thấy và không tin vào ma quỷ cho tới khi họ phải đối đầu với một con ác quỷ thật đang khống chế em gái (Park So Yi thủ vai) của Yoo Kyung (Esom thủ vai). Yoo Kyung sở hữu “đôi mắt âm dương” có thể nhìn thấy những linh hồn. Kết hợp với thầy trừ tà Cheon và In Bae, họ phải đối đầu với con ác quỷ thật sự - Beom Cheom (Huh Joon Ho thủ vai) và từ đó, thầy trừ tà Cheon vô tình khám phá được bí mật đằng sau cái chết của em trai và ông nội mình. Nhận được sự giúp đỡ của một nhân vật bí ẩn cùng với những pha hành động trừ tà đẹp mắt, liệu thầy trừ tà Cheon có giúp được em gái của Yoo Kyung và diệt trừ ác quỷ đó?",
+      "director": "Kim Sung-Sik",
+      "performer": [
+        "Gang Dong Won",
+        "Esom, Lee Dong Hwi",
+        "Kim Jong Soo",
+        "Lee Jung Eun",
+        "Park Myoung Hyun",
+        "Park So Yi"
+      ],
+      "language": "Tiếng Hàn" 
     },
     {
       "id": 5,
-      "title": "PAW Patrol: Phim Siêu Đẳng",
-      "category": ["Phiêu lưu", "Hành động"],
-      "length": 93,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f19%2funtitled-22222222222-151642-190923-23.jpg",
-      "description": "Một mảnh thiên thạch kỳ diệu đã rơi xuống Thành Phố Phiêu Lưu, mang đến siêu năng lực cho những chú cún PAW Patrol và biến chúng thành Những Chú Cún Quyền Năng.",
-      "director": "Cal Brunker",
-      "actors": "Kim Roberts, Chris Rock, Saint West, Nylan Parthipan, Christian Corrao",
-      "language": "Tiếng Anh",
-      "openDate": "29/09/2023",
-      "ageLimit": "P",
-      "trailer": "https://www.youtube.com/embed/6rVUn7TKHS4?si=E58kFQYPKDJrouQC"
+      "name": "Biệt Đội Đánh Thuê 4",
+      "categories": [
+        "Hành động",
+        "Phiêu lưu"
+      ],
+      "duration": 103,
+      "openDate": "22/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/TixcSyLkznw?si=gPIvhVFf5eBZpECy",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f13%2fposter-bddt4-4-2-115332-130923-33.png",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Sẵn sàng cho những màn cận chiến nghẹt thở từ “anh trọc” Jason Statham, “già gân” Sylvester Stallone cùng dàn sao mới toanh 50 Cent, Megan Fox và Tony Jaa",
+      "director": "Scott Waugh",
+      "performer": [
+        "Jason Statham",
+        "50 Cent",
+        "Megan Fox"
+      ],
+      "language": "Tiếng Anh" 
     },
     {
       "id": 6,
-      "title": "3DCG! Shin - Cậu Bé Bút Chì: Đại Chiến Siêu Năng Lực ~ Shusi Bay ~",
-      "category": ["Hoạt hình", "Phiêu lưu"],
-      "length": 94,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f07%2f25%2f11206-103-100001-copy-172202-250723-59.jpg",
-      "description": "3DCG! Shin Cậu Bé Bút Chì: Đại Chiến Siêu Năng Lực ~Sushi Bay~ xoay quanh câu chuyện về hai nguồn sáng đặc biệt từ vũ trụ mang theo siêu năng lực đặc biệt tới Trái Đất. Một nguồn sáng tích cực “nhập” vào nhóc Shin, khiến cặp mông núng nính của cậu chàng trở nên nóng bỏng và có khả năng điều khiển những đồ vật xung quanh theo ý muốn.",
-      "director": "Hitoshi One",
-      "actors": "Yumiko Kobayashi, Miki Narahashi, Aoi Morikawa, Satomi Kourogi, Suzuki Mogura",
-      "language": "Tiếng Việt",
-      "openDate": "25/08/2023",
-      "ageLimit": "P",
-      "trailer": "https://www.youtube.com/embed/6rVUn7TKHS4?si=C7uQUJRq69-FCPs3"
+      "name": "Live - Phát Trực Tiếp",
+      "categories": [
+        "Tâm lý",
+        "Kinh dị"
+      ],
+      "duration": 91,
+      "openDate": "22/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/3r_MJiI9Hr8?si=4nU4boobbaLJUew3",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f06%2f500x750-1693304377603-copy-145733-060923-87.png",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "“Live - #PhátTrựcTiếp” lựa chọn hai câu chuyện: MUKBANG và REVIEW để lột tả một cách rõ nét được hiện thực của cuộc sống, sự trần trụi của xã hội hiện đại, công nghệ 4.0 đã khiến con người làm đủ mọi cách để nổi tiếng, kể cả hành hạ bản thân mình nhằm nhận được sự tung hô, hào nhoáng bằng những lời khen tặng với dòng text vô thưởng, vô phạt, kiếm tiền bằng “tặng hoa”.",
+      "director": "Khương Ngọc",
+      "performer": [
+        "Quốc Khánh",
+        "Ngọc Phước",
+        "Ngân 98"
+      ],
+      "language": "Tiếng Việt" 
     },
     {
       "id": 7,
-      "title": "Án Mạng Ở Venice",
-      "category": ["Tội phạm", "Tâm lý"],
-      "length": 103,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f08%2f25%2frsz-1ahiv-new-poster-copy-142636-250823-44.jpg",
-      "description": "Dựa trên tiểu thuyết Hallowe'en Party của nhà văn Agatha Christie, hành trình phá án của thám tử Hercule Poirot tiếp tục được đưa lên màn ảnh rộng.",
-      "director": "Kenneth Branagh",
-      "actors": "Kenneth Branagh, Michelle Yeoh, Jamie Dornan, Tina Fey, Jude Hill",
-      "language": "Tiếng Anh",
-      "openDate": "15/09/2023",
-      "ageLimit": "T13",
-      "trailer": "https://www.youtube.com/embed/maw2FnYE_a0?si=nVuKFUm-mTIfkj-q"
+      "name": "Ác Quỷ Ma Sơ II",
+      "categories": [
+        "Kinh dị",
+        "Hồi hộp"
+      ],
+      "duration": 110,
+      "openDate": "08/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/TixcSyLkznw?si=l17-Y9Thx-vWFBSy",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f08%2f16%2fz4580991380280-8e23993544a32a2184ea05e70d85db93-copy-133506-160823-92.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Valak trở lại với \"Ác Quỷ Ma Sơ 2\". Đây sẽ là phần hậu truyện của Ác Quỷ Ma Sơ và đồng thời là phần phim thứ chín thuộc Vũ trụ The Conjuring. Lấy bối cảnh nước Pháp năm 1956, cùng cái chết bí ẩn của một linh mục, một giai thoại đáng sợ và ám ảnh sẽ mở ra. Phần phim tiếp tục xoay quanh nhân vật chính - Sơ Irene - do Taissa Farmiga thủ vai.",
+      "director": "Michael Chaves",
+      "performer": [
+        "Taissa Farmiga",
+        "Bonnie Aarons",
+        "Storm Reid",
+        "Jonas Bloquet",
+        "Anna Popplewell"
+      ],
+      "language": "Tiếng Anh" 
     },
     {
       "id": 8,
-      "title": "Ánh Dương Sau Hoàng Hôn",
-      "category": ["Tình cảm", "Kinh dị"],
-      "length": 105,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2funtitled-3-101852-220923-54.jpg",
-      "description": "Nhân duyên trời định giữa 2 con người xa lạ được khởi nguồn từ lời nguyền gia tộc buộc Quý nam Phra Ploeng (Zee Pruk Panich) phải ghép tử vi kịp thời với tri kỷ của mình là Saeng Rawee (NuNew Chawarin Perdpiriyawong) nếu không muốn kiếp nạn đại hung sẽ ứng nghiệm vào năm 25 tuổi.",
-      "director": "Aod Bhandit Thongdee",
-      "actors": "Zee Pruk Panich, NuNew Chawarin Perdpiriyawong",
-      "language": "Tiếng Thái",
-      "openDate": "22/09/2023",
-      "ageLimit": "T18",
-      "trailer": "https://www.youtube.com/embed/pY_DSSkgAK0?si=fvKYNgxrSr2i3QPK"
+      "name": "Nhân Duyên Tiền Đình",
+      "categories": [
+        "Hài hước"
+      ],
+      "duration": 118,
+      "openDate": "15/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/jsGOuqU6SBQ?si=lq8lsXkd5pEHHnqH",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f05%2fhoneysweet-400x633-161013-050923-53.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Chuyện phim xoay quanh nhân vật Chi-ho (Yoo Hae-jin) - nhà nghiên cứu bánh snack với khả năng nếm vị xuất chúng, nhưng lại ngờ nghệch với mọi thứ xung quanh. Chi-ho là một người hướng nội điển hình, thích ở một mình và sống như một cái máy được lập trình sẵn mà không hề mắc lỗi dù chỉ một giây. Trong lúc phải đi trả nợ thay cho người anh trai nghiện cờ bạc (Cha In-pyo), Chi-ho tình cờ gặp gỡ “nhân viên đòi nợ” Il-young - người phụ nữ hướng ngoại, luôn suy nghĩ tích cực về cuộc sống dù đang ở trong hoàn cảnh khó khăn của một bà mẹ đơn thân.",
+      "director": "Lee Han",
+      "performer": [
+        "Woo Hyeon",
+        "Ko A-sung",
+        "Yim Si-wan",
+        "Yeom Hye-ran",
+        "Jung Woo-Sung"
+      ],
+      "language": "Tiếng Hàn" 
     },
     {
       "id": 9,
-      "title": "Muôn Kiếp Nhân Duyên",
-      "category": ["Lãng mạn", "Tâm lý"],
-      "length": 106,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f14%2fweb-size-pastlives-teaser-poster-1-105849-140923-24.png",
-      "description": "Muôn Kiếp Nhân Duyên xoay quanh hai nhân vật chính - Nora (Greta Lee) và Hae Sung (Teo Yoo). Tình bạn thân thiết của họ bị chia cắt khi Nora theo gia đình di cư khỏi Hàn Quốc vào năm 12 tuổi. 20 năm sau, như một mối duyên tiền định, họ gặp lại nhau tại Mỹ, nhưng lúc này, Nora đã trở thành vợ của Arthur (John Magaro). Nhìn lại quá khứ, nói về hiện tại và hướng đến tương lai - những cuộc trò chuyện nhẹ nhàng giữa Nora và Hae Sung trong 1 tuần ngắn ngủi ở New York được đan xen bởi các khoảng lặng, khiến người xem chìm đắm vào suy ngẫm về cuộc sống, số phận và tình yêu.",
-      "actors": "Greta Lee, Teo Yoo",
-      "language": "Tiếng Anh",
+      "name": "PAW Patrol: Phim Siêu Đẳng",
+      "categories": [
+        "Hành động",
+        "Phiêu lưu"
+      ],
+      "duration": 93,
       "openDate": "29/09/2023",
-      "ageLimit": "T18",
-      "trailer": "https://www.youtube.com/embed/Vf5TYzsFXAQ?si=s6H0teSpi2ZOQP7x"
+      "linkPreview": "https://www.youtube.com/embed/6rVUn7TKHS4?si=W-lObUYyXHEnIV96",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f19%2funtitled-22222222222-151642-190923-23.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/p.png",
+      "description": "Một mảnh thiên thạch kỳ diệu đã rơi xuống Thành Phố Phiêu Lưu, mang đến siêu năng lực cho những chú cún PAW Patrol và biến chúng thành Những Chú Cún Quyền Năng.",
+      "director": "Cal Brunker",
+      "performer": [
+        "Kim Roberts",
+        "Chris Rock",
+        "Saint West",
+        "Nylan Parthipan",
+        "Christian Corrao"
+      ],
+      "language": "Tiếng Việt" 
     },
     {
       "id": 10,
-      "title": "Trừng Phạt",
-      "category": ["Hành động", "Tội phạm"],
-      "length": 91,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f08%2f25%2f500x750-1692070177895-copy-150733-250823-25.jpg",
-      "description": "Matt Turner (Liam Neeson) là một doanh nhân người Mỹ thành đạt sống ở Berlin, đang phải cân bằng giữa sự nghiệp tài chính đang bùng nổ và trách nhiệm gia đình. Một buổi sáng đang lái xe đưa con đến trường, Matt nhận được một cuộc điện thoại từ một giọng nói bí ẩn: có một quả bom dưới ghế của anh ấy sẽ phát nổ trừ khi anh ấy hoàn thành một loạt nhiệm vụ cụ thể, và nhanh chóng.",
-      "director": "Nimrod Antal",
-      "actors": "Liam Neeson, Jack Champion, Matthew Modine",
-      "language": "Tiếng Anh",
-      "openDate": "15/09/2023",
-      "ageLimit": "T16",
-      "trailer": "https://www.youtube.com/embed/2OPd65L01I8?si=_8zAfwvWBKivK7H7"
+      "name": "3DCG! Shin - Cậu Bé Bút Chì: Đại Chiến Siêu Năng Lực ~ Shusi Bay ~",
+      "categories": [
+        "Hoạt hình",
+        "Phiêu lưu"
+      ],
+      "duration": 93,
+      "openDate": "25/08/2023",
+      "linkPreview": "https://www.youtube.com/embed/P6CGQuA73w0?si=6waiPhDqv-AY5QQ6",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f07%2f25%2f11206-103-100001-copy-172202-250723-59.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/p.png",
+      "description": "3DCG! Shin Cậu Bé Bút Chì: Đại Chiến Siêu Năng Lực ~Sushi Bay~ xoay quanh câu chuyện về hai nguồn sáng đặc biệt từ vũ trụ mang theo siêu năng lực đặc biệt tới Trái Đất. Một nguồn sáng tích cực “nhập” vào nhóc Shin, khiến cặp mông núng nính của cậu chàng trở nên nóng bỏng và có khả năng điều khiển những đồ vật xung quanh theo ý muốn.",
+      "director": "Hitoshi One",
+      "performer": [
+        "Yumiko Kobayashi",
+        "Miki Narahashi",
+        "Aoi Morikawa",
+        "Satomi Kourogi",
+        "Suzuki Mogura"
+      ],
+      "language": "Tiếng Việt" 
     },
     {
       "id": 11,
-      "title": "Người Dơi Bắt Đầu",
-      "category": ["Hành động"],
-      "length": 140,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2fbatman-begins-poster-release-date-114902-220923-31.png",
-      "description": "Người Dơi Bắt Đầu là phần đầu tiên trong trilogy thành công bậc nhất hai thập niên đầu thế kỷ 21, xoay quanh câu chuyện về nhân vật siêu anh hùng lẫy lừng vũ trụ DC - Bruce Wayne/ Batman. Phần phim đầu sẽ cùng khán giả lật mở những bí mật trong quá khứ của nhân vật đình đám này: Từ nỗi sợ của Bruce Wayne với loài dơi đến cái chết của cha mẹ anh, hành trình trở thành Batman chống lại những ác nhân hoành hành tại thành phố tội ác Gotham.",
-      "director": "Christopher Nolan",
-      "actors": "Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Cillian Murphy, Ken Wanatabe, Gary Oldman",
-      "language": "Tiếng Anh",
-      "openDate": "27/09/2023",
-      "ageLimit": "T13",
-      "trailer": "https://www.youtube.com/embed/DB18OGB-ABM?si=EBvOdW19khWLz3TC"
+      "name": "Án Mạng Ở Venice",
+      "categories": [
+        "Tội phạm",
+        "Tâm lý"
+      ],
+      "duration": 103,
+      "openDate": "15/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/maw2FnYE_a0?si=5C4IkHG407inL8Hs",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f08%2f25%2frsz-1ahiv-new-poster-copy-142636-250823-44.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-13.png",
+      "description": "Dựa trên tiểu thuyết Hallowe'en Party của nhà văn Agatha Christie, hành trình phá án của thám tử Hercule Poirot tiếp tục được đưa lên màn ảnh rộng.",
+      "director": "Kenneth Branagh",
+      "performer": [
+        "Kenneth Branagh",
+        "Michelle Yeoh",
+        "Jamie Dornan",
+        "Tina Fey",
+        "Jude Hill"
+      ],
+      "language": "Tiếng Anh" 
     },
     {
       "id": 12,
-      "title": "Điều Cấm Kỵ Kinh Hoàng",
-      "category": ["Kinh dị"],
-      "length": 90,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f15%2f375921367-699683032184156-4889001062729475502-n-170633-150923-39.png",
-      "description": "Bà Cốc đón hai cháu từ thành thị về chơi, 2 đứa trẻ rất tinh nghịch nhưng chưa hề biết về một vùng quê yên ả nhưng vẫn ẩn sâu những mối nguy hiểm cần tránh xa. Bà Cốc kể cho chúng nghe về những truyền thuyết , nhưng liệu đó có phải chỉ là truyền thuyết?",
-      "director": "Vũ Thành",
-      "actors": "Phạm Tất Thành, Ann Nguyễn",
-      "language": "Tiếng Việt",
-      "openDate": "29/09/2023",
-      "ageLimit": "T18",
-      "trailer": "https://www.youtube.com/embed/3z7IRSWmgi0?si=rdfuxee7le_9go1n"
+      "name": "Ánh Dương Sau Hoàng Hôn",
+      "categories": [
+        "Tình cảm",
+        "Kinh dị"
+      ],
+      "duration": 105,
+      "openDate": "22/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/pY_DSSkgAK0?si=R-9Axv2x910TeNE8",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2funtitled-3-101852-220923-54.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Nhân duyên trời định giữa 2 con người xa lạ được khởi nguồn từ lời nguyền gia tộc buộc Quý nam Phra Ploeng (Zee Pruk Panich) phải ghép tử vi kịp thời với tri kỷ của mình là Saeng Rawee (NuNew Chawarin Perdpiriyawong) nếu không muốn kiếp nạn đại hung sẽ ứng nghiệm vào năm 25 tuổi.",
+      "director": "Aod Bhandit Thongdee",
+      "performer": [
+        "Zee Pruk Panich",
+        "NuNew Chawarin Perdpiriyawong"
+      ],
+      "language": "Tiếng Thái" 
     },
     {
       "id": 13,
-      "title": "Kẻ Kiến Tạo",
-      "category": ["Hành động", "Phiêu lưu"],
-      "length": 133,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f12%2f373522604-6522837141140057-825652335721987369-n-copy-161846-120923-31.jpg",
-      "description": "Trong tương lai, thế giới xảy ra một cuộc chiến tranh kéo dài giữa loài người và trí tuệ nhân tạo (AI). Joshua (John David Washington) - 1 cựu đặc vụ lì lợm, được thuê để giết “The Creator” - kẻ được xem là đầu não của AI và đã tạo ra 1 loại vũ khí bí ẩn đủ mạnh để kết thúc cuộc chiến và quét sạch nhân loại.",
-      "director": "Gareth Edwards",
-      "actors": "John David Washington, Gemma Chan, Ken Watanabe, Sturgill Simpson, Madeleine Yuna Voyles",
-      "language": "Tiếng Anh",
+      "name": "Muôn Kiếp Nhân Duyên",
+      "categories": [
+        "Lãng mãn",
+        "Tâm lý"
+      ],
+      "duration": 106,
       "openDate": "29/09/2023",
-      "ageLimit": "T13",
-      "trailer": "https://www.youtube.com/embed/Aognln5uNwA?si=ye_Qdz5rwcCwI3DH"
+      "linkPreview": "https://www.youtube.com/embed/Vf5TYzsFXAQ?si=B6YcJK5I77crxi_5",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f14%2fweb-size-pastlives-teaser-poster-1-105849-140923-24.png",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
+      "description": "Muôn Kiếp Nhân Duyên xoay quanh hai nhân vật chính - Nora (Greta Lee) và Hae Sung (Teo Yoo). Tình bạn thân thiết của họ bị chia cắt khi Nora theo gia đình di cư khỏi Hàn Quốc vào năm 12 tuổi. 20 năm sau, như một mối duyên tiền định, họ gặp lại nhau tại Mỹ, nhưng lúc này, Nora đã trở thành vợ của Arthur (John Magaro). Nhìn lại quá khứ, nói về hiện tại và hướng đến tương lai - những cuộc trò chuyện nhẹ nhàng giữa Nora và Hae Sung trong 1 tuần ngắn ngủi ở New York được đan xen bởi các khoảng lặng, khiến người xem chìm đắm vào suy ngẫm về cuộc sống, số phận và tình yêu.",
+      "director": "Celine Song",
+      "performer": [
+        "Greta Lee",
+        "Teo Yoo"
+      ],
+      "language": "Tiếng Anh" 
     },
     {
       "id": 14,
-      "title": "Thảm Họa Mưa Axit",
-      "category": ["Hành động", "Hồi Hộp"],
-      "length": 100,
-      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2f400x633-135241-220923-54.jpg",
-      "description": "Giữa một đợt nắng nóng bất thường, thì mây mưa giống như làn gió xua tan oi bức. Nhưng những đám mây kỳ lạ trên bầu trời nước Pháp lại đem tới cho con người sự huỷ diệt và chết chóc. Hàng loạt trận mưa axit đổ xuống, đốt cháy mạng sống của vạn vật dưới mặt đất. Trước sự huỷ diệt tàn bạo của thiên nhiên, một cô gái 15 tuổi phải cùng với cha mẹ mình tìm cách chạy trốn khỏi những cơn mưa axit.",
-      "director": "Just Philippot",
-      "actors": "Guillaume Canet, Laetitia Dosch, Patience Munchenbach",
-      "language": "Tiếng Việt",
-      "openDate": "29/09/2023",
-      "ageLimit": "T13",
-      "trailer": "https://www.youtube.com/embed/7pFH2HffdKA?si=mSvF0-R3WQwbyrjU"
+      "name": "Trừng Phạt",
+      "categories": [
+        "Hành động",
+        "Tội phạm"
+      ],
+      "duration": 91,
+      "openDate": "15/09/2023",
+      "linkPreview": "https://www.youtube.com/embed/2OPd65L01I8?si=XcjYEIFzeQF6qHl-",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f08%2f25%2f500x750-1692070177895-copy-150733-250823-25.jpg",
+      "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-16.png",
+      "description": "Matt Turner (Liam Neeson) là một doanh nhân người Mỹ thành đạt sống ở Berlin, đang phải cân bằng giữa sự nghiệp tài chính đang bùng nổ và trách nhiệm gia đình. Một buổi sáng đang lái xe đưa con đến trường, Matt nhận được một cuộc điện thoại từ một giọng nói bí ẩn: có một quả bom dưới ghế của anh ấy sẽ phát nổ trừ khi anh ấy hoàn thành một loạt nhiệm vụ cụ thể, và nhanh chóng.",
+      "director": "Nimrod Antal",
+      "performer": [
+        "Liam Neeson",
+        "Jack Champion",
+        "Matthew Modine"
+      ],
+      "language": "Tiếng Anh" 
     }
   ],
-  "category": [
-    "Hành động",
-    "Phiêu lưu",
-    "Tâm lý",
-    "Kinh dị",
-    "Hồi hộp",
-    "Hài hước",
-    "Tội phạm",
-    "Tâm lý",
-    "Tình cảm",
-    "Lãng mạn"
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Beta Thái Nguyên"
+    },
+    {
+      "id": 2,
+      "name": "Beta Thanh Xuân"
+    },
+    {
+      "id": 3,
+      "name": "Beta Mỹ Đình"
+    },
+    {
+      "id": 4,
+      "name": "Beta Đan Phượng"
+    },
+    {
+      "id": 5,
+      "name": "Beta Giải Phóng"
+    },
+    {
+      "id": 6,
+      "name": "Beta Merchandise"
+    },
+    {
+      "id": 7,
+      "name": "Beta Quang Trung"
+    },
+    {
+      "id": 8,
+      "name": "Beta Bắc Giang"
+    },
+    {
+      "id": 9,
+      "name": "Beta Biên Hòa"
+    },
+    {
+      "id": 10,
+      "name": "Beta Long Khánh"
+    },
+    {
+      "id": 11,
+      "name": "Beta Long Thành"
+    },
+    {
+      "id": 12,
+      "name": "Beta Nha Trang"
+    },
+    {
+      "id": 13,
+      "name": "Beta Thanh Hóa"
+    },
+    {
+      "id": 14,
+      "name": "Beta Phú Mỹ"
+    },
+    {
+      "id": 15,
+      "name": "Beta Hồ Tràm"
+    },
+    {
+      "id": 16,
+      "name": "Beta Tân Uyên"
+    },
+    {
+      "id": 17,
+      "name": "Beta Empỉe Bình Dương"
+    }
+  ],
+  "moviestaus": [
+    {
+      "id": 1,
+      "name": "upcoming"
+    },
+    {
+      "id": 2,
+      "name": "showing"
+    },
+    {
+      "id": 3,
+      "name": "special"
+    }
+  ],
+  "showtimeDetail": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "movieStatus": 1
+    },
+    {
+      "id": 2,
+      "movieId": 2,
+      "movieStatus": 1
+    },
+    {
+      "id": 3,
+      "movieId": 3,
+      "movieStatus": 1
+    },
+    {
+      "id": 4,
+      "movieId": 4,
+      "movieStatus": 1
+    },
+    {
+      "id": 5,
+      "movieId": 5,
+      "movieStatus": 2
+    },
+    {
+      "id": 6,
+      "movieId": 6,
+      "movieStatus": 2
+    },
+    {
+      "id": 7,
+      "movieId": 7,
+      "movieStatus": 2
+    },
+    {
+      "id": 8,
+      "movieId": 8,
+      "movieStatus": 2
+    },
+    {
+      "id": 9,
+      "movieId": 9,
+      "movieStatus": 2
+    },
+    {
+      "id": 10,
+      "movieId": 10,
+      "movieStatus": 2
+    },
+    {
+      "id": 11,
+      "movieId": 11,
+      "movieStatus": 2
+    },
+    {
+      "id": 12,
+      "movieId": 12,
+      "movieStatus": 2
+    },
+    {
+      "id": 13,
+      "movieId": 13,
+      "movieStatus": 2
+    },
+    {
+      "id": 14,
+      "movieId": 14,
+      "movieStatus": 2
+    },
+    {
+      "id": 15,
+      "movieId": 9,
+      "movieStatus": 3
+    },
+    {
+      "id": 16,
+      "movieId": 13,
+      "movieStatus": 3
+    }
   ]
 }
+
