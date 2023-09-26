@@ -1,8 +1,8 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const cinemaSlice = createSlice({
-  name: "cinema",
-  initialState: { cinema: "Beta Thái Nguyên" },
+  name: 'cinema',
+  initialState: { cinema: 'Beta Thái Nguyên' },
   reducers: {
     selectCinema: (state, action) => {
       state.cinema = action.payload;
