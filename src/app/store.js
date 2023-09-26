@@ -1,11 +1,10 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import { authService } from '../features/auth/authService';
-import { movieService } from '../features/list/movieService';
-import { showtimeService } from '../features/list/showtimeService';
 import CinemaSlice from '../features/theater/CinemaSlice';
 import { eventService } from '../features/eventService';
 import { apiService } from './apiService';
 import filterReducer from '../features/admin/filterSlice';
+import { userService } from '../features/admin/components/userTable/userService';
 
 export const store = configureStore({
   reducer: {
@@ -14,11 +13,13 @@ export const store = configureStore({
     CinemaSlice,
     [eventService.reducerPath]: eventService.reducer,
     filter: filterReducer,
+    [userService.reducerPath]: userService.reducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat([
       authService.middleware,
       eventService.middleware,
       apiService.middleware,
+      userService.middleware,
     ]),
 });
