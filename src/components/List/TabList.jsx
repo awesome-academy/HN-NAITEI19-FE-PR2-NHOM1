@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import MovieDetail from "./MovieDetail";
-import { useGetShowtimeDetailQuery } from "../../features/list/showtimeService";
+import React, { useEffect, useState } from 'react';
+import MovieDetail from './MovieDetail';
+import { useGetShowtimeDetailQuery } from '../../features/list/showtimeService';
 
 const TabList = ({ movieStatus }) => {
   const { data: movies, isLoading } = useGetShowtimeDetailQuery();

@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import { Modal, Button } from "antd";
-import { PlayCircleOutlined } from "@ant-design/icons";
-import { useFetchMovieQuery } from "../../features/list/movieService";
-import "./List.css";
+import React, { useState } from 'react';
+import { Modal, Button } from 'antd';
+import { PlayCircleOutlined } from '@ant-design/icons';
+import { useFetchMovieQuery } from '../../features/list/movieService';
+import './List.css';
+import { Link } from 'react-router-dom';
 
 const MovieDetail = ({ movieId }) => {
   const [modalVisible, setModalVisible] = useState(false);
@@ -18,7 +19,7 @@ const MovieDetail = ({ movieId }) => {
     setModalVisible(false);
   };
 
-  const categoriesString = movie && movie.categories.join(", ");
+  const categoriesString = movie && movie.categories.join(', ');
 
   return (
     <>
@@ -49,9 +50,9 @@ const MovieDetail = ({ movieId }) => {
             )}
           </div>
           <div className="content">
-            <a href="#" className="movie__title">
+            <Link to={`/detail/${movie.id}`} className="movie__title">
               {movie.name}
-            </a>
+            </Link>
             <div className="movies__categories">
               <strong>Thể loại: </strong>
               {categoriesString}
@@ -79,7 +80,7 @@ const MovieDetail = ({ movieId }) => {
         destroyOnClose
         width={700}
         height={600}
-        style={{ maxHeight: "80vh" }}
+        style={{ maxHeight: '80vh' }}
       >
         {movie && (
           <div className="flex items-center justify-center h-full pb-6">

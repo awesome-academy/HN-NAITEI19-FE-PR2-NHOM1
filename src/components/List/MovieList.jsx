@@ -1,24 +1,24 @@
-import React from "react";
-import { Tabs } from "antd";
-import "./List.css";
-import TabList from "./TabList";
+import React from 'react';
+import { Tabs } from 'antd';
+import './List.css';
+import TabList from './TabList';
 const onChange = (key) => {
   console.log(key);
 };
 const items = [
   {
-    key: "1",
-    label: "PHIM SẮP CHIẾU",
+    key: '1',
+    label: 'PHIM SẮP CHIẾU',
     children: <TabList movieStatus={1} />,
   },
   {
-    key: "2",
-    label: "PHIM ĐANG CHIẾU",
+    key: '2',
+    label: 'PHIM ĐANG CHIẾU',
     children: <TabList movieStatus={2} />,
   },
   {
-    key: "3",
-    label: "SUẤT CHIẾU ĐẶC BIỆT",
+    key: '3',
+    label: 'SUẤT CHIẾU ĐẶC BIỆT',
     children: <TabList movieStatus={3} />,
   },
 ];

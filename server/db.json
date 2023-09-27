@@ -119,7 +119,11 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Sẵn sàng cho những màn cận chiến nghẹt thở từ “anh trọc” Jason Statham, “già gân” Sylvester Stallone cùng dàn sao mới toanh 50 Cent, Megan Fox và Tony Jaa",
       "director": "Scott Waugh",
-      "performer": ["Jason Statham", "50 Cent", "Megan Fox"],
+      "performer": [
+        "Jason Statham",
+        "50 Cent",
+        "Megan Fox"
+      ],
       "language": "Tiếng Anh"
     },
     {
@@ -133,7 +137,11 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "“Live - #PhátTrựcTiếp” lựa chọn hai câu chuyện: MUKBANG và REVIEW để lột tả một cách rõ nét được hiện thực của cuộc sống, sự trần trụi của xã hội hiện đại, công nghệ 4.0 đã khiến con người làm đủ mọi cách để nổi tiếng, kể cả hành hạ bản thân mình nhằm nhận được sự tung hô, hào nhoáng bằng những lời khen tặng với dòng text vô thưởng, vô phạt, kiếm tiền bằng “tặng hoa”.",
       "director": "Khương Ngọc",
-      "performer": ["Quốc Khánh", "Ngọc Phước", "Ngân 98"],
+      "performer": [
+        "Quốc Khánh",
+        "Ngọc Phước",
+        "Ngân 98"
+      ],
       "language": "Tiếng Việt"
     },
     {
@@ -142,7 +150,7 @@
       "categories": ["Kinh dị", "Hồi hộp"],
       "duration": 110,
       "openDate": "08/09/2023",
-      "linkPreview": "https://www.youtube.com/embed/TixcSyLkznw?si=l17-Y9Thx-vWFBSy",
+      "linkPreview": "https://www.youtube.com/embed/otM2V_g8Kqo?si=l9drctC5WgpHokpN",
       "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f08%2f16%2fz4580991380280-8e23993544a32a2184ea05e70d85db93-copy-133506-160823-92.jpg",
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Valak trở lại với \"Ác Quỷ Ma Sơ 2\". Đây sẽ là phần hậu truyện của Ác Quỷ Ma Sơ và đồng thời là phần phim thứ chín thuộc Vũ trụ The Conjuring. Lấy bối cảnh nước Pháp năm 1956, cùng cái chết bí ẩn của một linh mục, một giai thoại đáng sợ và ám ảnh sẽ mở ra. Phần phim tiếp tục xoay quanh nhân vật chính - Sơ Irene - do Taissa Farmiga thủ vai.",
@@ -247,7 +255,10 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Nhân duyên trời định giữa 2 con người xa lạ được khởi nguồn từ lời nguyền gia tộc buộc Quý nam Phra Ploeng (Zee Pruk Panich) phải ghép tử vi kịp thời với tri kỷ của mình là Saeng Rawee (NuNew Chawarin Perdpiriyawong) nếu không muốn kiếp nạn đại hung sẽ ứng nghiệm vào năm 25 tuổi.",
       "director": "Aod Bhandit Thongdee",
-      "performer": ["Zee Pruk Panich", "NuNew Chawarin Perdpiriyawong"],
+      "performer": [
+        "Zee Pruk Panich",
+        "NuNew Chawarin Perdpiriyawong"
+      ],
       "language": "Tiếng Thái"
     },
     {
@@ -261,7 +272,10 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Muôn Kiếp Nhân Duyên xoay quanh hai nhân vật chính - Nora (Greta Lee) và Hae Sung (Teo Yoo). Tình bạn thân thiết của họ bị chia cắt khi Nora theo gia đình di cư khỏi Hàn Quốc vào năm 12 tuổi. 20 năm sau, như một mối duyên tiền định, họ gặp lại nhau tại Mỹ, nhưng lúc này, Nora đã trở thành vợ của Arthur (John Magaro). Nhìn lại quá khứ, nói về hiện tại và hướng đến tương lai - những cuộc trò chuyện nhẹ nhàng giữa Nora và Hae Sung trong 1 tuần ngắn ngủi ở New York được đan xen bởi các khoảng lặng, khiến người xem chìm đắm vào suy ngẫm về cuộc sống, số phận và tình yêu.",
       "director": "Celine Song",
-      "performer": ["Greta Lee", "Teo Yoo"],
+      "performer": [
+        "Greta Lee",
+        "Teo Yoo"
+      ],
       "language": "Tiếng Anh"
     },
     {
@@ -275,7 +289,11 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-16.png",
       "description": "Matt Turner (Liam Neeson) là một doanh nhân người Mỹ thành đạt sống ở Berlin, đang phải cân bằng giữa sự nghiệp tài chính đang bùng nổ và trách nhiệm gia đình. Một buổi sáng đang lái xe đưa con đến trường, Matt nhận được một cuộc điện thoại từ một giọng nói bí ẩn: có một quả bom dưới ghế của anh ấy sẽ phát nổ trừ khi anh ấy hoàn thành một loạt nhiệm vụ cụ thể, và nhanh chóng.",
       "director": "Nimrod Antal",
-      "performer": ["Liam Neeson", "Jack Champion", "Matthew Modine"],
+      "performer": [
+        "Liam Neeson",
+        "Jack Champion",
+        "Matthew Modine"
+      ],
       "language": "Tiếng Anh"
     }
   ],
@@ -363,6 +381,11 @@
       "name": "special"
     }
   ],
+  "showtimes": [
+    {
+      
+    }
+  ],
   "showtimeDetail": [
     {
       "id": 1,
@@ -443,80 +466,6 @@
       "id": 16,
       "movieId": 13,
       "movieStatus": 3
-    }
-  ],
-  "sales": [
-    {
-      "id": 1,
-      "name": "TRUNG THU XẬP XÌNH - ƯU ĐÃI HẾT MÌNH",
-      "img": "src/assets/imgs/sales/untitled-1-095235-220923-65.jpg"
-    },
-    {
-      "id": 2,
-      "name": "CÓ VNPAY - BACK TO SCHOOL CÙNG NGÀN ƯU ĐÃI",
-      "img": "src/assets/imgs/sales/shrink-vnpay-095948-080923-40.jpg"
-    },
-    {
-      "id": 3,
-      "name": "ĐĂNG KÝ BIDV NGAY - COMBO 660K VỀ TAY",
-      "img": "src/assets/imgs/sales/bidv-beta-545-x-415-142430-010623-50.png"
-    },
-    {
-      "id": 4,
-      "name": "BETA VÉ RẺ, MOMO MUA LIỀN!",
-      "img": "src/assets/imgs/sales/545x415-102520-030423-81.jpg"
-    },
-    {
-      "id": 5,
-      "name": "THÀNH VIÊN BETA - ĐỒNG GIÁ 45K/50K",
-      "img": "src/assets/imgs/sales/545x415-member-163558-210121-74.jpg"
-    },
-    {
-      "id": 6,
-      "name": "THỨ BA VUI VẺ",
-      "img": "src/assets/imgs/sales/545x415-t3vv-1-164323-210121-12.jpg"
-    },
-    {
-      "id": 7,
-      "name": "SALE KHÔNG NGỪNG - MỪNG 'MAD SALE DAY'",
-      "img": "src/assets/imgs/sales/545x415-mad-sale-day-164833-210121-30.jpg"
-    }
-  ],
-  "news": [
-    {
-      "id": 1,
-      "name": "4 RẠP BETA CINEMAS LỌT TOP 11 RẠP CHIẾU PHIM ĐÔNG KHÁCH NHẤT CẢ NƯỚC",
-      "img": "src/assets/imgs/news/quang-trung-2-101450-180923-97.jpg"
-    },
-    {
-      "id": 2,
-      "name": "BETA CINEMAS TĂNG TRƯỞNG NHANH SAU ĐẠI DỊCH",
-      "img": "src/assets/imgs/news/z4611757934475-e7236d1ce95b25ef9111ad0afbb1d5a4-151848-170823-16.jpg"
-    },
-    {
-      "id": 3,
-      "name": "BETA CINEMAS: LỰA CHỌN SINH LỜI CHO NHÀ ĐẦU TƯ RẠP CHIẾU PHIM",
-      "img": "src/assets/imgs/news/z4611429882863-074c90bd27ea8469f9a5beff63986345-133039-170823-41.jpg"
-    },
-    {
-      "id": 4,
-      "name": "RẠP CHIẾU PHIM BETA CINEMAS “VƯỢT BÃO” COVID VÀ SUY THOÁI NHỜ LỐI ĐI KHÁC BIỆT",
-      "img": "src/assets/imgs/news/anh-rap-qt-141126-160823-74.jpg"
-    },
-    {
-      "id": 5,
-      "name": "CHIẾM LĨNH THỊ TRƯỜNG RẠP CHIẾU TỪ PHÂN KHÚC BỊ BỎ NGỎ",
-      "img": "src/assets/imgs/news/image-from-ios-10-093441-150823-95.jpg"
-    },
-    {
-      "id": 6,
-      "name": "KINH DOANH RẠP CHIẾU PHIM TẠI VIỆT NAM: CUỘC ĐUA KHÔNG CHỈ DÀNH CHO CÁC ÔNG LỚN",
-      "img": "src/assets/imgs/news/anh-1-093740-140823-38.jpg"
-    },
-    {
-      "id": 7,
-      "name": "HƯỚNG PHÁT TRIỂN THỊ TRƯỜNG RẠP CHIẾU PHIM VIỆT",
-      "img": "src/assets/imgs/news/anh-5-104110-090823-85.jpg"
     }
   ],
   "sales": [

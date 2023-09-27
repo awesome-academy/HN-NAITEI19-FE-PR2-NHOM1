@@ -1,7 +1,7 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const movieService = createApi({
-  reducerPath: "MovieApi",
+  reducerPath: 'MovieApi',
   baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_SERVER_API }),
   endpoints: (builder) => ({
     fetchMovie: builder.query({
