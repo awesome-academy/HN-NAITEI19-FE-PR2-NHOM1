@@ -30,13 +30,11 @@
     {
       "id": 1,
       "name": "Người Dơi Bắt Đầu",
-      "categories": [
-        "Hành động"
-      ],
+      "categories": ["Hành động"],
       "duration": 140,
       "openDate": "27/09/2023",
       "linkPreview": "https://www.youtube.com/embed/DB18OGB-ABM?si=qrmQ3Sg9qYeRHUQn",
-      "image":"https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2fbatman-begins-poster-release-date-114902-220923-31.png",
+      "image": "https://files.betacorp.vn/files/media%2fimages%2f2023%2f09%2f22%2fbatman-begins-poster-release-date-114902-220923-31.png",
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Người Dơi Bắt Đầu là phần đầu tiên trong trilogy thành công bậc nhất hai thập niên đầu thế kỷ 21, xoay quanh câu chuyện về nhân vật siêu anh hùng lẫy lừng vũ trụ DC - Bruce Wayne/ Batman. Phần phim đầu sẽ cùng khán giả lật mở những bí mật trong quá khứ của nhân vật đình đám này: Từ nỗi sợ của Bruce Wayne với loài dơi đến cái chết của cha mẹ anh, hành trình trở thành Batman chống lại những ác nhân hoành hành tại thành phố tội ác Gotham.",
       "director": "Christopher Nolan",
@@ -54,10 +52,7 @@
     {
       "id": 2,
       "name": "Kẻ Kiến Tạo",
-      "categories": [
-        "Hành động",
-        "Phiêu lưu"
-      ],
+      "categories": ["Hành động", "Phiêu lưu"],
       "duration": 140,
       "openDate": "29/09/2023",
       "linkPreview": "https://www.youtube.com/embed/Aognln5uNwA?si=bVHjNtbdADJPUUmf",
@@ -72,15 +67,12 @@
         "Sturgill Simpson",
         "Madeleine Yuna Voyles"
       ],
-      "language": "Tiếng Anh" 
+      "language": "Tiếng Anh"
     },
     {
       "id": 3,
       "name": "Thảm họa mưa axit",
-      "categories": [
-        "Hành động",
-        "Hồi hộp"
-      ],
+      "categories": ["Hành động", "Hồi hộp"],
       "duration": 100,
       "openDate": "29/09/2023",
       "linkPreview": "https://www.youtube.com/embed/7pFH2HffdKA?si=Jc8zhyjJ3BCB_IML",
@@ -93,15 +85,12 @@
         "Laetitia Dosch",
         "Patience Munchenbach"
       ],
-      "language": "Tiếng Việt" 
+      "language": "Tiếng Việt"
     },
     {
       "id": 4,
       "name": "Thanh Gương Trừ Tà",
-      "categories": [
-        "Hài hước",
-        "Kinh dị"
-      ],
+      "categories": ["Hài hước", "Kinh dị"],
       "duration": 98,
       "openDate": "06/10/2023",
       "linkPreview": "https://www.youtube.com/embed/V6Km0awtvEY?si=pidVLPKcSKuPaZRb",
@@ -117,15 +106,12 @@
         "Park Myoung Hyun",
         "Park So Yi"
       ],
-      "language": "Tiếng Hàn" 
+      "language": "Tiếng Hàn"
     },
     {
       "id": 5,
       "name": "Biệt Đội Đánh Thuê 4",
-      "categories": [
-        "Hành động",
-        "Phiêu lưu"
-      ],
+      "categories": ["Hành động", "Phiêu lưu"],
       "duration": 103,
       "openDate": "22/09/2023",
       "linkPreview": "https://www.youtube.com/embed/TixcSyLkznw?si=gPIvhVFf5eBZpECy",
@@ -133,20 +119,13 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Sẵn sàng cho những màn cận chiến nghẹt thở từ “anh trọc” Jason Statham, “già gân” Sylvester Stallone cùng dàn sao mới toanh 50 Cent, Megan Fox và Tony Jaa",
       "director": "Scott Waugh",
-      "performer": [
-        "Jason Statham",
-        "50 Cent",
-        "Megan Fox"
-      ],
-      "language": "Tiếng Anh" 
+      "performer": ["Jason Statham", "50 Cent", "Megan Fox"],
+      "language": "Tiếng Anh"
     },
     {
       "id": 6,
       "name": "Live - Phát Trực Tiếp",
-      "categories": [
-        "Tâm lý",
-        "Kinh dị"
-      ],
+      "categories": ["Tâm lý", "Kinh dị"],
       "duration": 91,
       "openDate": "22/09/2023",
       "linkPreview": "https://www.youtube.com/embed/3r_MJiI9Hr8?si=4nU4boobbaLJUew3",
@@ -154,20 +133,13 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "“Live - #PhátTrựcTiếp” lựa chọn hai câu chuyện: MUKBANG và REVIEW để lột tả một cách rõ nét được hiện thực của cuộc sống, sự trần trụi của xã hội hiện đại, công nghệ 4.0 đã khiến con người làm đủ mọi cách để nổi tiếng, kể cả hành hạ bản thân mình nhằm nhận được sự tung hô, hào nhoáng bằng những lời khen tặng với dòng text vô thưởng, vô phạt, kiếm tiền bằng “tặng hoa”.",
       "director": "Khương Ngọc",
-      "performer": [
-        "Quốc Khánh",
-        "Ngọc Phước",
-        "Ngân 98"
-      ],
-      "language": "Tiếng Việt" 
+      "performer": ["Quốc Khánh", "Ngọc Phước", "Ngân 98"],
+      "language": "Tiếng Việt"
     },
     {
       "id": 7,
       "name": "Ác Quỷ Ma Sơ II",
-      "categories": [
-        "Kinh dị",
-        "Hồi hộp"
-      ],
+      "categories": ["Kinh dị", "Hồi hộp"],
       "duration": 110,
       "openDate": "08/09/2023",
       "linkPreview": "https://www.youtube.com/embed/TixcSyLkznw?si=l17-Y9Thx-vWFBSy",
@@ -182,14 +154,12 @@
         "Jonas Bloquet",
         "Anna Popplewell"
       ],
-      "language": "Tiếng Anh" 
+      "language": "Tiếng Anh"
     },
     {
       "id": 8,
       "name": "Nhân Duyên Tiền Đình",
-      "categories": [
-        "Hài hước"
-      ],
+      "categories": ["Hài hước"],
       "duration": 118,
       "openDate": "15/09/2023",
       "linkPreview": "https://www.youtube.com/embed/jsGOuqU6SBQ?si=lq8lsXkd5pEHHnqH",
@@ -204,15 +174,12 @@
         "Yeom Hye-ran",
         "Jung Woo-Sung"
       ],
-      "language": "Tiếng Hàn" 
+      "language": "Tiếng Hàn"
     },
     {
       "id": 9,
       "name": "PAW Patrol: Phim Siêu Đẳng",
-      "categories": [
-        "Hành động",
-        "Phiêu lưu"
-      ],
+      "categories": ["Hành động", "Phiêu lưu"],
       "duration": 93,
       "openDate": "29/09/2023",
       "linkPreview": "https://www.youtube.com/embed/6rVUn7TKHS4?si=W-lObUYyXHEnIV96",
@@ -227,15 +194,12 @@
         "Nylan Parthipan",
         "Christian Corrao"
       ],
-      "language": "Tiếng Việt" 
+      "language": "Tiếng Việt"
     },
     {
       "id": 10,
       "name": "3DCG! Shin - Cậu Bé Bút Chì: Đại Chiến Siêu Năng Lực ~ Shusi Bay ~",
-      "categories": [
-        "Hoạt hình",
-        "Phiêu lưu"
-      ],
+      "categories": ["Hoạt hình", "Phiêu lưu"],
       "duration": 93,
       "openDate": "25/08/2023",
       "linkPreview": "https://www.youtube.com/embed/P6CGQuA73w0?si=6waiPhDqv-AY5QQ6",
@@ -250,15 +214,12 @@
         "Satomi Kourogi",
         "Suzuki Mogura"
       ],
-      "language": "Tiếng Việt" 
+      "language": "Tiếng Việt"
     },
     {
       "id": 11,
       "name": "Án Mạng Ở Venice",
-      "categories": [
-        "Tội phạm",
-        "Tâm lý"
-      ],
+      "categories": ["Tội phạm", "Tâm lý"],
       "duration": 103,
       "openDate": "15/09/2023",
       "linkPreview": "https://www.youtube.com/embed/maw2FnYE_a0?si=5C4IkHG407inL8Hs",
@@ -273,15 +234,12 @@
         "Tina Fey",
         "Jude Hill"
       ],
-      "language": "Tiếng Anh" 
+      "language": "Tiếng Anh"
     },
     {
       "id": 12,
       "name": "Ánh Dương Sau Hoàng Hôn",
-      "categories": [
-        "Tình cảm",
-        "Kinh dị"
-      ],
+      "categories": ["Tình cảm", "Kinh dị"],
       "duration": 105,
       "openDate": "22/09/2023",
       "linkPreview": "https://www.youtube.com/embed/pY_DSSkgAK0?si=R-9Axv2x910TeNE8",
@@ -289,19 +247,13 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Nhân duyên trời định giữa 2 con người xa lạ được khởi nguồn từ lời nguyền gia tộc buộc Quý nam Phra Ploeng (Zee Pruk Panich) phải ghép tử vi kịp thời với tri kỷ của mình là Saeng Rawee (NuNew Chawarin Perdpiriyawong) nếu không muốn kiếp nạn đại hung sẽ ứng nghiệm vào năm 25 tuổi.",
       "director": "Aod Bhandit Thongdee",
-      "performer": [
-        "Zee Pruk Panich",
-        "NuNew Chawarin Perdpiriyawong"
-      ],
-      "language": "Tiếng Thái" 
+      "performer": ["Zee Pruk Panich", "NuNew Chawarin Perdpiriyawong"],
+      "language": "Tiếng Thái"
     },
     {
       "id": 13,
       "name": "Muôn Kiếp Nhân Duyên",
-      "categories": [
-        "Lãng mãn",
-        "Tâm lý"
-      ],
+      "categories": ["Lãng mãn", "Tâm lý"],
       "duration": 106,
       "openDate": "29/09/2023",
       "linkPreview": "https://www.youtube.com/embed/Vf5TYzsFXAQ?si=B6YcJK5I77crxi_5",
@@ -309,19 +261,13 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png",
       "description": "Muôn Kiếp Nhân Duyên xoay quanh hai nhân vật chính - Nora (Greta Lee) và Hae Sung (Teo Yoo). Tình bạn thân thiết của họ bị chia cắt khi Nora theo gia đình di cư khỏi Hàn Quốc vào năm 12 tuổi. 20 năm sau, như một mối duyên tiền định, họ gặp lại nhau tại Mỹ, nhưng lúc này, Nora đã trở thành vợ của Arthur (John Magaro). Nhìn lại quá khứ, nói về hiện tại và hướng đến tương lai - những cuộc trò chuyện nhẹ nhàng giữa Nora và Hae Sung trong 1 tuần ngắn ngủi ở New York được đan xen bởi các khoảng lặng, khiến người xem chìm đắm vào suy ngẫm về cuộc sống, số phận và tình yêu.",
       "director": "Celine Song",
-      "performer": [
-        "Greta Lee",
-        "Teo Yoo"
-      ],
-      "language": "Tiếng Anh" 
+      "performer": ["Greta Lee", "Teo Yoo"],
+      "language": "Tiếng Anh"
     },
     {
       "id": 14,
       "name": "Trừng Phạt",
-      "categories": [
-        "Hành động",
-        "Tội phạm"
-      ],
+      "categories": ["Hành động", "Tội phạm"],
       "duration": 91,
       "openDate": "15/09/2023",
       "linkPreview": "https://www.youtube.com/embed/2OPd65L01I8?si=XcjYEIFzeQF6qHl-",
@@ -329,12 +275,8 @@
       "iconFilm": "https://www.betacinemas.vn/Assets/Common/icons/films/c-16.png",
       "description": "Matt Turner (Liam Neeson) là một doanh nhân người Mỹ thành đạt sống ở Berlin, đang phải cân bằng giữa sự nghiệp tài chính đang bùng nổ và trách nhiệm gia đình. Một buổi sáng đang lái xe đưa con đến trường, Matt nhận được một cuộc điện thoại từ một giọng nói bí ẩn: có một quả bom dưới ghế của anh ấy sẽ phát nổ trừ khi anh ấy hoàn thành một loạt nhiệm vụ cụ thể, và nhanh chóng.",
       "director": "Nimrod Antal",
-      "performer": [
-        "Liam Neeson",
-        "Jack Champion",
-        "Matthew Modine"
-      ],
-      "language": "Tiếng Anh" 
+      "performer": ["Liam Neeson", "Jack Champion", "Matthew Modine"],
+      "language": "Tiếng Anh"
     }
   ],
   "cinemas": [
@@ -502,6 +444,153 @@
       "movieId": 13,
       "movieStatus": 3
     }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "name": "TRUNG THU XẬP XÌNH - ƯU ĐÃI HẾT MÌNH",
+      "img": "src/assets/imgs/sales/untitled-1-095235-220923-65.jpg"
+    },
+    {
+      "id": 2,
+      "name": "CÓ VNPAY - BACK TO SCHOOL CÙNG NGÀN ƯU ĐÃI",
+      "img": "src/assets/imgs/sales/shrink-vnpay-095948-080923-40.jpg"
+    },
+    {
+      "id": 3,
+      "name": "ĐĂNG KÝ BIDV NGAY - COMBO 660K VỀ TAY",
+      "img": "src/assets/imgs/sales/bidv-beta-545-x-415-142430-010623-50.png"
+    },
+    {
+      "id": 4,
+      "name": "BETA VÉ RẺ, MOMO MUA LIỀN!",
+      "img": "src/assets/imgs/sales/545x415-102520-030423-81.jpg"
+    },
+    {
+      "id": 5,
+      "name": "THÀNH VIÊN BETA - ĐỒNG GIÁ 45K/50K",
+      "img": "src/assets/imgs/sales/545x415-member-163558-210121-74.jpg"
+    },
+    {
+      "id": 6,
+      "name": "THỨ BA VUI VẺ",
+      "img": "src/assets/imgs/sales/545x415-t3vv-1-164323-210121-12.jpg"
+    },
+    {
+      "id": 7,
+      "name": "SALE KHÔNG NGỪNG - MỪNG 'MAD SALE DAY'",
+      "img": "src/assets/imgs/sales/545x415-mad-sale-day-164833-210121-30.jpg"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "name": "4 RẠP BETA CINEMAS LỌT TOP 11 RẠP CHIẾU PHIM ĐÔNG KHÁCH NHẤT CẢ NƯỚC",
+      "img": "src/assets/imgs/news/quang-trung-2-101450-180923-97.jpg"
+    },
+    {
+      "id": 2,
+      "name": "BETA CINEMAS TĂNG TRƯỞNG NHANH SAU ĐẠI DỊCH",
+      "img": "src/assets/imgs/news/z4611757934475-e7236d1ce95b25ef9111ad0afbb1d5a4-151848-170823-16.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BETA CINEMAS: LỰA CHỌN SINH LỜI CHO NHÀ ĐẦU TƯ RẠP CHIẾU PHIM",
+      "img": "src/assets/imgs/news/z4611429882863-074c90bd27ea8469f9a5beff63986345-133039-170823-41.jpg"
+    },
+    {
+      "id": 4,
+      "name": "RẠP CHIẾU PHIM BETA CINEMAS “VƯỢT BÃO” COVID VÀ SUY THOÁI NHỜ LỐI ĐI KHÁC BIỆT",
+      "img": "src/assets/imgs/news/anh-rap-qt-141126-160823-74.jpg"
+    },
+    {
+      "id": 5,
+      "name": "CHIẾM LĨNH THỊ TRƯỜNG RẠP CHIẾU TỪ PHÂN KHÚC BỊ BỎ NGỎ",
+      "img": "src/assets/imgs/news/image-from-ios-10-093441-150823-95.jpg"
+    },
+    {
+      "id": 6,
+      "name": "KINH DOANH RẠP CHIẾU PHIM TẠI VIỆT NAM: CUỘC ĐUA KHÔNG CHỈ DÀNH CHO CÁC ÔNG LỚN",
+      "img": "src/assets/imgs/news/anh-1-093740-140823-38.jpg"
+    },
+    {
+      "id": 7,
+      "name": "HƯỚNG PHÁT TRIỂN THỊ TRƯỜNG RẠP CHIẾU PHIM VIỆT",
+      "img": "src/assets/imgs/news/anh-5-104110-090823-85.jpg"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "name": "TRUNG THU XẬP XÌNH - ƯU ĐÃI HẾT MÌNH",
+      "img": "src/assets/imgs/sales/untitled-1-095235-220923-65.jpg"
+    },
+    {
+      "id": 2,
+      "name": "CÓ VNPAY - BACK TO SCHOOL CÙNG NGÀN ƯU ĐÃI",
+      "img": "src/assets/imgs/sales/shrink-vnpay-095948-080923-40.jpg"
+    },
+    {
+      "id": 3,
+      "name": "ĐĂNG KÝ BIDV NGAY - COMBO 660K VỀ TAY",
+      "img": "src/assets/imgs/sales/bidv-beta-545-x-415-142430-010623-50.png"
+    },
+    {
+      "id": 4,
+      "name": "BETA VÉ RẺ, MOMO MUA LIỀN!",
+      "img": "src/assets/imgs/sales/545x415-102520-030423-81.jpg"
+    },
+    {
+      "id": 5,
+      "name": "THÀNH VIÊN BETA - ĐỒNG GIÁ 45K/50K",
+      "img": "src/assets/imgs/sales/545x415-member-163558-210121-74.jpg"
+    },
+    {
+      "id": 6,
+      "name": "THỨ BA VUI VẺ",
+      "img": "src/assets/imgs/sales/545x415-t3vv-1-164323-210121-12.jpg"
+    },
+    {
+      "id": 7,
+      "name": "SALE KHÔNG NGỪNG - MỪNG 'MAD SALE DAY'",
+      "img": "src/assets/imgs/sales/545x415-mad-sale-day-164833-210121-30.jpg"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "name": "4 RẠP BETA CINEMAS LỌT TOP 11 RẠP CHIẾU PHIM ĐÔNG KHÁCH NHẤT CẢ NƯỚC",
+      "img": "src/assets/imgs/news/quang-trung-2-101450-180923-97.jpg"
+    },
+    {
+      "id": 2,
+      "name": "BETA CINEMAS TĂNG TRƯỞNG NHANH SAU ĐẠI DỊCH",
+      "img": "src/assets/imgs/news/z4611757934475-e7236d1ce95b25ef9111ad0afbb1d5a4-151848-170823-16.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BETA CINEMAS: LỰA CHỌN SINH LỜI CHO NHÀ ĐẦU TƯ RẠP CHIẾU PHIM",
+      "img": "src/assets/imgs/news/z4611429882863-074c90bd27ea8469f9a5beff63986345-133039-170823-41.jpg"
+    },
+    {
+      "id": 4,
+      "name": "RẠP CHIẾU PHIM BETA CINEMAS “VƯỢT BÃO” COVID VÀ SUY THOÁI NHỜ LỐI ĐI KHÁC BIỆT",
+      "img": "src/assets/imgs/news/anh-rap-qt-141126-160823-74.jpg"
+    },
+    {
+      "id": 5,
+      "name": "CHIẾM LĨNH THỊ TRƯỜNG RẠP CHIẾU TỪ PHÂN KHÚC BỊ BỎ NGỎ",
+      "img": "src/assets/imgs/news/image-from-ios-10-093441-150823-95.jpg"
+    },
+    {
+      "id": 6,
+      "name": "KINH DOANH RẠP CHIẾU PHIM TẠI VIỆT NAM: CUỘC ĐUA KHÔNG CHỈ DÀNH CHO CÁC ÔNG LỚN",
+      "img": "src/assets/imgs/news/anh-1-093740-140823-38.jpg"
+    },
+    {
+      "id": 7,
+      "name": "HƯỚNG PHÁT TRIỂN THỊ TRƯỜNG RẠP CHIẾU PHIM VIỆT",
+      "img": "src/assets/imgs/news/anh-5-104110-090823-85.jpg"
+    }
   ]
 }
-
