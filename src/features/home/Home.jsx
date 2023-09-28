@@ -6,10 +6,8 @@ import MovieList from "../../components/List/MovieList";
 function Home() {
   return (
     <Layout>
-      <div>
-        <Carousel />
-        <MovieList />
-      </div>
+      <Carousel />
+      <MovieList />
     </Layout>
   );
 }

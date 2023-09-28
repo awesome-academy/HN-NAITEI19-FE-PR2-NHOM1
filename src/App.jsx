@@ -6,15 +6,16 @@ import Auth from './features/auth/Auth';
 import TicketPrice from './features/auth/TicketPrice/TicketPrice';
 import RequireAdmin from './features/admin/components/RequireAdmin';
 import Admin from './features/admin/Admin';
-import Movies from './features/admin/components/movies/Movies';
+// import Movies from './features/admin/components/movies/Movies';
 import EventPage from './features/EventPage';
-
+import DetailMovie from './features/moviedetail/DetailMovie';
 function App() {
   return (
     <Routes path="/" element={<Outlet />}>
       <Route path="/auth" element={<Auth />} />
       <Route path="/ticket_price" element={<TicketPrice />} />
       <Route path='/news' element={<EventPage />} />
+      <Route path="/detail/:id" element={<DetailMovie />} />
 
       <Route element={<RequireAuth />}>
         <Route path='/' element={<Home />}></Route>
@@ -23,7 +24,7 @@ function App() {
       <Route element={<RequireAdmin />}>
         <Route path="admin">
           <Route index element={<Admin />} />
-          <Route path="movies" element={<Movies />}></Route>
+          {/* <Route path="movies" element={<Movies />}></Route> */}
         </Route>
       </Route>
     </Routes>

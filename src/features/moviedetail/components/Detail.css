@@ -1,0 +1,32 @@
+.detail {
+    padding: 40px 200px;
+    background-color: #f8f8f8;
+}
+
+.movie-name {
+    color: #03599d
+}
+
+.poster {
+    position: relative;
+}
+
+.movie__image {
+    border-radius: 20px;
+}
+
+.iconFilm {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.trailer {
+    background-color: #3c3e4d;
+    padding: 40px 200px;
+}
+
+.trailer-title {
+    color: #fff;
+    border-bottom: 4px solid #39adf0
+}
