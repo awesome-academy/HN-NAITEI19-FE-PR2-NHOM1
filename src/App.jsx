@@ -12,6 +12,7 @@ import Detail from './features/admin/components/movies/Detail';
 import Create from './features/admin/components/movies/Create';
 import EventPage from './features/EventPage';
 import DetailMovie from './features/moviedetail/DetailMovie';
+import UserTable from './features/admin/components/userTable/UserTable'
 function App() {
   return (
     <Routes path="/" element={<Outlet />}>
@@ -26,6 +27,7 @@ function App() {
       <Route element={<RequireAdmin />}>
         <Route path="admin">
           <Route index element={<Admin />} />
+          <Route path="users" element={<UserTable />} />
           <Route path="movies">
             <Route index element={<Movies />} />
             <Route path="create" element={<Create />} />
