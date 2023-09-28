@@ -1,4 +1,4 @@
-import { Button, Divider, Input, Layout, Menu } from 'antd';
+import { Button, Divider, Input, Layout, Menu, Space } from 'antd';
 import Sider from 'antd/es/layout/Sider';
 import React, { useState } from 'react';
 import logo from '../../assets/imgs/logo.png';
@@ -8,9 +8,12 @@ import {
   SearchOutlined,
   PlaySquareOutlined,
   PlaySquareFilled,
+  ArrowLeftOutlined,
 } from '@ant-design/icons';
 import { Content, Header } from 'antd/es/layout/layout';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { setSearchString } from '../../features/admin/filterSlice';
 
 const SidebarButton = ({ icon, activedIcon, text, href, collapsed }) => {
   const navigate = useNavigate();
@@ -44,18 +47,16 @@ const SidebarButton = ({ icon, activedIcon, text, href, collapsed }) => {
 };
 
 function AdminLayout({ children }) {
-  const [collapsed, setCollapsed] = useState(false);
+  const { searchString } = useSelector((state) => state.filter);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   return (
     <Layout className="h-screen" hasSider>
       <Sider
         className=" text-white flex flex-col justify-between p-2"
-        collapsed={collapsed}
         breakpoint="lg"
-        collapsedWidth="80"
-        onBreakpoint={(broken) => {
-          setCollapsed(broken);
-        }}
+        collapsedWidth="0"
       >
         <div className="py-2 border-b-2 border-gray-500">
           <Link to={'/admin'}>
@@ -68,19 +69,25 @@ function AdminLayout({ children }) {
             activedIcon={<PlaySquareFilled />}
             text={'Phim'}
             href={'/admin/movies'}
-            collapsed={collapsed}
           />
         </div>
       </Sider>
       <Layout className="bg-gray-200 h-full overflow-y-auto">
         <Header className="bg-white px-2 flex flex-row items-center justify-between h-16">
-          <Button
-            type="text"
-            icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-            onClick={() => setCollapsed(!collapsed)}
-          />
-          <div className="w-[250px]">
-            <Input placeholder="Tìm kiếm ..." prefix={<SearchOutlined />} />
+          <button
+            className="flex items-center justify-center gap-2 transition-colors hover:text-primary"
+            onClick={() => navigate(-1)}
+          >
+            <ArrowLeftOutlined />
+            <p>Trở về</p>
+          </button>
+          <div className="w-[30%] md:w-[250px]">
+            <Input
+              placeholder="Tìm kiếm ..."
+              prefix={<SearchOutlined />}
+              value={searchString}
+              onChange={(e) => dispatch(setSearchString(e.target.value))}
+            />
           </div>
         </Header>
         <Content className="p-3 h-max">

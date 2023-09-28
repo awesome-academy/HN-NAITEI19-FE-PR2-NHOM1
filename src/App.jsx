@@ -6,7 +6,10 @@ import Auth from './features/auth/Auth';
 import TicketPrice from './features/auth/TicketPrice/TicketPrice';
 import RequireAdmin from './features/admin/components/RequireAdmin';
 import Admin from './features/admin/Admin';
-// import Movies from './features/admin/components/movies/Movies';
+import Movies from './features/admin/components/movies/Movies';
+import MovieEdit from './features/admin/components/movies/Edit';
+import Detail from './features/admin/components/movies/Detail';
+import Create from './features/admin/components/movies/Create';
 import EventPage from './features/EventPage';
 import DetailMovie from './features/moviedetail/DetailMovie';
 function App() {
@@ -14,17 +17,21 @@ function App() {
     <Routes path="/" element={<Outlet />}>
       <Route path="/auth" element={<Auth />} />
       <Route path="/ticket_price" element={<TicketPrice />} />
-      <Route path='/news' element={<EventPage />} />
+      <Route path="/news" element={<EventPage />} />
       <Route path="/detail/:id" element={<DetailMovie />} />
+      <Route path="/" element={<Home />} />
 
-      <Route element={<RequireAuth />}>
-        <Route path='/' element={<Home />}></Route>
-      </Route>
+      <Route element={<RequireAuth />}></Route>
 
       <Route element={<RequireAdmin />}>
         <Route path="admin">
           <Route index element={<Admin />} />
-          {/* <Route path="movies" element={<Movies />}></Route> */}
+          <Route path="movies">
+            <Route index element={<Movies />} />
+            <Route path="create" element={<Create />} />
+            <Route path=":id" element={<Detail />} />
+            <Route path="edit/:id" element={<MovieEdit />} />
+          </Route>
         </Route>
       </Route>
     </Routes>

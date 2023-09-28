@@ -4,20 +4,21 @@ import { movieService } from '../features/list/movieService';
 import { showtimeService } from '../features/list/showtimeService';
 import CinemaSlice from '../features/theater/CinemaSlice';
 import { eventService } from '../features/eventService';
+import { apiService } from './apiService';
+import filterReducer from '../features/admin/filterSlice';
 
 export const store = configureStore({
   reducer: {
     [authService.reducerPath]: authService.reducer,
-    [movieService.reducerPath]: movieService.reducer,
-    [showtimeService.reducerPath]: showtimeService.reducer,
+    [apiService.reducerPath]: apiService.reducer,
     CinemaSlice,
     [eventService.reducerPath]: eventService.reducer,
+    filter: filterReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat([
       authService.middleware,
-      movieService.middleware,
-      showtimeService.middleware,
       eventService.middleware,
+      apiService.middleware,
     ]),
 });
