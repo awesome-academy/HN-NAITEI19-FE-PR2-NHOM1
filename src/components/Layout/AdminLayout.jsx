@@ -1,10 +1,8 @@
-import { Button, Divider, Input, Layout, Menu, Space } from 'antd';
+import { Input, Layout } from 'antd';
 import Sider from 'antd/es/layout/Sider';
-import React, { useState } from 'react';
+import React from 'react';
 import logo from '../../assets/imgs/logo.png';
 import {
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
   SearchOutlined,
   PlaySquareOutlined,
   PlaySquareFilled,
@@ -12,6 +10,8 @@ import {
   VideoCameraOutlined,
   VideoCameraFilled,
   LogoutOutlined,
+  MoneyCollectOutlined,
+  MoneyCollectFilled,
 } from '@ant-design/icons';
 import { Content, Header } from 'antd/es/layout/layout';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
@@ -82,6 +82,12 @@ function AdminLayout({ children }) {
               text={'Người dùng'}
               href={'/admin/users'}
             />
+            <SidebarButton
+              icon={<MoneyCollectOutlined />}
+              activedIcon={<MoneyCollectFilled />}
+              text={'Doanh thu'}
+              href={'/admin/income'}
+            />
           </div>
           <button
             className="w-full flex flex-row justify-start items-center gap-4"
@@ -93,14 +99,6 @@ function AdminLayout({ children }) {
             <LogoutOutlined />
             <span>Đăng xuất</span>
           </button>
-        </div>
-        <div className="flex w-full grow flex-col items-center justify-start gap-1 my-3">
-          <SidebarButton
-            icon={<PlaySquareOutlined />}
-            activedIcon={<PlaySquareFilled />}
-            text={'Người dùng'}
-            href={'/admin/users'}
-          />
         </div>
       </Sider>
       <Layout className="bg-gray-200 h-full overflow-y-auto">

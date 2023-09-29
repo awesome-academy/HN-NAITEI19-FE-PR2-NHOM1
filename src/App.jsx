@@ -15,6 +15,7 @@ import DetailMovie from './features/moviedetail/DetailMovie';
 import UserTable from './features/admin/components/userTable/UserTable';
 import CinemaDetail from './features/cinemaDetail/CinemaDetail';
 import Showtimes from './features/admin/components/showtimes/Showtimes';
+import Income from './features/admin/components/income/Income';
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
           </Route>
 
           <Route path="showtimes" element={<Showtimes />} />
+
+          <Route path="income" element={<Income />} />
         </Route>
       </Route>
     </Routes>
