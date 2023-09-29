@@ -7,7 +7,14 @@ export const cinemaService = apiService.injectEndpoints({
         url: `cinemas?name=${data}`,
       }),
     }),
+    getAllCinemas: builder.query({
+      query: () => ({
+        url: 'cinemas?_embed=theaters',
+        method: 'GET',
+      }),
+      providesTags: ['cinema'],
+    }),
   }),
 });
 
-export const { useGetCinemaQuery } = cinemaService;
+export const { useGetCinemaQuery, useGetAllCinemasQuery } = cinemaService;
