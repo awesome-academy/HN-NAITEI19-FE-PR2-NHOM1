@@ -12,13 +12,15 @@ import Detail from './features/admin/components/movies/Detail';
 import Create from './features/admin/components/movies/Create';
 import EventPage from './features/EventPage';
 import DetailMovie from './features/moviedetail/DetailMovie';
-import UserTable from './features/admin/components/userTable/UserTable'
+import UserTable from './features/admin/components/userTable/UserTable';
+import CinemaDetail from './features/cinemaDetail/CinemaDetail';
 function App() {
   return (
     <Routes path="/" element={<Outlet />}>
       <Route path="/auth" element={<Auth />} />
       <Route path="/ticket_price" element={<TicketPrice />} />
       <Route path="/news" element={<EventPage />} />
+      <Route path="/cinema" element={<CinemaDetail />} />
       <Route path="/detail/:id" element={<DetailMovie />} />
       <Route path="/" element={<Home />} />
 
