@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "admin@example.com",
-      "password": "$2a$10$zRXlYRyhbTqeyl5jaNa8vuPFSNDAUBWDf7EzMf09u4PnVaArzwggO",
+      "password": "$2a$10$oNTutBjv36whNKnb7kdbWejNjG3ZoWEsJ35TEdlk8lPWDWhbmQ95C",
       "username": "admin",
       "role": "admin",
       "id": 1
@@ -71,7 +71,7 @@
     },
     {
       "id": 4,
-      "name": "Thanh Gương Trừ Tà",
+      "name": "Thanh Gươm Trừ Tà",
       "categories": ["Hài hước", "Kinh dị"],
       "duration": 98,
       "openDate": "06/10/2023",
@@ -390,7 +390,6 @@
       "name": "special"
     }
   ],
-  "showtimes": [{}],
   "showtimeDetail": [
     {
       "id": 1,
@@ -583,6 +582,276 @@
     {
       "id": 9,
       "name": "Lãng mạn"
+    }
+  ],
+  "theaters": [
+    {
+      "id": 1,
+      "name": "P1",
+      "cinemaId": 7
+    },
+    {
+      "id": 2,
+      "name": "P2",
+      "cinemaId": 12
+    },
+    {
+      "id": 3,
+      "name": "P3",
+      "cinemaId": 4
+    },
+    {
+      "id": 4,
+      "name": "P4",
+      "cinemaId": 9
+    },
+    {
+      "id": 5,
+      "name": "P5",
+      "cinemaId": 14
+    },
+    {
+      "id": 6,
+      "name": "P6",
+      "cinemaId": 6
+    },
+    {
+      "id": 7,
+      "name": "P7",
+      "cinemaId": 3
+    },
+    {
+      "id": 8,
+      "name": "P8",
+      "cinemaId": 15
+    },
+    {
+      "id": 9,
+      "name": "P9",
+      "cinemaId": 11
+    },
+    {
+      "id": 10,
+      "name": "P10",
+      "cinemaId": 2
+    },
+    {
+      "id": 11,
+      "name": "P11",
+      "cinemaId": 8
+    },
+    {
+      "id": 12,
+      "name": "P12",
+      "cinemaId": 10
+    },
+    {
+      "id": 13,
+      "name": "P13",
+      "cinemaId": 5
+    },
+    {
+      "id": 14,
+      "name": "P14",
+      "cinemaId": 1
+    },
+    {
+      "id": 15,
+      "name": "P15",
+      "cinemaId": 16
+    },
+    {
+      "id": 16,
+      "name": "P16",
+      "cinemaId": 13
+    },
+    {
+      "id": 17,
+      "name": "P17",
+      "cinemaId": 7
+    },
+    {
+      "id": 18,
+      "name": "P18",
+      "cinemaId": 12
+    },
+    {
+      "id": 19,
+      "name": "P19",
+      "cinemaId": 4
+    },
+    {
+      "id": 20,
+      "name": "P20",
+      "cinemaId": 9
+    },
+    {
+      "id": 21,
+      "name": "P21",
+      "cinemaId": 14
+    },
+    {
+      "id": 22,
+      "name": "P22",
+      "cinemaId": 6
+    },
+    {
+      "id": 23,
+      "name": "P23",
+      "cinemaId": 3
+    },
+    {
+      "id": 24,
+      "name": "P24",
+      "cinemaId": 15
+    },
+    {
+      "id": 25,
+      "name": "P25",
+      "cinemaId": 11
+    },
+    {
+      "id": 26,
+      "name": "P26",
+      "cinemaId": 2
+    },
+    {
+      "id": 27,
+      "name": "P27",
+      "cinemaId": 8
+    },
+    {
+      "id": 28,
+      "name": "P28",
+      "cinemaId": 10
+    },
+    {
+      "id": 29,
+      "name": "P29",
+      "cinemaId": 5
+    },
+    {
+      "id": 30,
+      "name": "P30",
+      "cinemaId": 1
+    },
+    {
+      "id": 31,
+      "name": "P31",
+      "cinemaId": 16
+    },
+    {
+      "id": 32,
+      "name": "P32",
+      "cinemaId": 13
+    },
+    {
+      "id": 33,
+      "name": "P33",
+      "cinemaId": 7
+    },
+    {
+      "id": 34,
+      "name": "P34",
+      "cinemaId": 12
+    },
+    {
+      "id": 35,
+      "name": "P35",
+      "cinemaId": 4
+    },
+    {
+      "id": 36,
+      "name": "P36",
+      "cinemaId": 9
+    },
+    {
+      "id": 37,
+      "name": "P37",
+      "cinemaId": 14
+    },
+    {
+      "id": 38,
+      "name": "P38",
+      "cinemaId": 6
+    },
+    {
+      "id": 39,
+      "name": "P39",
+      "cinemaId": 3
+    },
+    {
+      "id": 40,
+      "name": "P40",
+      "cinemaId": 15
+    },
+    {
+      "id": 41,
+      "name": "P41",
+      "cinemaId": 11
+    },
+    {
+      "id": 42,
+      "name": "P42",
+      "cinemaId": 2
+    },
+    {
+      "id": 43,
+      "name": "P43",
+      "cinemaId": 8
+    },
+    {
+      "id": 44,
+      "name": "P44",
+      "cinemaId": 10
+    },
+    {
+      "id": 45,
+      "name": "P45",
+      "cinemaId": 5
+    },
+    {
+      "id": 46,
+      "name": "P46",
+      "cinemaId": 1
+    },
+    {
+      "id": 47,
+      "name": "P47",
+      "cinemaId": 16
+    },
+    {
+      "id": 48,
+      "name": "P48",
+      "cinemaId": 13
+    },
+    {
+      "id": 49,
+      "name": "P49",
+      "cinemaId": 7
+    },
+    {
+      "id": 50,
+      "name": "P50",
+      "cinemaId": 12
+    }
+  ],
+  "showtimes": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "theaterId": 1,
+      "startTime": "Thu Sep 28 2023 14:32:25 GMT+0700 (Indochina Time)",
+      "price": 50000,
+      "cinemaId": 1
+    },
+    {
+      "movieId": 4,
+      "cinemaId": 1,
+      "theaterId": 1,
+      "price": 50000,
+      "startTime": "Fri Sep 29 2023 22:43:49 GMT+0700 (Indochina Time)",
+      "id": 3
     }
   ]
 }

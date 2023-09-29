@@ -24,6 +24,12 @@ function Login() {
       })
       .catch((error) => {
         console.log('Call api login error >_<', error);
+        form.setFields([
+          {
+            name: 'email',
+            errors: ['Email hoặc mật khẩu không đúng'],
+          },
+        ]);
       });
   };
 

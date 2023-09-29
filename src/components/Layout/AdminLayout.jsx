@@ -9,6 +9,9 @@ import {
   PlaySquareOutlined,
   PlaySquareFilled,
   ArrowLeftOutlined,
+  VideoCameraOutlined,
+  VideoCameraFilled,
+  LogoutOutlined,
 } from '@ant-design/icons';
 import { Content, Header } from 'antd/es/layout/layout';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
@@ -53,23 +56,43 @@ function AdminLayout({ children }) {
 
   return (
     <Layout className="h-screen" hasSider>
-      <Sider
-        className=" text-white flex flex-col justify-between p-2"
-        breakpoint="lg"
-        collapsedWidth="0"
-      >
-        <div className="py-2 border-b-2 border-gray-500">
-          <Link to={'/admin'}>
-            <img src={logo} alt="logo" className="object-scale-down" />
-          </Link>
-        </div>
-        <div className="flex w-full grow flex-col items-center justify-start gap-1 my-3">
-          <SidebarButton
-            icon={<PlaySquareOutlined />}
-            activedIcon={<PlaySquareFilled />}
-            text={'Phim'}
-            href={'/admin/movies'}
-          />
+      <Sider className=" text-white" breakpoint="lg" collapsedWidth="0">
+        <div className="h-full flex flex-col justify-between p-2">
+          <div className="py-2 border-b-2 border-gray-500">
+            <Link to={'/admin'}>
+              <img src={logo} alt="logo" className="object-scale-down" />
+            </Link>
+          </div>
+          <div className="flex w-full grow flex-col items-center justify-start gap-1 my-3">
+            <SidebarButton
+              icon={<PlaySquareOutlined />}
+              activedIcon={<PlaySquareFilled />}
+              text={'Phim'}
+              href={'/admin/movies'}
+            />
+            <SidebarButton
+              icon={<VideoCameraOutlined />}
+              text={'Suất chiếu'}
+              activedIcon={<VideoCameraFilled />}
+              href={'/admin/showtimes'}
+            />
+            <SidebarButton
+              icon={<PlaySquareOutlined />}
+              activedIcon={<PlaySquareFilled />}
+              text={'Người dùng'}
+              href={'/admin/users'}
+            />
+          </div>
+          <button
+            className="w-full flex flex-row justify-start items-center gap-4"
+            onClick={() => {
+              localStorage.removeItem('user');
+              navigate('/auth');
+            }}
+          >
+            <LogoutOutlined />
+            <span>Đăng xuất</span>
+          </button>
         </div>
         <div className="flex w-full grow flex-col items-center justify-start gap-1 my-3">
           <SidebarButton

@@ -5,6 +5,10 @@ function RequireAdmin() {
   const user = JSON.parse(localStorage.getItem('user'));
   const location = useLocation();
 
+  if (!user) {
+    return <Navigate to="/auth" state={{ from: location }} replace />;
+  }
+
   return (
     <>
       {user?.role === 'admin' ? (
