@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import AdminLayout from '../../../../components/Layout/AdminLayout';
-import { useCreateMovieMutation } from '../../../list/movieService';
+import { useCreateMovieMutation } from '../../../../app/api/movieService';
 import { useForm } from 'antd/es/form/Form';
 import { Button, DatePicker, Form, Input, Select } from 'antd';
-import { useGetCategoryListQuery } from './categoryService';
+import { useGetCategoryListQuery } from '../../../../app/api/categoryService';
 import defaultImage from '../../../../assets/images/default-movie-img.jpg';
 
 function Create() {

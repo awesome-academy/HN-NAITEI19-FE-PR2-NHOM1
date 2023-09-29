@@ -3,7 +3,7 @@ import { useForm } from 'antd/es/form/Form';
 import { LockFilled, UserOutlined } from '@ant-design/icons';
 import Input from 'antd/es/input/Input';
 import React, { useEffect } from 'react';
-import { useLoginMutation } from '../authService';
+import { useLoginMutation } from '../../../app/api/authService';
 import { useNavigate } from 'react-router-dom';
 
 function Login() {

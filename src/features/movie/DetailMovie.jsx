@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import { useParams } from 'react-router-dom';
-import Detail from './components/Detail';
+import Detail from './components/detail/Detail';
 const DetailMovie = ({ movieId }) => {
   const { id } = useParams();
 

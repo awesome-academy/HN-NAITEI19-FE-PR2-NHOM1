@@ -3,7 +3,7 @@ import { UserOutlined } from '@ant-design/icons';
 import { useState } from 'react';
 
 import MenuC from './Menu';
-import { useGetUSerQuery } from '../../../features/admin/components/userTable/userService';
+import { useGetUSerQuery } from '../../../app/api/userService';
 function UserMenu() {
   const userId = JSON.parse(localStorage.getItem('user')).id;
   const { data: user, isLoading } = useGetUSerQuery(userId);

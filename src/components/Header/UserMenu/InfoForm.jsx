@@ -4,7 +4,7 @@ import { UserOutlined, PhoneFilled } from '@ant-design/icons';
 import dayjs from 'dayjs';
 import { useState } from 'react';
 
-import { useUpdateUserMutation } from '../../../features/admin/components/userTable/userService';
+import { useUpdateUserMutation } from '../../../app/api/userService';
 
 function InfoForm({ isModalOpen, setModalContent, user }) {
   const [form] = useForm();

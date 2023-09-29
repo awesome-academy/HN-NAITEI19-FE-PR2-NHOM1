@@ -1,5 +1,5 @@
 import React from 'react';
-import { useGetTicketsQuery } from './ticketService';
+import { useGetTicketsQuery } from '../../../../app/api/ticketService';
 
 import { LoadingOutlined } from '@ant-design/icons';
 import { Table, Tag } from 'antd';

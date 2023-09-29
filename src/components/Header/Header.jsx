@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/imgs/logo.png';
 import unitedFlag from '../../assets/imgs/united-kingdom.png';
-import { selectCinema } from '../../features/theater/CinemaSlice';
+import { selectCinema } from '../../app/store/cinemaSlice';
 import UserMenu from './UserMenu/UserMenu';
 
 const items = [
@@ -133,6 +133,7 @@ const items = [
     ],
   },
 ];
+
 function Header() {
   const { cinema } = useSelector((state) => state.CinemaSlice);
   const [fixedHeader, setFixedHeader] = useState(false);
@@ -159,21 +160,21 @@ function Header() {
           Phim
         </a>
       </li>
-      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
-        <a className="uppercase hover:text-white" href="#">
+      <Link to={'/cinema'} className="uppercase hover:text-white">
+        <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
           Rạp
-        </a>
-      </li>
-      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
-        <a className="uppercase hover:text-white" href="#">
+        </li>
+      </Link>
+      <Link to={'/ticket_price'} className="uppercase hover:text-white">
+        <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
           Giá Vé
-        </a>
-      </li>
-      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
-        <a className="uppercase hover:text-white" href="#">
+        </li>
+      </Link>
+      <Link to={'/news'} className="uppercase hover:text-white">
+        <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
           Tin mới và ưu đãi
-        </a>
-      </li>
+        </li>
+      </Link>
       <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
         <a className="uppercase hover:text-white" href="#">
           Nhượng quyền
@@ -203,9 +204,9 @@ function Header() {
   }, []);
 
   useEffect(() => {
-    if (!user || user.role) {
-      setIsLogined(false);
-    } else setIsLogined(true);
+    if (user) {
+      setIsLogined(true);
+    } else setIsLogined(false);
   }, []);
 
   return (
@@ -295,7 +296,7 @@ function Header() {
                 </Link>
               </li>
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <Link className="uppercase" to="/EventPage">
+                <Link className="uppercase" to="/news">
                   Tin mới và ưu đãi
                 </Link>
               </li>

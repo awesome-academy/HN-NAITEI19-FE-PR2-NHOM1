@@ -2,7 +2,7 @@ import { DatePicker, Form, Input, Select, message } from 'antd';
 import { useForm } from 'antd/es/form/Form';
 import { LockFilled, UserOutlined, PhoneFilled } from '@ant-design/icons';
 import React, { useEffect } from 'react';
-import { useSignUpMutation } from '../authService';
+import { useSignUpMutation } from '../../../app/api/authService';
 import { useNavigate } from 'react-router-dom';
 
 function Signup() {

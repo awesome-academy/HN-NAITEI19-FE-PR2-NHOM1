@@ -16,7 +16,7 @@ import {
   useGetUSersQuery,
   useUpdateUserMutation,
   useDeleteUserMutation,
-} from './userService';
+} from '../../../../app/api/userService';
 
 import AdminLayout from '../../../../components/Layout/AdminLayout';
 

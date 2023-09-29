@@ -1,8 +1,8 @@
 import { Col, Row, Skeleton } from 'antd';
 
-import Layout from '../components/Layout/Layout';
-import Event from '../components/Event/Event';
-import { useGetSalesQuery, useGetNewsQuery } from './eventService';
+import Layout from '../../components/Layout/Layout';
+import Event from '../../components/Event/Event';
+import { useGetSalesQuery, useGetNewsQuery } from '../../app/api/eventService';
 
 function EventPage() {
   const { data: saleList, isLoading: saleLoading } = useGetSalesQuery();
@@ -10,8 +10,8 @@ function EventPage() {
 
   return (
     <Layout>
-      <section className='max-w-screen-xl mx-auto'>
-        <h2 className='uppercase my-5 text-3xl font-bold hover:cursor-pointer hover:text-blue-500 hover:underline'>
+      <section className="max-w-screen-xl mx-auto">
+        <h2 className="uppercase my-5 text-3xl font-bold hover:cursor-pointer hover:text-blue-500 hover:underline">
           KHUYẾN MÃI MỚI
         </h2>
         <Row>
@@ -32,7 +32,7 @@ function EventPage() {
           )}
         </Row>
 
-        <h2 className='uppercase my-5 text-3xl font-bold hover:cursor-pointer hover:text-blue-500 hover:underline'>
+        <h2 className="uppercase my-5 text-3xl font-bold hover:cursor-pointer hover:text-blue-500 hover:underline">
           TIN BÊN LỀ
         </h2>
         <Row>

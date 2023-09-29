@@ -1,4 +1,4 @@
-import { apiService } from '../../app/apiService';
+import { apiService } from '../apiService';
 
 export const movieService = apiService.injectEndpoints({
   endpoints: (builder) => ({

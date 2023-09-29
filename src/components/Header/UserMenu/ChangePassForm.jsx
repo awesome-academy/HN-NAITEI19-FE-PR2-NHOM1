@@ -3,7 +3,7 @@ import { useForm } from 'antd/es/form/Form';
 import { LockFilled } from '@ant-design/icons';
 import { useState } from 'react';
 
-import { useUpdateUserMutation } from '../../../features/admin/components/userTable/userService';
+import { useUpdateUserMutation } from '../../../app/api/userService';
 
 function ChangePassForm({ isModalOpen, setModalContent, user }) {
   const [form] = useForm();

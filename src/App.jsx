@@ -3,20 +3,20 @@ import './App.css';
 import RequireAuth from './features/auth/components/RequireAuth';
 import Home from './features/home/Home';
 import Auth from './features/auth/Auth';
-import TicketPrice from './features/auth/TicketPrice/TicketPrice';
+import TicketPrice from './features/ticket/TicketPrice';
 import RequireAdmin from './features/admin/components/RequireAdmin';
 import Admin from './features/admin/Admin';
 import Movies from './features/admin/components/movies/Movies';
 import MovieEdit from './features/admin/components/movies/Edit';
 import Detail from './features/admin/components/movies/Detail';
 import Create from './features/admin/components/movies/Create';
-import EventPage from './features/EventPage';
-import DetailMovie from './features/moviedetail/DetailMovie';
+import EventPage from './features/event/EventPage';
+import DetailMovie from './features/movie/DetailMovie';
 import UserTable from './features/admin/components/userTable/UserTable';
-import CinemaDetail from './features/cinemaDetail/CinemaDetail';
+import CinemaDetail from './features/cinema/CinemaDetail';
 import Showtimes from './features/admin/components/showtimes/Showtimes';
 import Income from './features/admin/components/income/Income';
-import MoviesPage from './features/Movies/Movies';
+import MoviesPage from './features/movie/Movies';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <Route path="/cinema" element={<CinemaDetail />} />
       <Route path="/movies" element={<MoviesPage />} />
       <Route path="/detail/:id" element={<DetailMovie />} />
-      <Route path="/" element={<Home />} />
+      <Route index element={<Home />} />
 
       <Route element={<RequireAuth />}></Route>
 

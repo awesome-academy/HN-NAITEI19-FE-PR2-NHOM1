@@ -4,7 +4,7 @@ import AdminLayout from '../../../../components/Layout/AdminLayout';
 import {
   useFetchMovieQuery,
   useUpdateMovieMutation,
-} from '../../../list/movieService';
+} from '../../../../app/api/movieService';
 import { useForm } from 'antd/es/form/Form';
 import { Button, DatePicker, Form, Input, Select } from 'antd';
 import {
@@ -13,7 +13,7 @@ import {
   PlusOutlined,
 } from '@ant-design/icons';
 import dayjs from 'dayjs';
-import { useGetCategoryListQuery } from './categoryService';
+import { useGetCategoryListQuery } from '../../../../app/api/categoryService';
 import defaultImage from '../../../../assets/images/default-movie-img.jpg';
 
 function Edit() {

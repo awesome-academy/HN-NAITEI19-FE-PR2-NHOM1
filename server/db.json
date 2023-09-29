@@ -17,14 +17,13 @@
       "dob": "13/09/2023"
     },
     {
-      "email": "huy@example.com",
-      "password": "$2a$10$3kJIU4QdyGu5jRq3LC0Vo.4ovmiZ7yToNGtrvgWq0dyC05/SktQ86",
+      "id": 3,
       "username": "Huy Trần",
-      "dob": "05/08/2002",
-      "gender": 1,
+      "email": "huy@example.com",
+      "password": "$2a$10$hlm8T0ZHch9JFrn2T0.U1.3LwWY5UB6shZxLpdc4pcuI0aV.LIqwe",
       "phoneNumber": "0981656202",
-      "createdAt": 1696270124888,
-      "id": 2
+      "gender": 1,
+      "dob": "05/08/2002"
     }
   ],
   "movies": [

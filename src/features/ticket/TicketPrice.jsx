@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import Layout from '../../../components/Layout/Layout.jsx';
+import Layout from '../../components/Layout/Layout.jsx';
 function TicketPrice() {
   const ticketList = [
     {
@@ -93,12 +93,12 @@ function TicketPrice() {
   const ticket = ticketList.filter((item) => item.label === cinema)[0]?.img;
   return (
     <Layout>
-      <section className='max-w-screen-xl mx-auto my-10 text-2xl font-semibold '>
-        <h2 className='uppercase'>{'GIÁ VÉ RẠP ' + cinema}</h2>
+      <section className="max-w-screen-xl mx-auto my-10 text-2xl font-semibold ">
+        <h2 className="uppercase">{'GIÁ VÉ RẠP ' + cinema}</h2>
         <img
           src={ticket}
-          alt='ticket price'
-          className='mx-auto my-8 border-blue-200 border-2'
+          alt="ticket price"
+          className="mx-auto my-8 border-blue-200 border-2"
         />
       </section>
     </Layout>
