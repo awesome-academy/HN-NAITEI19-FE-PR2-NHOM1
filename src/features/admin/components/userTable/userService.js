@@ -25,11 +25,19 @@ export const userService = apiService.injectEndpoints({
       }),
       invalidatesTags: ['user'],
     }),
+
+    getUSer: builder.query({
+      query: (id) => ({
+        url: `users/${id}`,
+      }),
+      providesTags: ['user'],
+    }),
   }),
 });
 
 export const {
   useGetUSersQuery,
+  useGetUSerQuery,
   useUpdateUserMutation,
   useDeleteUserMutation,
 } = userService;
