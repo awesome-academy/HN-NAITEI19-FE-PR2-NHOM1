@@ -4,12 +4,23 @@ import { PlayCircleOutlined } from '@ant-design/icons';
 import { useFetchMovieQuery } from '../../features/list/movieService';
 import './List.css';
 import { Link } from 'react-router-dom';
+import BuyTicketModal from '../Ticket/BuyTicketModal';
+import { useFetchShowTimeQuery } from '../../features/list/showtimeService';
 
 const MovieDetail = ({ movieId }) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [showPlayButton, setShowPlayButton] = useState(false);
+  const [showBuyTicketModal, setShowBuyTicketModal] = useState(false);
 
   const { data: movie, isLoading } = useFetchMovieQuery(movieId);
+  const { data: showtimes, Loading} = useFetchShowTimeQuery();
+  console.log(movie);
+  console.log(showtimes);
+
+
+  if(Loading) {
+    return <p>Loading...</p>
+  }
 
   const handlePlayClick = () => {
     setModalVisible(true);
@@ -17,6 +28,14 @@ const MovieDetail = ({ movieId }) => {
 
   const handleCloseModal = () => {
     setModalVisible(false);
+  };
+
+  const handleBuyTicketClick = () => {
+    setShowBuyTicketModal(true);
+  };
+
+  const handleCloseBuyTicketClick = () => {
+    setShowBuyTicketModal(false);
   };
 
   const categoriesString = movie && movie.categories.join(', ');
@@ -66,6 +85,18 @@ const MovieDetail = ({ movieId }) => {
               {movie.openDate}
             </div>
           </div>
+
+          <Button
+            className="text-white font-bold text-base w-full flex justify-center items-center bg-blue-500 mt-4 pt-5 pb-5 hover:bg-opacity-70"
+            onClick={handleBuyTicketClick}
+          >
+            MUA VÉ
+          </Button>
+          <BuyTicketModal
+            movie={movie}
+            visible={showBuyTicketModal}
+            onClose={handleCloseBuyTicketClick}
+            showtimes={showtimes}/>
         </div>
       )}
 

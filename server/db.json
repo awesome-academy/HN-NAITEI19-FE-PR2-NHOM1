@@ -390,6 +390,44 @@
       "name": "special"
     }
   ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hành động"
+    },
+    {
+      "id": 2,
+      "name": "Phiêu lưu"
+    },
+    {
+      "id": 3,
+      "name": "Tâm lý"
+    },
+    {
+      "id": 4,
+      "name": "Kinh dị"
+    },
+    {
+      "id": 5,
+      "name": "Hồi hộp"
+    },
+    {
+      "id": 6,
+      "name": "Hài hước"
+    },
+    {
+      "id": 7,
+      "name": "Tội phạm"
+    },
+    {
+      "id": 8,
+      "name": "Tình cảm"
+    },
+    {
+      "id": 9,
+      "name": "Lãng mạn"
+    }
+  ],
   "showtimeDetail": [
     {
       "id": 1,
@@ -471,6 +509,968 @@
       "movieId": 13,
       "movieStatus": 3
     }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "theaterId": 1,
+      "seat_number": "A1",
+      "status": "empty"
+    },
+    {
+      "id": 2,
+      "theaterId": 1,
+      "seat_number": "A2",
+      "status": "empty"
+    },
+    {
+      "id": 3,
+      "theaterId": 1,
+      "seat_number": "A3",
+      "status": "empty"
+    },
+    {
+      "id": 4,
+      "theaterId": 1,
+      "seat_number": "A4",
+      "status": "empty"
+    },
+    {
+      "id": 5,
+      "theaterId": 1,
+      "seat_number": "A5",
+      "status": "empty"
+    },
+    {
+      "id": 6,
+      "theaterId": 1,
+      "seat_number": "A6",
+      "status": "empty"
+    },
+    {
+      "id": 7,
+      "theaterId": 1,
+      "seat_number": "A7",
+      "status": "empty"
+    },
+    {
+      "id": 8,
+      "theaterId": 1,
+      "seat_number": "A8",
+      "status": "empty"
+    },
+    {
+      "id": 9,
+      "theaterId": 1,
+      "seat_number": "A9",
+      "status": "empty"
+    },
+    {
+      "id": 10,
+      "theaterId": 1,
+      "seat_number": "A10",
+      "status": "empty"
+    },
+    {
+      "id": 11,
+      "theaterId": 1,
+      "seat_number": "B1",
+      "status": "empty"
+    },
+    {
+      "id": 12,
+      "theaterId": 1,
+      "seat_number": "B2",
+      "status": "empty"
+    },
+    {
+      "id": 13,
+      "theaterId": 1,
+      "seat_number": "B3",
+      "status": "empty"
+    },
+    {
+      "id": 14,
+      "theaterId": 1,
+      "seat_number": "B4",
+      "status": "empty"
+    },
+    {
+      "id": 15,
+      "theaterId": 1,
+      "seat_number": "B5",
+      "status": "empty"
+    },
+    {
+      "id": 16,
+      "theaterId": 1,
+      "seat_number": "B6",
+      "status": "empty"
+    },
+    {
+      "id": 17,
+      "theaterId": 1,
+      "seat_number": "B7",
+      "status": "empty"
+    },
+    {
+      "id": 18,
+      "theaterId": 1,
+      "seat_number": "B8",
+      "status": "empty"
+    },
+    {
+      "id": 19,
+      "theaterId": 1,
+      "seat_number": "B9",
+      "status": "empty"
+    },
+    {
+      "id": 20,
+      "theaterId": 1,
+      "seat_number": "B10",
+      "status": "empty"
+    },
+    {
+      "id": 21,
+      "theaterId": 1,
+      "seat_number": "C1",
+      "status": "empty"
+    },
+    {
+      "id": 22,
+      "theaterId": 1,
+      "seat_number": "C2",
+      "status": "empty"
+    },
+    {
+      "id": 23,
+      "theaterId": 1,
+      "seat_number": "C3",
+      "status": "empty"
+    },
+    {
+      "id": 24,
+      "theaterId": 1,
+      "seat_number": "C4",
+      "status": "empty"
+    },
+    {
+      "id": 25,
+      "theaterId": 1,
+      "seat_number": "C5",
+      "status": "empty"
+    },
+    {
+      "id": 26,
+      "theaterId": 1,
+      "seat_number": "C6",
+      "status": "empty"
+    },
+    {
+      "id": 27,
+      "theaterId": 1,
+      "seat_number": "C7",
+      "status": "empty"
+    },
+    {
+      "id": 28,
+      "theaterId": 1,
+      "seat_number": "C8",
+      "status": "empty"
+    },
+    {
+      "id": 29,
+      "theaterId": 1,
+      "seat_number": "C9",
+      "status": "empty"
+    },
+    {
+      "id": 30,
+      "theaterId": 1,
+      "seat_number": "C10",
+      "status": "empty"
+    },
+    {
+      "id": 31,
+      "theaterId": 1,
+      "seat_number": "D1",
+      "status": "empty"
+    },
+    {
+      "id": 32,
+      "theaterId": 1,
+      "seat_number": "D2",
+      "status": "empty"
+    },
+    {
+      "id": 33,
+      "theaterId": 1,
+      "seat_number": "D3",
+      "status": "empty"
+    },
+    {
+      "id": 34,
+      "theaterId": 1,
+      "seat_number": "D4",
+      "status": "empty"
+    },
+    {
+      "id": 35,
+      "theaterId": 1,
+      "seat_number": "D5",
+      "status": "empty"
+    },
+    {
+      "id": 36,
+      "theaterId": 1,
+      "seat_number": "D6",
+      "status": "empty"
+    },
+    {
+      "id": 37,
+      "theaterId": 1,
+      "seat_number": "D7",
+      "status": "empty"
+    },
+    {
+      "id": 38,
+      "theaterId": 1,
+      "seat_number": "D8",
+      "status": "empty"
+    },
+    {
+      "id": 39,
+      "theaterId": 1,
+      "seat_number": "D9",
+      "status": "empty"
+    },
+    {
+      "id": 40,
+      "theaterId": 1,
+      "seat_number": "D10",
+      "status": "empty"
+    },
+    {
+      "id": 41,
+      "theaterId": 1,
+      "seat_number": "E1",
+      "status": "empty"
+    },
+    {
+      "id": 42,
+      "theaterId": 1,
+      "seat_number": "E2",
+      "status": "empty"
+    },
+    {
+      "id": 43,
+      "theaterId": 1,
+      "seat_number": "E3",
+      "status": "empty"
+    },
+    {
+      "id": 44,
+      "theaterId": 1,
+      "seat_number": "E4",
+      "status": "empty"
+    },
+    {
+      "id": 45,
+      "theaterId": 1,
+      "seat_number": "E5",
+      "status": "empty"
+    },
+    {
+      "id": 46,
+      "theaterId": 1,
+      "seat_number": "E6",
+      "status": "empty"
+    },
+    {
+      "id": 47,
+      "theaterId": 1,
+      "seat_number": "E7",
+      "status": "empty"
+    },
+    {
+      "id": 48,
+      "theaterId": 1,
+      "seat_number": "E8",
+      "status": "empty"
+    },
+    {
+      "id": 49,
+      "theaterId": 1,
+      "seat_number": "E9",
+      "status": "empty"
+    },
+    {
+      "id": 50,
+      "theaterId": 1,
+      "seat_number": "E10",
+      "status": "empty"
+    },
+    {
+      "id": 51,
+      "theaterId": 1,
+      "seat_number": "F1",
+      "status": "empty"
+    },
+    {
+      "id": 52,
+      "theaterId": 1,
+      "seat_number": "F2",
+      "status": "empty"
+    },
+    {
+      "id": 53,
+      "theaterId": 1,
+      "seat_number": "F3",
+      "status": "empty"
+    },
+    {
+      "id": 54,
+      "theaterId": 1,
+      "seat_number": "F4",
+      "status": "empty"
+    },
+    {
+      "id": 55,
+      "theaterId": 1,
+      "seat_number": "F5",
+      "status": "empty"
+    },
+    {
+      "id": 56,
+      "theaterId": 1,
+      "seat_number": "F6",
+      "status": "empty"
+    },
+    {
+      "id": 57,
+      "theaterId": 1,
+      "seat_number": "F7",
+      "status": "empty"
+    },
+    {
+      "id": 58,
+      "theaterId": 1,
+      "seat_number": "F8",
+      "status": "empty"
+    },
+    {
+      "id": 59,
+      "theaterId": 1,
+      "seat_number": "F9",
+      "status": "empty"
+    },
+    {
+      "id": 60,
+      "theaterId": 1,
+      "seat_number": "F10",
+      "status": "empty"
+    },
+    {
+      "id": 61,
+      "theaterId": 1,
+      "seat_number": "G1",
+      "status": "empty"
+    },
+    {
+      "id": 62,
+      "theaterId": 1,
+      "seat_number": "G2",
+      "status": "empty"
+    },
+    {
+      "id": 63,
+      "theaterId": 1,
+      "seat_number": "G3",
+      "status": "empty"
+    },
+    {
+      "id": 64,
+      "theaterId": 1,
+      "seat_number": "G4",
+      "status": "empty"
+    },
+    {
+      "id": 65,
+      "theaterId": 1,
+      "seat_number": "G5",
+      "status": "empty"
+    },
+    {
+      "id": 66,
+      "theaterId": 1,
+      "seat_number": "G6",
+      "status": "empty"
+    },
+    {
+      "id": 67,
+      "theaterId": 1,
+      "seat_number": "G7",
+      "status": "empty"
+    },
+    {
+      "id": 68,
+      "theaterId": 1,
+      "seat_number": "G8",
+      "status": "empty"
+    },
+    {
+      "id": 69,
+      "theaterId": 1,
+      "seat_number": "G9",
+      "status": "empty"
+    },
+    {
+      "id": 70,
+      "theaterId": 1,
+      "seat_number": "G10",
+      "status": "empty"
+    },
+    {
+      "id": 71,
+      "theaterId": 1,
+      "seat_number": "H1",
+      "status": "empty"
+    },
+    {
+      "id": 72,
+      "theaterId": 1,
+      "seat_number": "H2",
+      "status": "empty"
+    },
+    {
+      "id": 73,
+      "theaterId": 1,
+      "seat_number": "H3",
+      "status": "empty"
+    },
+    {
+      "id": 74,
+      "theaterId": 1,
+      "seat_number": "H4",
+      "status": "empty"
+    },
+    {
+      "id": 75,
+      "theaterId": 1,
+      "seat_number": "H5",
+      "status": "empty"
+    },
+    {
+      "id": 76,
+      "theaterId": 1,
+      "seat_number": "H6",
+      "status": "empty"
+    },
+    {
+      "id": 77,
+      "theaterId": 1,
+      "seat_number": "H7",
+      "status": "empty"
+    },
+    {
+      "id": 78,
+      "theaterId": 1,
+      "seat_number": "H8",
+      "status": "empty"
+    },
+    {
+      "id": 79,
+      "theaterId": 1,
+      "seat_number": "H9",
+      "status": "empty"
+    },
+    {
+      "id": 80,
+      "theaterId": 1,
+      "seat_number": "H10",
+      "status": "empty"
+    },
+    {
+      "id": 81,
+      "theaterId": 2,
+      "seat_number": "A1",
+      "status": "empty"
+  },
+  {
+      "id": 82,
+      "theaterId": 2,
+      "seat_number": "A2",
+      "status": "empty"
+  },
+  {
+      "id": 83,
+      "theaterId": 2,
+      "seat_number": "A3",
+      "status": "empty"
+  },
+  {
+      "id": 84,
+      "theaterId": 2,
+      "seat_number": "A4",
+      "status": "empty"
+  },
+  {
+      "id": 85,
+      "theaterId": 2,
+      "seat_number": "A5",
+      "status": "empty"
+  },
+  {
+      "id": 86,
+      "theaterId": 2,
+      "seat_number": "A6",
+      "status": "empty"
+  },
+  {
+      "id": 87,
+      "theaterId": 2,
+      "seat_number": "A7",
+      "status": "empty"
+  },
+  {
+      "id": 88,
+      "theaterId": 2,
+      "seat_number": "A8",
+      "status": "empty"
+  },
+  {
+      "id": 89,
+      "theaterId": 2,
+      "seat_number": "A9",
+      "status": "empty"
+  },
+  {
+      "id": 90,
+      "theaterId": 2,
+      "seat_number": "A10",
+      "status": "empty"
+  },
+  {
+      "id": 91,
+      "theaterId": 2,
+      "seat_number": "B1",
+      "status": "empty"
+  },
+  {
+      "id": 92,
+      "theaterId": 2,
+      "seat_number": "B2",
+      "status": "empty"
+  },
+  {
+      "id": 93,
+      "theaterId": 2,
+      "seat_number": "B3",
+      "status": "empty"
+  },
+  {
+      "id": 94,
+      "theaterId": 2,
+      "seat_number": "B4",
+      "status": "empty"
+  },
+  {
+      "id": 95,
+      "theaterId": 2,
+      "seat_number": "B5",
+      "status": "empty"
+  },
+  {
+      "id": 96,
+      "theaterId": 2,
+      "seat_number": "B6",
+      "status": "empty"
+  },
+  {
+      "id": 97,
+      "theaterId": 2,
+      "seat_number": "B7",
+      "status": "empty"
+  },
+  {
+      "id": 98,
+      "theaterId": 2,
+      "seat_number": "B8",
+      "status": "empty"
+  },
+  {
+      "id": 99,
+      "theaterId": 2,
+      "seat_number": "B9",
+      "status": "empty"
+  },
+  {
+      "id": 100,
+      "theaterId": 2,
+      "seat_number": "B10",
+      "status": "empty"
+  },
+  {
+      "id": 101,
+      "theaterId": 2,
+      "seat_number": "C1",
+      "status": "empty"
+  },
+  {
+      "id": 102,
+      "theaterId": 2,
+      "seat_number": "C2",
+      "status": "empty"
+  },
+  {
+      "id": 103,
+      "theaterId": 2,
+      "seat_number": "C3",
+      "status": "empty"
+  },
+  {
+      "id": 104,
+      "theaterId": 2,
+      "seat_number": "C4",
+      "status": "empty"
+  },
+  {
+      "id": 105,
+      "theaterId": 2,
+      "seat_number": "C5",
+      "status": "empty"
+  },
+  {
+      "id": 106,
+      "theaterId": 2,
+      "seat_number": "C6",
+      "status": "empty"
+  },
+  {
+      "id": 107,
+      "theaterId": 2,
+      "seat_number": "C7",
+      "status": "empty"
+  },
+  {
+      "id": 108,
+      "theaterId": 2,
+      "seat_number": "C8",
+      "status": "empty"
+  },
+  {
+      "id": 109,
+      "theaterId": 2,
+      "seat_number": "C9",
+      "status": "empty"
+  },
+  {
+      "id": 110,
+      "theaterId": 2,
+      "seat_number": "C10",
+      "status": "empty"
+  },
+  {
+      "id": 111,
+      "theaterId": 2,
+      "seat_number": "D1",
+      "status": "empty"
+  },
+  {
+      "id": 112,
+      "theaterId": 2,
+      "seat_number": "D2",
+      "status": "empty"
+  },
+  {
+      "id": 113,
+      "theaterId": 2,
+      "seat_number": "D3",
+      "status": "empty"
+  },
+  {
+      "id": 114,
+      "theaterId": 2,
+      "seat_number": "D4",
+      "status": "empty"
+  },
+  {
+      "id": 115,
+      "theaterId": 2,
+      "seat_number": "D5",
+      "status": "empty"
+  },
+  {
+      "id": 116,
+      "theaterId": 2,
+      "seat_number": "D6",
+      "status": "empty"
+  },
+  {
+      "id": 117,
+      "theaterId": 2,
+      "seat_number": "D7",
+      "status": "empty"
+  },
+  {
+      "id": 118,
+      "theaterId": 2,
+      "seat_number": "D8",
+      "status": "empty"
+  },
+  {
+      "id": 119,
+      "theaterId": 2,
+      "seat_number": "D9",
+      "status": "empty"
+  },
+  {
+      "id": 120,
+      "theaterId": 2,
+      "seat_number": "D10",
+      "status": "empty"
+  },
+  {
+      "id": 121,
+      "theaterId": 2,
+      "seat_number": "E1",
+      "status": "empty"
+  },
+  {
+      "id": 122,
+      "theaterId": 2,
+      "seat_number": "E2",
+      "status": "empty"
+  },
+  {
+      "id": 123,
+      "theaterId": 2,
+      "seat_number": "E3",
+      "status": "empty"
+  },
+  {
+      "id": 124,
+      "theaterId": 2,
+      "seat_number": "E4",
+      "status": "empty"
+  },
+  {
+      "id": 125,
+      "theaterId": 2,
+      "seat_number": "E5",
+      "status": "empty"
+  },
+  {
+      "id": 126,
+      "theaterId": 2,
+      "seat_number": "E6",
+      "status": "empty"
+  },
+  {
+      "id": 127,
+      "theaterId": 2,
+      "seat_number": "E7",
+      "status": "empty"
+  },
+  {
+      "id": 128,
+      "theaterId": 2,
+      "seat_number": "E8",
+      "status": "empty"
+  },
+  {
+      "id": 129,
+      "theaterId": 2,
+      "seat_number": "E9",
+      "status": "empty"
+  },
+  {
+      "id": 130,
+      "theaterId": 2,
+      "seat_number": "E10",
+      "status": "empty"
+  },
+  {
+      "id": 131,
+      "theaterId": 2,
+      "seat_number": "F1",
+      "status": "empty"
+  },
+  {
+      "id": 132,
+      "theaterId": 2,
+      "seat_number": "F2",
+      "status": "empty"
+  },
+  {
+      "id": 133,
+      "theaterId": 2,
+      "seat_number": "F3",
+      "status": "empty"
+  },
+  {
+      "id": 134,
+      "theaterId": 2,
+      "seat_number": "F4",
+      "status": "empty"
+  },
+  {
+      "id": 135,
+      "theaterId": 2,
+      "seat_number": "F5",
+      "status": "empty"
+  },
+  {
+      "id": 136,
+      "theaterId": 2,
+      "seat_number": "F6",
+      "status": "empty"
+  },
+  {
+      "id": 137,
+      "theaterId": 2,
+      "seat_number": "F7",
+      "status": "empty"
+  },
+  {
+      "id": 138,
+      "theaterId": 2,
+      "seat_number": "F8",
+      "status": "empty"
+  },
+  {
+      "id": 139,
+      "theaterId": 2,
+      "seat_number": "F9",
+      "status": "empty"
+  },
+  {
+      "id": 140,
+      "theaterId": 2,
+      "seat_number": "F10",
+      "status": "empty"
+  },
+  {
+      "id": 141,
+      "theaterId": 2,
+      "seat_number": "G1",
+      "status": "empty"
+  },
+  {
+      "id": 142,
+      "theaterId": 2,
+      "seat_number": "G2",
+      "status": "empty"
+  },
+  {
+      "id": 143,
+      "theaterId": 2,
+      "seat_number": "G3",
+      "status": "empty"
+  },
+  {
+      "id": 144,
+      "theaterId": 2,
+      "seat_number": "G4",
+      "status": "empty"
+  },
+  {
+      "id": 145,
+      "theaterId": 2,
+      "seat_number": "G5",
+      "status": "empty"
+  },
+  {
+      "id": 146,
+      "theaterId": 2,
+      "seat_number": "G6",
+      "status": "empty"
+  },
+  {
+      "id": 147,
+      "theaterId": 2,
+      "seat_number": "G7",
+      "status": "empty"
+  },
+  {
+      "id": 148,
+      "theaterId": 2,
+      "seat_number": "G8",
+      "status": "empty"
+  },
+  {
+      "id": 149,
+      "theaterId": 2,
+      "seat_number": "G9",
+      "status": "empty"
+  },
+  {
+      "id": 150,
+      "theaterId": 2,
+      "seat_number": "G10",
+      "status": "empty"
+  },
+  {
+      "id": 151,
+      "theaterId": 2,
+      "seat_number": "H1",
+      "status": "empty"
+  },
+  {
+      "id": 152,
+      "theaterId": 2,
+      "seat_number": "H2",
+      "status": "empty"
+  },
+  {
+      "id": 153,
+      "theaterId": 2,
+      "seat_number": "H3",
+      "status": "empty"
+  },
+  {
+      "id": 154,
+      "theaterId": 2,
+      "seat_number": "H4",
+      "status": "empty"
+  },
+  {
+      "id": 155,
+      "theaterId": 2,
+      "seat_number": "H5",
+      "status": "empty"
+  },
+  {
+      "id": 156,
+      "theaterId": 2,
+      "seat_number": "H6",
+      "status": "empty"
+  },
+  {
+      "id": 157,
+      "theaterId": 2,
+      "seat_number": "H7",
+      "status": "empty"
+  },
+  {
+      "id": 158,
+      "theaterId": 2,
+      "seat_number": "H8",
+      "status": "empty"
+  },
+  {
+      "id": 159,
+      "theaterId": 2,
+      "seat_number": "H9",
+      "status": "empty"
+  },
+  {
+      "id": 160,
+      "theaterId": 2,
+      "seat_number": "H10",
+      "status": "empty"
+  }
   ],
   "sales": [
     {
@@ -838,20 +1838,36 @@
   ],
   "showtimes": [
     {
-      "id": 1,
+      "id":1,
       "movieId": 1,
       "theaterId": 1,
-      "startTime": "Thu Sep 28 2023 14:32:25 GMT+0700 (Indochina Time)",
+      "startTime": "2023-10-05T08:40",
       "price": 50000,
       "cinemaId": 1
     },
     {
-      "movieId": 4,
-      "cinemaId": 1,
-      "theaterId": 1,
+      "id":2,
+      "movieId": 1,
+      "theaterId": 2,
+      "startTime": "2023-10-05T11:40",
       "price": 50000,
-      "startTime": "Fri Sep 29 2023 22:43:49 GMT+0700 (Indochina Time)",
-      "id": 3
+      "cinemaId": 1
+    },
+    {
+      "id":3,
+      "movieId": 1,
+      "theaterId": 3,
+      "startTime": "2023-10-05T11:40",
+      "price": 50000,
+      "cinemaId": 1
+    },
+    {
+      "id":4,
+      "movieId": 1,
+      "theaterId": 4,
+      "startTime": "2023-10-06T08:40",
+      "price": 50000,
+      "cinemaId": 1
     }
   ]
 }

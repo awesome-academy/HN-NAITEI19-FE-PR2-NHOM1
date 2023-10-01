@@ -15,6 +15,8 @@ import DetailMovie from './features/moviedetail/DetailMovie';
 import UserTable from './features/admin/components/userTable/UserTable';
 import CinemaDetail from './features/cinemaDetail/CinemaDetail';
 import Showtimes from './features/admin/components/showtimes/Showtimes';
+import BookTicket from './features/ticket/BookTicket';
+import Payment from './features/payment/Payment';
 
 function App() {
   return (
@@ -26,7 +28,11 @@ function App() {
       <Route path="/detail/:id" element={<DetailMovie />} />
       <Route path="/" element={<Home />} />
 
-      <Route element={<RequireAuth />}></Route>
+      <Route element={<RequireAuth />}>
+        <Route path="/bookticket/:id" element={<BookTicket/>} />
+        <Route path="/payment" element={<Payment/>}/>
+
+      </Route>
 
       <Route element={<RequireAdmin />}>
         <Route path="admin">
