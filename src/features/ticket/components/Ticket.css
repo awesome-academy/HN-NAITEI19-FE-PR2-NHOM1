@@ -1,0 +1,8 @@
+.ticket {
+    transition: transform 0.7s ease-in-out;
+    transform-origin: top;
+    transform: translateY(0);
+  }
+  .ticket.scrolled {
+    transform: translateY(25%);
+  }

@@ -5,6 +5,7 @@ import { eventService } from '../features/eventService';
 import { apiService } from './apiService';
 import filterReducer from '../features/admin/filterSlice';
 import { userService } from '../features/admin/components/userTable/userService';
+import { seatService } from '../features/ticket/seatService';
 
 export const store = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ export const store = configureStore({
     [eventService.reducerPath]: eventService.reducer,
     filter: filterReducer,
     [userService.reducerPath]: userService.reducer,
+    [seatService.reducerPath]: seatService.reducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat([
@@ -21,5 +23,6 @@ export const store = configureStore({
       eventService.middleware,
       apiService.middleware,
       userService.middleware,
+      seatService.middleware,
     ]),
 });
