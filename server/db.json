@@ -6,6 +6,15 @@
       "username": "admin",
       "role": "admin",
       "id": 1
+    },
+    {
+      "id": 2,
+      "username": "hieu",
+      "email": "phamhieu15082002@gmail.com",
+      "password": "$2a$10$I1xhxuLadgiSRqNGKt.DHeaF8ukHM7KA8Xkalq05HpU6Njf0eUJVu",
+      "phoneNumber": "0965054095",
+      "gender": 1,
+      "dob": "13/09/2023"
     }
   ],
   "movies": [
@@ -852,6 +861,20 @@
       "price": 50000,
       "startTime": "Fri Sep 29 2023 22:43:49 GMT+0700 (Indochina Time)",
       "id": 3
+    }
+  ],
+  "rates": [
+    {
+      "id": 1,
+      "userId": 2,
+      "movieId": "6",
+      "rate": 4.5
+    },
+    {
+      "userId": 2,
+      "movieId": "7",
+      "rate": 5,
+      "id": 2
     }
   ]
 }

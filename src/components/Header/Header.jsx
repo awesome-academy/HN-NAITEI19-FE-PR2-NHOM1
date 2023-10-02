@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import logo from '../../assets/imgs/logo.png';
 import unitedFlag from '../../assets/imgs/united-kingdom.png';
 import { selectCinema } from '../../features/theater/CinemaSlice';
+import UserMenu from './UserMenu/UserMenu';
 
 const items = [
   {
@@ -134,6 +135,8 @@ const items = [
 function Header() {
   const { cinema } = useSelector((state) => state.CinemaSlice);
   const [fixedHeader, setFixedHeader] = useState(false);
+  const [isLogined, setIsLogined] = useState(false);
+  const user = JSON.parse(localStorage.getItem('user'));
   const dispatch = useDispatch();
 
   const handleSelectCinema = (keyPath) => {
@@ -144,39 +147,39 @@ function Header() {
   };
 
   const navigation = (
-    <ul className='navbar'>
-      <li className='h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500'>
-        <a className='uppercase hover:text-white' href='#'>
+    <ul className="navbar">
+      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
+        <a className="uppercase hover:text-white" href="#">
           Lịch chiếu theo rạp
         </a>
       </li>
-      <li className='h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500'>
-        <a className='uppercase hover:text-white' href='#'>
+      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
+        <a className="uppercase hover:text-white" href="#">
           Phim
         </a>
       </li>
-      <li className='h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500'>
-        <a className='uppercase hover:text-white' href='#'>
+      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
+        <a className="uppercase hover:text-white" href="#">
           Rạp
         </a>
       </li>
-      <li className='h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500'>
-        <a className='uppercase hover:text-white' href='#'>
+      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
+        <a className="uppercase hover:text-white" href="#">
           Giá Vé
         </a>
       </li>
-      <li className='h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500'>
-        <a className='uppercase hover:text-white' href='#'>
+      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
+        <a className="uppercase hover:text-white" href="#">
           Tin mới và ưu đãi
         </a>
       </li>
-      <li className='h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500'>
-        <a className='uppercase hover:text-white' href='#'>
+      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
+        <a className="uppercase hover:text-white" href="#">
           Nhượng quyền
         </a>
       </li>
-      <li className='h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500'>
-        <a className='uppercase hover:text-white' href='#'>
+      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
+        <a className="uppercase hover:text-white" href="#">
           Thành Viên
         </a>
       </li>
@@ -190,28 +193,41 @@ function Header() {
       } else setFixedHeader(false);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     // Cleanup function
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    if (!user || user.role) {
+      setIsLogined(false);
+    } else setIsLogined(true);
+  }, []);
+
   return (
     <header>
-      <div className='pre-header w-full bg-black h-6'>
-        <div className='max-w-screen-xl h-full mx-auto flex justify-end items-center'>
-          <a href='#' className='text-white text-sm hover:underline px-2 '>
-            Đăng nhập
-          </a>
-          <a
-            href='#'
-            className='text-white text-sm hover:underline px-2 border-l-2'
-          >
-            Đăng ký
-          </a>
-          <a href='#' className='pl-2'>
-            <img src={unitedFlag} alt='united flag' />
+      <div className="pre-header w-full bg-black h-6">
+        <div className="max-w-screen-xl h-full mx-auto flex justify-end items-center">
+          {isLogined ? (
+            <UserMenu></UserMenu>
+          ) : (
+            <div className="flex items-center h-full">
+              <a href="#" className="text-white text-sm hover:underline px-2 ">
+                Đăng nhập
+              </a>
+              <a
+                href="#"
+                className="text-white text-sm hover:underline px-2 border-l-2"
+              >
+                Đăng ký
+              </a>
+            </div>
+          )}
+          <a href="#" className="pl-2">
+            <img src={unitedFlag} alt="united flag" />
           </a>
         </div>
       </div>
@@ -222,10 +238,10 @@ function Header() {
           (fixedHeader ? ' fixed top-0' : '')
         }
       >
-        <div className='max-w-screen-xl h-full mx-auto flex items-center justify-between px-8 md:w-full xl:px-0'>
-          <img src={logo} alt='logo' />
-          <div className='flex items-center'>
-            <div className='dropdown rounded-lg border-2 mr-4'>
+        <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between px-8 md:w-full xl:px-0">
+          <img src={logo} alt="logo" />
+          <div className="flex items-center">
+            <div className="dropdown rounded-lg border-2 mr-4">
               <Dropdown
                 menu={{
                   items,
@@ -233,10 +249,10 @@ function Header() {
                   onSelect: (e) => {
                     handleSelectCinema(e.keyPath);
                   },
-                  defaultSelectedKeys: "6-1",
+                  defaultSelectedKeys: '6-1',
                 }}
                 arrow
-                className='px-4'
+                className="px-4"
               >
                 <a
                   onClick={(e) => {
@@ -251,39 +267,39 @@ function Header() {
               </Dropdown>
             </div>
 
-            <ul className='navbar hidden xl:flex'>
-              <li className='h-full font-semibold text-lg px-2 hover:text-blue-500'>
-                <a className='uppercase' href='#'>
+            <ul className="navbar hidden xl:flex">
+              <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
+                <a className="uppercase" href="#">
                   Lịch chiếu theo rạp
                 </a>
               </li>
-              <li className='h-full font-semibold text-lg px-2 hover:text-blue-500'>
-                <a className='uppercase' href='#'>
+              <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
+                <a className="uppercase" href="#">
                   Phim
                 </a>
               </li>
-              <li className='h-full font-semibold text-lg px-2 hover:text-blue-500'>
-                <a className='uppercase' href='#'>
+              <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
+                <a className="uppercase" href="#">
                   Rạp
                 </a>
               </li>
-              <li className='h-full font-semibold text-lg px-2 hover:text-blue-500'>
-                <a className='uppercase' href='#'>
+              <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
+                <a className="uppercase" href="#">
                   Giá Vé
                 </a>
               </li>
-              <li className='h-full font-semibold text-lg px-2 hover:text-blue-500'>
-                <a className='uppercase' href='#'>
+              <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
+                <a className="uppercase" href="#">
                   Tin mới và ưu đãi
                 </a>
               </li>
-              <li className='h-full font-semibold text-lg px-2 hover:text-blue-500'>
-                <a className='uppercase' href='#'>
+              <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
+                <a className="uppercase" href="#">
                   Nhượng quyền
                 </a>
               </li>
-              <li className='h-full font-semibold text-lg px-2 hover:text-blue-500'>
-                <a className='uppercase' href='#'>
+              <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
+                <a className="uppercase" href="#">
                   Thành Viên
                 </a>
               </li>
@@ -291,11 +307,11 @@ function Header() {
 
             <Popover
               content={navigation}
-              title='Menu'
-              trigger='click'
-              placement='bottomRight'
+              title="Menu"
+              trigger="click"
+              placement="bottomRight"
             >
-              <BarsOutlined className='block xl:hidden text-lg' />
+              <BarsOutlined className="block xl:hidden text-lg" />
             </Popover>
           </div>
         </div>
