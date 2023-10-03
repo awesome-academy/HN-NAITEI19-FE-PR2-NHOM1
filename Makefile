@@ -11,11 +11,11 @@ devclient:
 	@docker exec -it $(COMPOSE_PROJECT_NAME)-client-1 yarn dev
 
 devserver:
-	@docker exec -it $(COMPOSE_PROJECT_NAME)-client-1 yarn server
+	@docker exec -it $(COMPOSE_PROJECT_NAME)-server-1 yarn server
 
 devrun:
 	@docker exec -it $(COMPOSE_PROJECT_NAME)-client-1 yarn dev
-	@docker exec -d $(COMPOSE_PROJECT_NAME)-client-1 yarn server
+	@docker exec -d $(COMPOSE_PROJECT_NAME)-server-1 yarn server
 
 devdown:
 	docker compose down --remove-orphans

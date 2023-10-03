@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "admin@example.com",
-      "password": "$2a$10$oNTutBjv36whNKnb7kdbWejNjG3ZoWEsJ35TEdlk8lPWDWhbmQ95C",
+      "password": "$2a$10$bawQKwxfyEug6eALPqa2iOqqrj/pg7sN8IvRIAENV7MH0c/aPQ84u",
       "username": "admin",
       "role": "admin",
       "id": 1
@@ -15,6 +15,16 @@
       "phoneNumber": "0965054095",
       "gender": 1,
       "dob": "13/09/2023"
+    },
+    {
+      "email": "huy@example.com",
+      "password": "$2a$10$3kJIU4QdyGu5jRq3LC0Vo.4ovmiZ7yToNGtrvgWq0dyC05/SktQ86",
+      "username": "Huy Trần",
+      "dob": "05/08/2002",
+      "gender": 1,
+      "phoneNumber": "0981656202",
+      "createdAt": 1696270124888,
+      "id": 2
     }
   ],
   "movies": [
@@ -856,11 +866,43 @@
     },
     {
       "movieId": 4,
-      "cinemaId": 1,
-      "theaterId": 1,
+      "cinemaId": 2,
+      "theaterId": 42,
       "price": 50000,
       "startTime": "Fri Sep 29 2023 22:43:49 GMT+0700 (Indochina Time)",
       "id": 3
+    },
+    {
+      "movieId": 3,
+      "cinemaId": 8,
+      "theaterId": 11,
+      "price": 75000,
+      "startTime": "Fri Sep 29 2023 23:00:00 GMT+0700 (Indochina Time)",
+      "id": 4
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "showtimeId": 1,
+      "seat": ["a1, a2"],
+      "total": 100000,
+      "userId": 2,
+      "movieId": 1,
+      "type": 1,
+      "status": 1,
+      "createdAt": "Fri Sep 29 2023 22:43:49 GMT+0700 (Indochina Time)"
+    },
+    {
+      "id": 2,
+      "showtimeId": 1,
+      "seat": ["a1, a2"],
+      "total": 100000,
+      "userId": 2,
+      "movieId": 5,
+      "type": 0,
+      "status": 0,
+      "createdAt": "Tue Oct 03 2023 01:13:07 GMT+0700 (Indochina Time)"
     }
   ],
   "rates": [
