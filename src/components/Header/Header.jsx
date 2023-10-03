@@ -2,6 +2,7 @@ import { DownOutlined, BarsOutlined } from '@ant-design/icons';
 import { Dropdown, Space, Popover } from 'antd';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/imgs/logo.png';
 import unitedFlag from '../../assets/imgs/united-kingdom.png';
@@ -215,15 +216,18 @@ function Header() {
             <UserMenu></UserMenu>
           ) : (
             <div className="flex items-center h-full">
-              <a href="#" className="text-white text-sm hover:underline px-2 ">
+              <Link
+                to="/auth"
+                className="text-white text-sm hover:underline px-2 "
+              >
                 Đăng nhập
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/auth"
                 className="text-white text-sm hover:underline px-2 border-l-2"
               >
                 Đăng ký
-              </a>
+              </Link>
             </div>
           )}
           <a href="#" className="pl-2">
@@ -239,8 +243,10 @@ function Header() {
         }
       >
         <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between px-8 md:w-full xl:px-0">
-          <img src={logo} alt="logo" />
-          <div className="flex items-center">
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
+          <div className="flex items-center flex-1 justify-around">
             <div className="dropdown rounded-lg border-2 mr-4">
               <Dropdown
                 menu={{
@@ -269,37 +275,37 @@ function Header() {
 
             <ul className="navbar hidden xl:flex">
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <a className="uppercase" href="#">
+                <Link className="uppercase" to="/">
                   Lịch chiếu theo rạp
-                </a>
+                </Link>
               </li>
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <a className="uppercase" href="#">
+                <Link className="uppercase" to="/movies">
                   Phim
-                </a>
+                </Link>
               </li>
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <a className="uppercase" href="#">
+                <Link className="uppercase" to="/cinema">
                   Rạp
-                </a>
+                </Link>
               </li>
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <a className="uppercase" href="#">
+                <Link className="uppercase" to="/ticket_price">
                   Giá Vé
-                </a>
+                </Link>
               </li>
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <a className="uppercase" href="#">
+                <Link className="uppercase" to="/EventPage">
                   Tin mới và ưu đãi
-                </a>
+                </Link>
               </li>
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <a className="uppercase" href="#">
+                <a className="uppercase" to="/">
                   Nhượng quyền
                 </a>
               </li>
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <a className="uppercase" href="#">
+                <a className="uppercase" to="/">
                   Thành Viên
                 </a>
               </li>

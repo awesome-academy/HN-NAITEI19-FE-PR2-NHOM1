@@ -16,6 +16,7 @@ import UserTable from './features/admin/components/userTable/UserTable';
 import CinemaDetail from './features/cinemaDetail/CinemaDetail';
 import Showtimes from './features/admin/components/showtimes/Showtimes';
 import Income from './features/admin/components/income/Income';
+import MoviesPage from './features/Movies/Movies';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/ticket_price" element={<TicketPrice />} />
       <Route path="/news" element={<EventPage />} />
       <Route path="/cinema" element={<CinemaDetail />} />
+      <Route path="/movies" element={<MoviesPage />} />
       <Route path="/detail/:id" element={<DetailMovie />} />
       <Route path="/" element={<Home />} />
 
