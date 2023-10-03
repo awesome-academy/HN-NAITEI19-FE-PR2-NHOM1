@@ -1,25 +1,14 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
-import { authService } from '../features/auth/authService';
-import CinemaSlice from '../features/theater/CinemaSlice';
-import { eventService } from '../features/eventService';
+import CinemaSlice from './store/cinemaSlice';
 import { apiService } from './apiService';
-import filterReducer from '../features/admin/filterSlice';
-import { userService } from '../features/admin/components/userTable/userService';
+import filterReducer from './store/filterSlice';
 
 export const store = configureStore({
   reducer: {
-    [authService.reducerPath]: authService.reducer,
     [apiService.reducerPath]: apiService.reducer,
     CinemaSlice,
-    [eventService.reducerPath]: eventService.reducer,
     filter: filterReducer,
-    [userService.reducerPath]: userService.reducer,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat([
-      authService.middleware,
-      eventService.middleware,
-      apiService.middleware,
-      userService.middleware,
-    ]),
+    getDefaultMiddleware().concat(apiService.middleware),
 });

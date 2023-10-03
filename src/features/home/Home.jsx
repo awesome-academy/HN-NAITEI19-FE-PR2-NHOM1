@@ -1,7 +1,8 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import Carousel from '../../components/Carousel/Carousel';
-import MovieList from '../../components/List/MovieList';
+import MovieList from '../movie/components/list/MovieList';
+
 function Home() {
   return (
     <Layout>

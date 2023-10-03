@@ -4,7 +4,7 @@ import { Button, Modal, Space, Table, Tag } from 'antd';
 import {
   useDeleteMovieMutation,
   useGetMoviesQuery,
-} from '../../../list/movieService';
+} from '../../../../app/api/movieService';
 import { useSelector } from 'react-redux';
 import { EditOutlined } from '@ant-design/icons';
 import { Link, useNavigate } from 'react-router-dom';

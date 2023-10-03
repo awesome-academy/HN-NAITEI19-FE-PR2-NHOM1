@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import MovieDetail from './MovieDetail';
-import { useGetShowtimeDetailQuery } from '../../features/list/showtimeService';
+import { useGetShowtimeDetailQuery } from '../../../../app/api/showtimeService';
 
 const TabList = ({ movieStatus }) => {
   const { data: movies, isLoading } = useGetShowtimeDetailQuery();
@@ -12,6 +12,7 @@ const TabList = ({ movieStatus }) => {
   const filteredMovies = movies.filter(
     (item) => item.movieStatus === movieStatus
   );
+
   return (
     <div>
       <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">

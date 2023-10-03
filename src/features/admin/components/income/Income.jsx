@@ -7,7 +7,7 @@ import lineChart from './configChart';
 import {
   useGetIncomeByMonthQuery,
   useGetIncomeTodayQuery,
-} from './incomeService';
+} from '../../../../app/api/incomeService';
 import Ticket from './Ticket';
 
 function MovieDashboard({ className }) {

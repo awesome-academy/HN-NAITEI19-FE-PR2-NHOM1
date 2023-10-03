@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'antd';
 import { PlayCircleOutlined } from '@ant-design/icons';
-import { useFetchMovieQuery } from '../../features/list/movieService';
+import { useFetchMovieQuery } from '../../../../app/api/movieService';
 import './List.css';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';

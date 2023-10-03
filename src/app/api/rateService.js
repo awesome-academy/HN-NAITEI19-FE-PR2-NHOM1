@@ -1,4 +1,4 @@
-import { apiService } from '../../../app/apiService';
+import { apiService } from '../apiService';
 
 export const RateService = apiService.injectEndpoints({
   endpoints: (builder) => ({

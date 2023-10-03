@@ -1,7 +1,10 @@
+import React from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import logo from '../../assets/imgs/logo.png';
+
 import { Input, Layout } from 'antd';
 import Sider from 'antd/es/layout/Sider';
-import React from 'react';
-import logo from '../../assets/imgs/logo.png';
 import {
   SearchOutlined,
   PlaySquareOutlined,
@@ -14,9 +17,8 @@ import {
   MoneyCollectFilled,
 } from '@ant-design/icons';
 import { Content, Header } from 'antd/es/layout/layout';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { setSearchString } from '../../features/admin/filterSlice';
+
+import { setSearchString } from '../../app/store/filterSlice';
 
 const SidebarButton = ({ icon, activedIcon, text, href, collapsed }) => {
   const navigate = useNavigate();

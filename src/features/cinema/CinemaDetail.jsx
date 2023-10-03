@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux';
 import { Col, Row } from 'antd';
 import Layout from '../../components/Layout/Layout';
-import { useGetCinemaQuery } from './cinemaService';
-import { useGetShowtimeDetailQuery } from '../list/showtimeService';
-import MovieDetail from '../../components/List/MovieDetail';
+import { useGetCinemaQuery } from '../../app/api/cinemaService';
+import { useGetShowtimeDetailQuery } from '../../app/api/showtimeService';
+import MovieDetail from '../movie/components/list/MovieDetail';
 function CinemaDetail() {
   const { cinema } = useSelector((state) => state.CinemaSlice);
   const { data, isLoading: cinemaLoading } = useGetCinemaQuery(cinema);

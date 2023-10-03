@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useFetchMovieQuery } from '../../../list/movieService';
+import { useFetchMovieQuery } from '../../../../app/api/movieService';
 import AdminLayout from '../../../../components/Layout/AdminLayout';
 import { EditOutlined, LoadingOutlined } from '@ant-design/icons';
 import { Button } from 'antd';

@@ -1,5 +1,5 @@
 import './Detail.css';
-import { useFetchMovieQuery } from '../../list/movieService';
+import { useFetchMovieQuery } from '../../../../app/api/movieService';
 import { RightOutlined } from '@ant-design/icons';
 import { Rate, Button, Modal, Alert } from 'antd';
 import { useState } from 'react';
@@ -9,7 +9,7 @@ import {
   useNewRateMutation,
   useUpdateRateMutation,
   useGetMovieRatesQuery,
-} from './RateService';
+} from '../../../../app/api/rateService';
 
 const Detail = ({ movieId }) => {
   const { data: movie, isLoading: movieLoading } = useFetchMovieQuery(movieId);

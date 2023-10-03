@@ -5,7 +5,7 @@ import {
   useDeleteShowtimeMutation,
   useGetShowtimesQuery,
   useUpdateShowtimeMutation,
-} from '../../../list/showtimeService';
+} from '../../../../app/api/showtimeService';
 import {
   LoadingOutlined,
   PlusOutlined,
@@ -25,9 +25,9 @@ import {
   Tag,
 } from 'antd';
 import dayjs from 'dayjs';
-import { useGetMoviesQuery } from '../../../list/movieService';
+import { useGetMoviesQuery } from '../../../../app/api/movieService';
 import { useForm } from 'antd/es/form/Form';
-import { useGetAllCinemasQuery } from '../../../cinemaDetail/cinemaService';
+import { useGetAllCinemasQuery } from '../../../../app/api/cinemaService';
 
 function Showtimes() {
   const { data, isLoading } = useGetShowtimesQuery();

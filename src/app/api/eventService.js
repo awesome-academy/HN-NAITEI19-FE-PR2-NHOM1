@@ -1,18 +1,18 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { apiService } from '../apiService';
 
-export const eventService = createApi({
-  reducerPath: 'eventService',
-  baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_SERVER_API }),
+export const eventService = apiService.injectEndpoints({
   endpoints: (builder) => ({
     getSales: builder.query({
       query: () => ({
         url: 'sales',
       }),
+      providesTags: ['event'],
     }),
     getNews: builder.query({
       query: () => ({
         url: 'news',
       }),
+      providesTags: ['event'],
     }),
   }),
 });

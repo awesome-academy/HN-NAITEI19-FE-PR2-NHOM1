@@ -3,9 +3,9 @@ import { SearchOutlined } from '@ant-design/icons';
 import { useDispatch, useSelector } from 'react-redux';
 
 import Layout from '../../components/Layout/Layout';
-import { useGetMoviesQuery } from '../list/movieService';
-import MovieDetail from '../../components/List/MovieDetail';
-import { setSearchString } from '../admin/filterSlice';
+import { useGetMoviesQuery } from '../../app/api/movieService';
+import MovieDetail from './components/list/MovieDetail';
+import { setSearchString } from '../../app/store/filterSlice';
 
 function Movies() {
   const { data, isLoading } = useGetMoviesQuery();

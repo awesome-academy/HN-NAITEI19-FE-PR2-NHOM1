@@ -1,7 +1,7 @@
 import { Modal, Table } from 'antd';
 import { useState } from 'react';
 
-import { useGetUserRatesQuery } from '../../../features/moviedetail/components/RateService';
+import { useGetUserRatesQuery } from '../../../app/api/rateService';
 
 const columns = [
   {
