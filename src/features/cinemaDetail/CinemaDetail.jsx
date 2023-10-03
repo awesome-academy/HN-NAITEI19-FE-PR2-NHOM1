@@ -6,14 +6,14 @@ import { useGetShowtimeDetailQuery } from '../list/showtimeService';
 import MovieDetail from '../../components/List/MovieDetail';
 function CinemaDetail() {
   const { cinema } = useSelector((state) => state.CinemaSlice);
-  const { data } = useGetCinemaQuery(cinema);
+  const { data, isLoading: cinemaLoading } = useGetCinemaQuery(cinema);
   const { data: movies, isLoading } = useGetShowtimeDetailQuery();
 
   const filteredMovies = movies?.filter((item) => item.movieStatus === 2);
 
   return (
     <Layout>
-      {isLoading ? (
+      {isLoading || cinemaLoading ? (
         <span>Loading ...</span>
       ) : (
         <section className="max-w-screen-xl mx-auto my-10">
@@ -22,9 +22,9 @@ function CinemaDetail() {
               <h2 className="uppercase text-2xl font-semibold mb-6">
                 {cinema}
               </h2>
-              <img src={data[0].img} alt="cinema-img" className="mb-6" />
+              <img src={data[0]?.img} alt="cinema-img" className="mb-6" />
               <div
-                dangerouslySetInnerHTML={{ __html: data[0].description }}
+                dangerouslySetInnerHTML={{ __html: data[0]?.description }}
                 className="text-xl "
               />
             </Col>

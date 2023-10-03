@@ -14,17 +14,15 @@ const TabList = ({ movieStatus }) => {
   );
   return (
     <div>
-      <ul className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {filteredMovies.map((item) => (
-          <li key={item.id}>
-            <MovieDetail
-              key={item.id}
-              movieId={item.movieId}
-              movieStatus={item.movieStatus}
-            />
-          </li>
+          <MovieDetail
+            key={item.id}
+            movieId={item.movieId}
+            movieStatus={item.movieStatus}
+          />
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

@@ -4,10 +4,12 @@ import { PlayCircleOutlined } from '@ant-design/icons';
 import { useFetchMovieQuery } from '../../features/list/movieService';
 import './List.css';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 const MovieDetail = ({ movieId }) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [showPlayButton, setShowPlayButton] = useState(false);
+  const { searchString } = useSelector((state) => state.filter);
 
   const { data: movie, isLoading } = useFetchMovieQuery(movieId);
 
@@ -23,8 +25,9 @@ const MovieDetail = ({ movieId }) => {
 
   return (
     <>
-      {isLoading ? (
-        <p>Loading...</p>
+      {isLoading ||
+      !movie?.name.toLowerCase().includes(searchString.toLowerCase()) ? (
+        <></>
       ) : (
         <div className="item">
           <div
