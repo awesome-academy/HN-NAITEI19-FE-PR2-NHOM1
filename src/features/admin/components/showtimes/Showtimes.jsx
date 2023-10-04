@@ -270,7 +270,13 @@ function Showtimes() {
               rules={[{ required: true, message: 'Vui lòng nhập giờ chiếu' }]}
               className="basis-0 grow"
             >
-              <DatePicker showTime className="w-full" />
+              <DatePicker
+                showTime
+                className="w-full"
+                disabledDate={(current) =>
+                  current && current.valueOf() < dayjs().valueOf()
+                }
+              />
             </Form.Item>
           </div>
         </Form>

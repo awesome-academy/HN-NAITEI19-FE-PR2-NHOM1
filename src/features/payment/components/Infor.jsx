@@ -171,11 +171,15 @@ const Infor = ({ showtime, selectedSeats, movie }) => {
                       required: true,
                       message: 'Số thẻ không được để trống',
                     },
+                    {
+                      max: 12,
+                      message: 'Tối đa 12 ký tự',
+                    },
                   ]}
                   label={'Số thẻ'}
                   name={'cardNumber'}
                 >
-                  <Input placeholder="1234 1234 1234 1234" />
+                  <Input type="number" placeholder="1234 1234 1234 1234" />
                 </Form.Item>
                 <div className="flex justify-between gap-3">
                   <Form.Item
