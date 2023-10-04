@@ -9,14 +9,14 @@ const TabList = ({ movieStatus }) => {
     return <p>Loading...</p>;
   }
 
-  const filteredMovies = movies.filter(
+  const filteredMovies = movies?.filter(
     (item) => item.movieStatus === movieStatus
   );
 
   return (
     <div>
       <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        {filteredMovies.map((item) => (
+        {filteredMovies?.map((item) => (
           <MovieDetail
             key={item.id}
             movieId={item.movieId}

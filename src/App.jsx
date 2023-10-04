@@ -17,6 +17,7 @@ import CinemaDetail from './features/cinema/CinemaDetail';
 import Showtimes from './features/admin/components/showtimes/Showtimes';
 import Income from './features/admin/components/income/Income';
 import MoviesPage from './features/movie/Movies';
+import Showtime from './features/showtime/Showtime';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path="/news" element={<EventPage />} />
       <Route path="/cinema" element={<CinemaDetail />} />
       <Route path="/movies" element={<MoviesPage />} />
+      <Route path="/showtime" element={<Showtime />} />
       <Route path="/detail/:id" element={<DetailMovie />} />
       <Route index element={<Home />} />
 

@@ -878,6 +878,60 @@
       "price": 75000,
       "startTime": "Fri Sep 29 2023 23:00:00 GMT+0700 (Indochina Time)",
       "id": 4
+    },
+    {
+      "movieId": 1,
+      "cinemaId": 1,
+      "theaterId": 14,
+      "price": 50000,
+      "startTime": "Wed Oct 04 2023 18:07:35 GMT+0700 (Indochina Time)",
+      "createdAt": 1696399699404,
+      "id": 5
+    },
+    {
+      "movieId": 1,
+      "cinemaId": 1,
+      "theaterId": 14,
+      "price": 50000,
+      "startTime": "Thu Oct 05 2023 17:08:38 GMT+0700 (Indochina Time)",
+      "createdAt": 1696399720132,
+      "id": 6
+    },
+    {
+      "movieId": 2,
+      "cinemaId": 2,
+      "theaterId": 26,
+      "price": 50000,
+      "startTime": "Thu Oct 12 2023 13:18:25 GMT+0700 (Indochina Time)",
+      "createdAt": 1696400252082,
+      "id": 7
+    },
+    {
+      "movieId": 1,
+      "cinemaId": 1,
+      "theaterId": 14,
+      "price": 50000,
+      "startTime": "Wed Oct 04 2023 23:32:49 GMT+0700 (Indochina Time)",
+      "createdAt": 1696407957370,
+      "id": 8
+    },
+    {
+      "movieId": 1,
+      "cinemaId": 1,
+      "theaterId": 14,
+      "price": 50000,
+      "startTime": "Wed Oct 04 2023 22:31:19 GMT+0700 (Indochina Time)",
+      "createdAt": 1696408280896,
+      "id": 9
+    },
+    {
+      "movieId": 4,
+      "cinemaId": 1,
+      "theaterId": 30,
+      "price": 50000,
+      "startTime": "Wed Oct 04 2023 21:22:25 GMT+0700 (Indochina Time)",
+      "createdAt": 1696410922204,
+      "id": 10
     }
   ],
   "bookings": [
