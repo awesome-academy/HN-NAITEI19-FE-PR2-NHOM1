@@ -61,7 +61,7 @@ function Showtimes() {
       title: 'Thời gian bắt đầu',
       key: 'startTime',
       dataIndex: 'startTime',
-      render: (item) => dayjs(item).format('DD/MM/YYYY hh:mm:ss'),
+      render: (item) => dayjs(item).format('DD/MM/YYYY HH:mm'),
     },
     {
       title: 'Phòng chiếu',

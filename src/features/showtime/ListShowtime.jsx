@@ -1,6 +1,5 @@
-import dayjs from 'dayjs';
-
 import ShowtimeCard from './ShowtimeCard';
+
 function ListShowTime({ data }) {
   const formatData = data?.reduce((list, movie) => {
     const sameMovie = list.filter(
@@ -20,6 +19,9 @@ function ListShowTime({ data }) {
 
     return [...list, movie];
   }, []);
+
+  console.log(formatData);
+
   return (
     <div>
       {formatData &&

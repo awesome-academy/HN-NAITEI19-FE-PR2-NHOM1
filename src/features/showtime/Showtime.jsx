@@ -10,23 +10,31 @@ function Showtime() {
   const { data, isLoading } = useGetShowtimesQuery();
   const { cinema } = useSelector((state) => state.CinemaSlice);
 
-  const filterData = data?.filter(
-    (item) =>
-      item.cinema.name === cinema && Date.parse(item.startTime) > Date.now()
-  );
+  const filterData = data
+    ?.filter(
+      (item) =>
+        item.cinema.name === cinema && Date.parse(item.startTime) > Date.now()
+    )
+    .sort(
+      (a, b) =>
+        new Date(a.startTime).getTime() - new Date(b.startTime).getTime()
+    );
 
   let lastDate = Date.now();
 
-  const titles = filterData?.map((item) => {
-    if (Date.parse(item.startTime) > lastDate) {
-      lastDate = Date.parse(item.startTime);
-      const title =
-        dayjs(item.startTime).date() +
-        '/' +
-        (dayjs(item.startTime).month() + 1);
-      return title;
-    }
-  });
+  const titles = Array.from(
+    new Set(
+      filterData?.map((item) => {
+        if (Date.parse(item.startTime) > lastDate) {
+          const title =
+            dayjs(item.startTime).date() +
+            '/' +
+            (dayjs(item.startTime).month() + 1);
+          return title;
+        }
+      })
+    )
+  );
 
   const items = titles?.map((title, index) => {
     const list = filterData?.reduce((arr, item) => {
@@ -38,14 +46,18 @@ function Showtime() {
           ...arr,
           {
             movie: item.movie,
-            time: [{
-              hour: dayjs(item.startTime).hour(),
-              minute: dayjs(item.startTime).minute(),
-            }],
+            time: [
+              {
+                hour: dayjs(item.startTime).hour(),
+                minute: dayjs(item.startTime).minute(),
+                showtimeId: item.id,
+              },
+            ],
           },
         ];
       } else return arr;
     }, []);
+
     return {
       key: (index += 1),
       label: title,
@@ -56,6 +68,7 @@ function Showtime() {
   if (isLoading) {
     return <span>Loading</span>;
   }
+
   return (
     <Layout>
       <div className="max-w-screen-xl mx-auto text-center">

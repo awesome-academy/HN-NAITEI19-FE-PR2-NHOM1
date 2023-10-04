@@ -150,16 +150,16 @@ function Header() {
 
   const navigation = (
     <ul className="navbar">
-      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
-        <a className="uppercase hover:text-white" href="#">
+      <Link className="uppercase hover:text-white" to={'/showtime'}>
+        <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
           Lịch chiếu theo rạp
-        </a>
-      </li>
-      <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
-        <a className="uppercase hover:text-white" href="#">
+        </li>
+      </Link>
+      <Link className="uppercase hover:text-white" to={'/movies'}>
+        <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
           Phim
-        </a>
-      </li>
+        </li>
+      </Link>
       <Link to={'/cinema'} className="uppercase hover:text-white">
         <li className="h-full font-semibold text-lg px-2 cursor-pointer rounded-sm hover:text-white hover:bg-blue-500">
           Rạp

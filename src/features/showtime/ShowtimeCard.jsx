@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Modal, Button } from 'antd';
 import { PlayCircleOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function ShowtimeCard({ movie, time }) {
-  console.log(movie);
   const [modalVisible, setModalVisible] = useState(false);
   const [showPlayButton, setShowPlayButton] = useState(false);
+  const navigate = useNavigate();
+
   const handlePlayClick = () => {
     setModalVisible(true);
   };
@@ -14,6 +15,7 @@ function ShowtimeCard({ movie, time }) {
   const handleCloseModal = () => {
     setModalVisible(false);
   };
+
   return (
     <div>
       <div className="card w-full my-3 pb-3 border-b-2 flex">
@@ -55,9 +57,14 @@ function ShowtimeCard({ movie, time }) {
 
           {time?.map((item, index) => {
             return (
-              <span key={index} className="p-3 mr-4 text-lg bg-gray-200 font-medium cursor-pointer hover:text-red-600">
-                {item.hour + ':' + item.minute}
-              </span>
+              <button
+                key={index}
+                onClick={() => navigate(`/bookticket/${item.showtimeId}`)}
+              >
+                <span className="p-3 mr-4 text-lg bg-gray-200 font-medium cursor-pointer hover:text-red-600">
+                  {item.hour + ':' + item.minute}
+                </span>
+              </button>
             );
           })}
         </div>

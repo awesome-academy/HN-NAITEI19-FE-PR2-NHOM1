@@ -1,12 +1,16 @@
 import React from 'react';
-import { useGetTicketsQuery } from '../../../../app/api/ticketService';
+import {
+  useGetTicketsQuery,
+  useUpdateTicketMutation,
+} from '../../../../app/api/ticketService';
 
-import { LoadingOutlined } from '@ant-design/icons';
-import { Table, Tag } from 'antd';
+import { LoadingOutlined, DownOutlined } from '@ant-design/icons';
+import { Dropdown, Table, Tag } from 'antd';
 import dayjs from 'dayjs';
 
 function Ticket({ className }) {
   const { data, isLoading } = useGetTicketsQuery();
+  const [updateBooking] = useUpdateTicketMutation();
 
   if (isLoading) return <LoadingOutlined />;
 
@@ -30,10 +34,42 @@ function Ticket({ className }) {
         ) : item.status === 0 &&
           dayjs(item.showtime.startTime).add(item.movie.duration, 'minute') >
             dayjs() ? (
-          <Tag color="orange">Đợi thanh toán</Tag>
+          <>
+            <Tag color="orange">
+              Đợi thanh toán{' '}
+              <Dropdown
+                menu={{
+                  items: [
+                    { label: <Tag color="green">Đã thanh toán</Tag>, key: '1' },
+                    {
+                      label: <Tag color="orange">Đợi thanh toán</Tag>,
+                      key: '0',
+                    },
+                  ],
+                  onClick: ({ key }) => {
+                    const updateData = { ...item };
+                    delete updateData.movie;
+                    delete updateData.user;
+                    delete updateData.showtime;
+                    if (key === '1')
+                      updateBooking({ ...updateData, status: 1 });
+                  },
+                }}
+                trigger={['click']}
+              >
+                <DownOutlined />
+              </Dropdown>
+            </Tag>
+          </>
         ) : (
           <Tag color="volcano">Hết hạn</Tag>
         ),
+    },
+    {
+      title: 'Hình thức thanh toán',
+      key: 'type',
+      dataIndex: 'type',
+      render: (type) => (type === 1 ? 'Ví điện tử' : 'Tại quầy'),
     },
     {
       title: 'Thời gian bắt đầu',

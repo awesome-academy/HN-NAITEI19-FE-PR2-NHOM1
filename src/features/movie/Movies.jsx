@@ -30,11 +30,7 @@ function Movies() {
       </div>
       <div className="max-w-screen-xl my-5 mx-auto grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {data.map((item) => (
-          <MovieDetail
-            key={item.id}
-            movieId={item.id}
-            movieStatus={item.movieStatus}
-          />
+          <MovieDetail key={item.id} movie={item} />
         ))}
       </div>
     </Layout>
