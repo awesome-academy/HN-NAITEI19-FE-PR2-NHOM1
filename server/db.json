@@ -8,13 +8,13 @@
       "id": 1
     },
     {
-      "id": 2,
-      "username": "hieu",
+      "username": "hieu1",
       "email": "phamhieu15082002@gmail.com",
-      "password": "$2a$10$I1xhxuLadgiSRqNGKt.DHeaF8ukHM7KA8Xkalq05HpU6Njf0eUJVu",
-      "phoneNumber": "0965054095",
+      "dob": "25/09/2023",
       "gender": 1,
-      "dob": "13/09/2023"
+      "phoneNumber": "0965054095",
+      "id": 2,
+      "password": "$2a$10$RJg9sDvexl6l7vij5QHYOu97b6PG6heSHJWNej2gLO7cWw9RX4X9O"
     },
     {
       "email": "huy@example.com",

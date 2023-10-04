@@ -20,8 +20,6 @@ function ListShowTime({ data }) {
     return [...list, movie];
   }, []);
 
-  console.log(formatData);
-
   return (
     <div>
       {formatData &&

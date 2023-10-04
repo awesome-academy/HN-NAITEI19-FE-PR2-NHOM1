@@ -57,7 +57,6 @@ function Showtime() {
         ];
       } else return arr;
     }, []);
-
     return {
       key: (index += 1),
       label: title,
@@ -68,7 +67,6 @@ function Showtime() {
   if (isLoading) {
     return <span>Loading</span>;
   }
-
   return (
     <Layout>
       <div className="max-w-screen-xl mx-auto text-center">

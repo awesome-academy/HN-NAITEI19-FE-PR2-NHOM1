@@ -15,7 +15,6 @@ function ShowtimeCard({ movie, time }) {
   const handleCloseModal = () => {
     setModalVisible(false);
   };
-
   return (
     <div>
       <div className="card w-full my-3 pb-3 border-b-2 flex">
