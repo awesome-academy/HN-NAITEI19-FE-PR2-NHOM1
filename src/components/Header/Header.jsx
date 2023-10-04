@@ -276,7 +276,7 @@ function Header() {
 
             <ul className="navbar hidden xl:flex">
               <li className="h-full font-semibold text-lg px-2 hover:text-blue-500">
-                <Link className="uppercase" to="/">
+                <Link className="uppercase" to="/showtime">
                   Lịch chiếu theo rạp
                 </Link>
               </li>
