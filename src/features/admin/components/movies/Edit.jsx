@@ -126,6 +126,132 @@ function Edit() {
             <Form.Item label="Mô tả" name={'description'}>
               <Input.TextArea placeholder="Mô tả" autoSize={true} />
             </Form.Item>
+            <Form.List
+              name="performer"
+              rules={[
+                {
+                  validator: async (_, names) => {
+                    if (!names || names.length < 2) {
+                      return Promise.reject(
+                        new Error('Phải có ít nhất 2 diễn viên')
+                      );
+                    }
+                  },
+                },
+              ]}
+            >
+              {(fields, { add, remove }, { errors }) => (
+                <>
+                  {fields.map((field, index) => (
+                    <Form.Item
+                      label={index === 0 ? 'Diễn viên' : ''}
+                      required={true}
+                      key={field.key}
+                    >
+                      <div className="flex flex-row items-center justify-between gap-3">
+                        <Form.Item
+                          {...field}
+                          validateTrigger={['onChange', 'onBlur']}
+                          rules={[
+                            {
+                              required: true,
+                              whitespace: true,
+                              message: 'Nhập tên diễn viên hoặc xóa trường này',
+                            },
+                          ]}
+                          noStyle
+                        >
+                          <Input
+                            placeholder="passenger name"
+                            className="w-full"
+                          />
+                        </Form.Item>
+                        {fields.length > 1 ? (
+                          <MinusCircleOutlined
+                            className="dynamic-delete-button"
+                            onClick={() => remove(field.name)}
+                          />
+                        ) : null}
+                      </div>
+                    </Form.Item>
+                  ))}
+                  <Form.Item>
+                    <Button
+                      type="dashed"
+                      onClick={() => add()}
+                      icon={<PlusOutlined />}
+                    >
+                      Thêm diễn viên
+                    </Button>
+                    <Form.ErrorList errors={errors} />
+                  </Form.Item>
+                </>
+              )}
+            </Form.List>
+            <div className="flex flex-row gap-4">
+              <Form.Item
+                label="Trạng thái"
+                name={'status'}
+                rules={[{ required: true, message: 'Nhập trạng thái phim' }]}
+                className="basis-0 grow"
+              >
+                <Select
+                  options={[
+                    {
+                      label: 'Sắp chiếu',
+                      value: 1,
+                    },
+                    {
+                      label: 'Đang chiếu',
+                      value: 2,
+                    },
+                    {
+                      label: 'Suất chiếu đặc biệt',
+                      value: 3,
+                    },
+                  ]}
+                />
+              </Form.Item>
+              <Form.Item
+                label="Giới hạn độ tuổi"
+                name={'iconFilm'}
+                rules={[{ required: true, message: 'Không được để trống' }]}
+                className="basis-0 grow"
+              >
+                <Select
+                  options={[
+                    {
+                      label: '18+',
+                      value:
+                        'https://www.betacinemas.vn/Assets/Common/icons/films/c-18.png',
+                    },
+                    {
+                      label: '16+',
+                      value:
+                        'https://www.betacinemas.vn/Assets/Common/icons/films/c-16.png',
+                    },
+                    {
+                      label: '13+',
+                      value:
+                        'https://www.betacinemas.vn/Assets/Common/icons/films/c-13.png',
+                    },
+                    {
+                      label: 'Không giới hạn',
+                      value:
+                        'https://www.betacinemas.vn/Assets/Common/icons/films/p.png',
+                    },
+                  ]}
+                />
+              </Form.Item>
+            </div>
+            <Form.Item
+              label="Ngôn ngữ"
+              name={'language'}
+              rules={[{ required: true, message: 'Nhập ngôn ngữ' }]}
+              className="w-full"
+            >
+              <Input placeholder="Ngôn ngữ" />
+            </Form.Item>
             <Form.Item label="Ảnh" name="image">
               <Input
                 placeholder="Ảnh nền"

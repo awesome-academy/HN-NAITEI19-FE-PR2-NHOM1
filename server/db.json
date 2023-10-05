@@ -17,13 +17,13 @@
       "dob": "13/09/2023"
     },
     {
-      "id": 3,
-      "username": "Huy Trần",
       "email": "huy@example.com",
-      "password": "$2a$10$hlm8T0ZHch9JFrn2T0.U1.3LwWY5UB6shZxLpdc4pcuI0aV.LIqwe",
+      "password": "$2a$10$hEeti0m.ewBTrhARSjCrd.TrivLb.FyPo/XXhqHvHFC7TlgvIC/V2",
+      "username": "Huy Trần",
       "phoneNumber": "0981656202",
       "gender": 1,
-      "dob": "05/08/2002"
+      "dob": "05/08/2002",
+      "id": 3
     }
   ],
   "movies": [
@@ -47,7 +47,8 @@
         "Ken Wanatabe",
         "Gary Oldman"
       ],
-      "language": "Tiếng Anh"
+      "language": "Tiếng Anh",
+      "status": 1
     },
     {
       "id": 2,
@@ -67,7 +68,8 @@
         "Sturgill Simpson",
         "Madeleine Yuna Voyles"
       ],
-      "language": "Tiếng Anh"
+      "language": "Tiếng Anh",
+      "status": 1
     },
     {
       "id": 3,
@@ -85,7 +87,8 @@
         "Laetitia Dosch",
         "Patience Munchenbach"
       ],
-      "language": "Tiếng Việt"
+      "language": "Tiếng Việt",
+      "status": 1
     },
     {
       "id": 4,
@@ -106,7 +109,8 @@
         "Park Myoung Hyun",
         "Park So Yi"
       ],
-      "language": "Tiếng Hàn"
+      "language": "Tiếng Hàn",
+      "status": 1
     },
     {
       "id": 5,
@@ -120,7 +124,8 @@
       "description": "Sẵn sàng cho những màn cận chiến nghẹt thở từ “anh trọc” Jason Statham, “già gân” Sylvester Stallone cùng dàn sao mới toanh 50 Cent, Megan Fox và Tony Jaa",
       "director": "Scott Waugh",
       "performer": ["Jason Statham", "50 Cent", "Megan Fox"],
-      "language": "Tiếng Anh"
+      "language": "Tiếng Anh",
+      "status": 2
     },
     {
       "id": 6,
@@ -134,7 +139,8 @@
       "description": "“Live - #PhátTrựcTiếp” lựa chọn hai câu chuyện: MUKBANG và REVIEW để lột tả một cách rõ nét được hiện thực của cuộc sống, sự trần trụi của xã hội hiện đại, công nghệ 4.0 đã khiến con người làm đủ mọi cách để nổi tiếng, kể cả hành hạ bản thân mình nhằm nhận được sự tung hô, hào nhoáng bằng những lời khen tặng với dòng text vô thưởng, vô phạt, kiếm tiền bằng “tặng hoa”.",
       "director": "Khương Ngọc",
       "performer": ["Quốc Khánh", "Ngọc Phước", "Ngân 98"],
-      "language": "Tiếng Việt"
+      "language": "Tiếng Việt",
+      "status": 2
     },
     {
       "id": 7,
@@ -154,7 +160,8 @@
         "Jonas Bloquet",
         "Anna Popplewell"
       ],
-      "language": "Tiếng Anh"
+      "language": "Tiếng Anh",
+      "status": 2
     },
     {
       "id": 8,
@@ -174,7 +181,8 @@
         "Yeom Hye-ran",
         "Jung Woo-Sung"
       ],
-      "language": "Tiếng Hàn"
+      "language": "Tiếng Hàn",
+      "status": 2
     },
     {
       "id": 9,
@@ -194,7 +202,8 @@
         "Nylan Parthipan",
         "Christian Corrao"
       ],
-      "language": "Tiếng Việt"
+      "language": "Tiếng Việt",
+      "status": 2
     },
     {
       "id": 10,
@@ -214,7 +223,8 @@
         "Satomi Kourogi",
         "Suzuki Mogura"
       ],
-      "language": "Tiếng Việt"
+      "language": "Tiếng Việt",
+      "status": 2
     },
     {
       "id": 11,
@@ -234,7 +244,8 @@
         "Tina Fey",
         "Jude Hill"
       ],
-      "language": "Tiếng Anh"
+      "language": "Tiếng Anh",
+      "status": 2
     },
     {
       "id": 12,
@@ -248,7 +259,8 @@
       "description": "Nhân duyên trời định giữa 2 con người xa lạ được khởi nguồn từ lời nguyền gia tộc buộc Quý nam Phra Ploeng (Zee Pruk Panich) phải ghép tử vi kịp thời với tri kỷ của mình là Saeng Rawee (NuNew Chawarin Perdpiriyawong) nếu không muốn kiếp nạn đại hung sẽ ứng nghiệm vào năm 25 tuổi.",
       "director": "Aod Bhandit Thongdee",
       "performer": ["Zee Pruk Panich", "NuNew Chawarin Perdpiriyawong"],
-      "language": "Tiếng Thái"
+      "language": "Tiếng Thái",
+      "status": 2
     },
     {
       "id": 13,
@@ -262,7 +274,8 @@
       "description": "Muôn Kiếp Nhân Duyên xoay quanh hai nhân vật chính - Nora (Greta Lee) và Hae Sung (Teo Yoo). Tình bạn thân thiết của họ bị chia cắt khi Nora theo gia đình di cư khỏi Hàn Quốc vào năm 12 tuổi. 20 năm sau, như một mối duyên tiền định, họ gặp lại nhau tại Mỹ, nhưng lúc này, Nora đã trở thành vợ của Arthur (John Magaro). Nhìn lại quá khứ, nói về hiện tại và hướng đến tương lai - những cuộc trò chuyện nhẹ nhàng giữa Nora và Hae Sung trong 1 tuần ngắn ngủi ở New York được đan xen bởi các khoảng lặng, khiến người xem chìm đắm vào suy ngẫm về cuộc sống, số phận và tình yêu.",
       "director": "Celine Song",
       "performer": ["Greta Lee", "Teo Yoo"],
-      "language": "Tiếng Anh"
+      "language": "Tiếng Anh",
+      "status": 3
     },
     {
       "id": 14,
@@ -276,7 +289,8 @@
       "description": "Matt Turner (Liam Neeson) là một doanh nhân người Mỹ thành đạt sống ở Berlin, đang phải cân bằng giữa sự nghiệp tài chính đang bùng nổ và trách nhiệm gia đình. Một buổi sáng đang lái xe đưa con đến trường, Matt nhận được một cuộc điện thoại từ một giọng nói bí ẩn: có một quả bom dưới ghế của anh ấy sẽ phát nổ trừ khi anh ấy hoàn thành một loạt nhiệm vụ cụ thể, và nhanh chóng.",
       "director": "Nimrod Antal",
       "performer": ["Liam Neeson", "Jack Champion", "Matthew Modine"],
-      "language": "Tiếng Anh"
+      "language": "Tiếng Anh",
+      "status": 3
     }
   ],
   "cinemas": [
@@ -408,86 +422,364 @@
       "name": "special"
     }
   ],
-  "showtimeDetail": [
+  "categories": [
     {
       "id": 1,
-      "movieId": 1,
-      "movieStatus": 1
+      "name": "Hành động"
     },
     {
       "id": 2,
-      "movieId": 2,
-      "movieStatus": 1
+      "name": "Phiêu lưu"
     },
     {
       "id": 3,
-      "movieId": 3,
-      "movieStatus": 1
+      "name": "Tâm lý"
     },
     {
       "id": 4,
-      "movieId": 4,
-      "movieStatus": 1
+      "name": "Kinh dị"
     },
     {
       "id": 5,
-      "movieId": 5,
-      "movieStatus": 2
+      "name": "Hồi hộp"
     },
     {
       "id": 6,
-      "movieId": 6,
-      "movieStatus": 2
+      "name": "Hài hước"
     },
     {
       "id": 7,
-      "movieId": 7,
-      "movieStatus": 2
+      "name": "Tội phạm"
     },
     {
       "id": 8,
-      "movieId": 8,
-      "movieStatus": 2
+      "name": "Tình cảm"
     },
     {
       "id": 9,
-      "movieId": 9,
-      "movieStatus": 2
+      "name": "Lãng mạn"
+    }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "seat_number": "A1"
+    },
+    {
+      "id": 2,
+      "seat_number": "A2"
+    },
+    {
+      "id": 3,
+      "seat_number": "A3"
+    },
+    {
+      "id": 4,
+      "seat_number": "A4"
+    },
+    {
+      "id": 5,
+      "seat_number": "A5"
+    },
+    {
+      "id": 6,
+      "seat_number": "A6"
+    },
+    {
+      "id": 7,
+      "seat_number": "A7"
+    },
+    {
+      "id": 8,
+      "seat_number": "A8"
+    },
+    {
+      "id": 9,
+      "seat_number": "A9"
     },
     {
       "id": 10,
-      "movieId": 10,
-      "movieStatus": 2
+      "seat_number": "A10"
     },
     {
       "id": 11,
-      "movieId": 11,
-      "movieStatus": 2
+      "seat_number": "B1"
     },
     {
       "id": 12,
-      "movieId": 12,
-      "movieStatus": 2
+      "seat_number": "B2"
     },
     {
       "id": 13,
-      "movieId": 13,
-      "movieStatus": 2
+      "seat_number": "B3"
     },
     {
       "id": 14,
-      "movieId": 14,
-      "movieStatus": 2
+      "seat_number": "B4"
     },
     {
       "id": 15,
-      "movieId": 9,
-      "movieStatus": 3
+      "seat_number": "B5"
     },
     {
       "id": 16,
-      "movieId": 13,
-      "movieStatus": 3
+      "seat_number": "B6"
+    },
+    {
+      "id": 17,
+      "seat_number": "B7"
+    },
+    {
+      "id": 18,
+      "seat_number": "B8"
+    },
+    {
+      "id": 19,
+      "seat_number": "B9"
+    },
+    {
+      "id": 20,
+      "seat_number": "B10"
+    },
+    {
+      "id": 21,
+      "seat_number": "C1"
+    },
+    {
+      "id": 22,
+      "seat_number": "C2"
+    },
+    {
+      "id": 23,
+      "seat_number": "C3"
+    },
+    {
+      "id": 24,
+      "seat_number": "C4"
+    },
+    {
+      "id": 25,
+      "seat_number": "C5"
+    },
+    {
+      "id": 26,
+      "seat_number": "C6"
+    },
+    {
+      "id": 27,
+      "seat_number": "C7"
+    },
+    {
+      "id": 28,
+      "seat_number": "C8"
+    },
+    {
+      "id": 29,
+      "seat_number": "C9"
+    },
+    {
+      "id": 30,
+      "seat_number": "C10"
+    },
+    {
+      "id": 31,
+      "seat_number": "D1"
+    },
+    {
+      "id": 32,
+      "seat_number": "D2"
+    },
+    {
+      "id": 33,
+      "seat_number": "D3"
+    },
+    {
+      "id": 34,
+      "seat_number": "D4"
+    },
+    {
+      "id": 35,
+      "seat_number": "D5"
+    },
+    {
+      "id": 36,
+      "seat_number": "D6"
+    },
+    {
+      "id": 37,
+      "seat_number": "D7"
+    },
+    {
+      "id": 38,
+      "seat_number": "D8"
+    },
+    {
+      "id": 39,
+      "seat_number": "D9"
+    },
+    {
+      "id": 40,
+      "seat_number": "D10"
+    },
+    {
+      "id": 41,
+      "seat_number": "E1"
+    },
+    {
+      "id": 42,
+      "seat_number": "E2"
+    },
+    {
+      "id": 43,
+      "seat_number": "E3"
+    },
+    {
+      "id": 44,
+      "seat_number": "E4"
+    },
+    {
+      "id": 45,
+      "seat_number": "E5"
+    },
+    {
+      "id": 46,
+      "seat_number": "E6"
+    },
+    {
+      "id": 47,
+      "seat_number": "E7"
+    },
+    {
+      "id": 48,
+      "seat_number": "E8"
+    },
+    {
+      "id": 49,
+      "seat_number": "E9"
+    },
+    {
+      "id": 50,
+      "seat_number": "E10"
+    },
+    {
+      "id": 51,
+      "seat_number": "F1"
+    },
+    {
+      "id": 52,
+      "seat_number": "F2"
+    },
+    {
+      "id": 53,
+      "seat_number": "F3"
+    },
+    {
+      "id": 54,
+      "seat_number": "F4"
+    },
+    {
+      "id": 55,
+      "seat_number": "F5"
+    },
+    {
+      "id": 56,
+      "seat_number": "F6"
+    },
+    {
+      "id": 57,
+      "seat_number": "F7"
+    },
+    {
+      "id": 58,
+      "seat_number": "F8"
+    },
+    {
+      "id": 59,
+      "seat_number": "F9"
+    },
+    {
+      "id": 60,
+      "seat_number": "F10"
+    },
+    {
+      "id": 61,
+      "seat_number": "G1"
+    },
+    {
+      "id": 62,
+      "seat_number": "G2"
+    },
+    {
+      "id": 63,
+      "seat_number": "G3"
+    },
+    {
+      "id": 64,
+      "seat_number": "G4"
+    },
+    {
+      "id": 65,
+      "seat_number": "G5"
+    },
+    {
+      "id": 66,
+      "seat_number": "G6"
+    },
+    {
+      "id": 67,
+      "seat_number": "G7"
+    },
+    {
+      "id": 68,
+      "seat_number": "G8"
+    },
+    {
+      "id": 69,
+      "seat_number": "G9"
+    },
+    {
+      "id": 70,
+      "seat_number": "G10"
+    },
+    {
+      "id": 71,
+      "seat_number": "H1"
+    },
+    {
+      "id": 72,
+      "seat_number": "H2"
+    },
+    {
+      "id": 73,
+      "seat_number": "H3"
+    },
+    {
+      "id": 74,
+      "seat_number": "H4"
+    },
+    {
+      "id": 75,
+      "seat_number": "H5"
+    },
+    {
+      "id": 76,
+      "seat_number": "H6"
+    },
+    {
+      "id": 77,
+      "seat_number": "H7"
+    },
+    {
+      "id": 78,
+      "seat_number": "H8"
+    },
+    {
+      "id": 79,
+      "seat_number": "H9"
+    },
+    {
+      "id": 80,
+      "seat_number": "H10"
     }
   ],
   "sales": [
@@ -562,44 +854,6 @@
       "id": 7,
       "name": "HƯỚNG PHÁT TRIỂN THỊ TRƯỜNG RẠP CHIẾU PHIM VIỆT",
       "img": "src/assets/imgs/news/anh-5-104110-090823-85.jpg"
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Hành động"
-    },
-    {
-      "id": 2,
-      "name": "Phiêu lưu"
-    },
-    {
-      "id": 3,
-      "name": "Tâm lý"
-    },
-    {
-      "id": 4,
-      "name": "Kinh dị"
-    },
-    {
-      "id": 5,
-      "name": "Hồi hộp"
-    },
-    {
-      "id": 6,
-      "name": "Hài hước"
-    },
-    {
-      "id": 7,
-      "name": "Tội phạm"
-    },
-    {
-      "id": 8,
-      "name": "Tình cảm"
-    },
-    {
-      "id": 9,
-      "name": "Lãng mạn"
     }
   ],
   "theaters": [
@@ -859,7 +1113,7 @@
       "id": 1,
       "movieId": 1,
       "theaterId": 1,
-      "startTime": "Thu Sep 28 2023 14:32:25 GMT+0700 (Indochina Time)",
+      "startTime": "Tue Oct 10 2023 01:13:07 GMT+0700 (Indochina Time)",
       "price": 50000,
       "cinemaId": 1
     },
@@ -932,30 +1186,68 @@
       "startTime": "Wed Oct 04 2023 21:22:25 GMT+0700 (Indochina Time)",
       "createdAt": 1696410922204,
       "id": 10
+    },
+    {
+      "movieId": 1,
+      "cinemaId": 1,
+      "theaterId": 30,
+      "price": 100000,
+      "startTime": "Thu Oct 05 2023 23:07:27 GMT+0700 (Indochina Time)",
+      "createdAt": "Wed Oct 04 2023 23:07:38 GMT+0700 (Indochina Time)",
+      "id": 11
+    },
+    {
+      "movieId": 2,
+      "cinemaId": 1,
+      "theaterId": 46,
+      "price": 12000,
+      "startTime": "Thu Oct 05 2023 23:55:38 GMT+0700 (Indochina Time)",
+      "createdAt": "Wed Oct 04 2023 23:11:45 GMT+0700 (Indochina Time)",
+      "id": 12
+    },
+    {
+      "movieId": 5,
+      "cinemaId": 1,
+      "theaterId": 14,
+      "price": 70000,
+      "startTime": "Mon Oct 09 2023 09:00:00 GMT+0700 (Indochina Time)",
+      "createdAt": "Thu Oct 05 2023 01:27:17 GMT+0700 (Indochina Time)",
+      "id": 13
     }
   ],
   "bookings": [
     {
-      "id": 1,
       "showtimeId": 1,
-      "seat": ["a1, a2"],
-      "total": 100000,
-      "userId": 2,
-      "movieId": 1,
-      "type": 1,
+      "seat": [75, 76, 77],
+      "userId": 3,
       "status": 1,
-      "createdAt": "Fri Sep 29 2023 22:43:49 GMT+0700 (Indochina Time)"
+      "type": 1,
+      "movieId": 1,
+      "total": 150000,
+      "createdAt": "Wed Oct 04 2023 20:44:10 GMT+0700 (Indochina Time)",
+      "id": 1
     },
     {
-      "id": 2,
-      "showtimeId": 1,
-      "seat": ["a1, a2"],
-      "total": 100000,
-      "userId": 2,
-      "movieId": 5,
-      "type": 0,
+      "showtimeId": 13,
+      "seat": [75, 76, 77],
+      "userId": 3,
       "status": 0,
-      "createdAt": "Tue Oct 03 2023 01:13:07 GMT+0700 (Indochina Time)"
+      "type": 0,
+      "movieId": 5,
+      "total": 210000,
+      "createdAt": "Thu Oct 05 2023 01:33:42 GMT+0700 (Indochina Time)",
+      "id": 2
+    },
+    {
+      "showtimeId": 13,
+      "seat": [78, 79],
+      "userId": 3,
+      "status": 0,
+      "type": 0,
+      "movieId": 5,
+      "total": 140000,
+      "createdAt": "Thu Oct 05 2023 01:34:55 GMT+0700 (Indochina Time)",
+      "id": 3
     }
   ],
   "rates": [

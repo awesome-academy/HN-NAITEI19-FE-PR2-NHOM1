@@ -18,6 +18,9 @@ import Showtimes from './features/admin/components/showtimes/Showtimes';
 import Income from './features/admin/components/income/Income';
 import MoviesPage from './features/movie/Movies';
 import Showtime from './features/showtime/Showtime';
+import BookTicket from './features/ticket/BookTicket';
+import Payment from './features/payment/Payment';
+import Success from './features/payment/Success';
 
 function App() {
   return (
@@ -31,7 +34,13 @@ function App() {
       <Route path="/detail/:id" element={<DetailMovie />} />
       <Route index element={<Home />} />
 
-      <Route element={<RequireAuth />}></Route>
+      <Route element={<RequireAuth />}>
+        <Route path="/bookticket/:id" element={<BookTicket />} />
+        <Route path="/payment">
+          <Route index element={<Payment />} />
+          <Route path="success" element={<Success />} />
+        </Route>
+      </Route>
 
       <Route element={<RequireAdmin />}>
         <Route path="admin">

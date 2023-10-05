@@ -6,6 +6,12 @@ export const showtimeService = apiService.injectEndpoints({
       query: () => 'showTimeDetail',
       providesTags: ['showtime'],
     }),
+
+    fetchShowTime: builder.query({
+      query: () => 'showtimes',
+      providesTags: ['showtime'],
+    }),
+
     getShowtimes: builder.query({
       query: () => 'showtimes?_expand=movie&_expand=theater&_expand=cinema',
       providesTags: ['showtime'],
@@ -33,6 +39,11 @@ export const showtimeService = apiService.injectEndpoints({
       }),
       invalidatesTags: ['showtime'],
     }),
+    getShowtimeById: builder.query({
+      query: (showtimeId) =>
+        `showtimes/${showtimeId}?_expand=movie&_expand=theater&_expand=cinema&_embed=bookings`,
+      providesTags: ['showtime'],
+    }),
   }),
 });
 
@@ -42,4 +53,6 @@ export const {
   useAddShowtimeMutation,
   useDeleteShowtimeMutation,
   useUpdateShowtimeMutation,
+  useFetchShowTimeQuery,
+  useGetShowtimeByIdQuery,
 } = showtimeService;

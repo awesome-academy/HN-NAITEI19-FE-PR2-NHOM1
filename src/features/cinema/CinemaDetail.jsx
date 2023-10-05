@@ -2,14 +2,15 @@ import { useSelector } from 'react-redux';
 import { Col, Row } from 'antd';
 import Layout from '../../components/Layout/Layout';
 import { useGetCinemaQuery } from '../../app/api/cinemaService';
-import { useGetShowtimeDetailQuery } from '../../app/api/showtimeService';
 import MovieDetail from '../movie/components/list/MovieDetail';
+import { useGetMoviesQuery } from '../../app/api/movieService';
+
 function CinemaDetail() {
   const { cinema } = useSelector((state) => state.CinemaSlice);
   const { data, isLoading: cinemaLoading } = useGetCinemaQuery(cinema);
-  const { data: movies, isLoading } = useGetShowtimeDetailQuery();
+  const { data: movies, isLoading } = useGetMoviesQuery();
 
-  const filteredMovies = movies?.filter((item) => item.movieStatus === 2);
+  const filteredMovies = movies?.filter((item) => item.status === 2);
 
   return (
     <Layout>
@@ -36,17 +37,8 @@ function CinemaDetail() {
                 {filteredMovies.map((movie, index) => {
                   if (index < 4) {
                     return (
-                      <Col
-                        key={movie.movieId}
-                        md={24}
-                        xl={12}
-                        className="px-3 my-4"
-                      >
-                        <MovieDetail
-                          key={movie.id}
-                          movieId={movie.movieId}
-                          movieStatus={movie.movieStatus}
-                        />
+                      <Col key={movie.id} md={24} xl={12} className="px-3 my-4">
+                        <MovieDetail key={movie.id} movie={movie} />
                       </Col>
                     );
                   }

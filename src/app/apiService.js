@@ -12,6 +12,7 @@ export const apiService = createApi({
     'booking',
     'auth',
     'event',
+    'seat',
   ],
   endpoints: (builder) => ({}),
 });
