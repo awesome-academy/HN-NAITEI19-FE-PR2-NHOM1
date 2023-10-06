@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    "src/assets/images/carousel/1.jpg",
-    "src/assets/images/carousel/2.jpg",
-    "src/assets/images/carousel/3.jpg",
-    "src/assets/images/carousel/4.jpg",
-    "src/assets/images/carousel/5.jpg",
-    "src/assets/images/carousel/6.png",
+    'src/assets/images/carousel/1.jpg',
+    'src/assets/images/carousel/2.jpg',
+    'src/assets/images/carousel/3.jpg',
+    'src/assets/images/carousel/4.jpg',
+    'src/assets/images/carousel/5.jpg',
+    'src/assets/images/carousel/6.png',
   ];
 
   const totalSlides = slides.length;
@@ -42,7 +42,7 @@ const Carousel = () => {
           <div
             key={index}
             className={`${
-              index === currentSlide ? "block" : "hidden"
+              index === currentSlide ? 'block' : 'hidden'
             } duration-700 ease-in-out`}
             data-carousel-item
           >
@@ -110,15 +110,15 @@ const Carousel = () => {
             type="button"
             className={`w-4 h-4 rounded-full ${
               index === currentSlide
-                ? "bg-gray-800 dark:bg-white"
-                : "bg-transparent"
+                ? 'bg-gray-800 dark:bg-white'
+                : 'bg-transparent'
             }`}
             style={{
-              border: index === currentSlide ? "none" : "2px solid #c9cdce",
+              border: index === currentSlide ? 'none' : '2px solid #c9cdce',
               backgroundColor:
-                index === currentSlide ? "#c9cdce" : "transparent",
+                index === currentSlide ? '#c9cdce' : 'transparent',
             }}
-            aria-current={index === currentSlide ? "true" : "false"}
+            aria-current={index === currentSlide ? 'true' : 'false'}
             aria-label={`Slide ${index + 1}`}
             data-carousel-slide-to={index}
             onClick={() => setCurrentSlide(index)}

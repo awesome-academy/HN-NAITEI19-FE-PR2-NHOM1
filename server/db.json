@@ -1248,6 +1248,17 @@
       "total": 140000,
       "createdAt": "Thu Oct 05 2023 01:34:55 GMT+0700 (Indochina Time)",
       "id": 3
+    },
+    {
+      "showtimeId": 13,
+      "seat": [73, 74, 72, 71],
+      "userId": 3,
+      "status": 1,
+      "type": 0,
+      "movieId": 5,
+      "total": 280000,
+      "createdAt": "Thu Oct 05 2023 09:51:54 GMT+0700 (Indochina Time)",
+      "id": 4
     }
   ],
   "rates": [
@@ -1262,6 +1273,13 @@
       "movieId": "7",
       "rate": 5,
       "id": 2
+    },
+    {
+      "userId": 3,
+      "movieId": "5",
+      "rate": 3,
+      "createdAt": "Thu Oct 05 2023 09:53:09 GMT+0700 (Indochina Time)",
+      "id": 3
     }
   ]
 }
