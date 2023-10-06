@@ -188,6 +188,13 @@ function Header() {
     </ul>
   );
 
+  const defaultKey = items.reduce((res, item) => {
+    const key = item.children.filter((child) => child.label === cinema);
+    if (key.length > 0) {
+      return key[0].key;
+    } else return res;
+  }, '');
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= 24 && !fixedHeader) {
@@ -256,7 +263,7 @@ function Header() {
                   onSelect: (e) => {
                     handleSelectCinema(e.keyPath);
                   },
-                  defaultSelectedKeys: '6-1',
+                  defaultSelectedKeys: defaultKey,
                 }}
                 arrow
                 className="px-4"
